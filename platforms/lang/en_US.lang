@@ -6,46 +6,45 @@
 itemGroup.platforms=Platforms
 
 !----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
-info.platforms.base.txt=§6Base:§7§o
-info.platforms.addon.txt=§6Rail:§7§o
+info.platforms.base.txt=§6基座：§7§o
+info.platforms.addon.txt=§6铁轨：§7§o
 
 !------------------------------------------------------ GUI -------------------------------------------------------!
-gui.platformer.slot.storage.info=Storage; used to store materials needed for crafting.
-gui.platformer.slot.craft.info=Craft Output; if materials needed are available click here to craft.
-gui.platformer.slot.decon.info=Deconstruction; platforms can be broken down here. Stack size must be equal or greater to the amount received when crafting.
-gui.platformer.slot.buffer.info=Output Buffer; used as temporary storage for automation. This must be empty before more can be crafted.
-gui.platformer.slot.material1.info=Material Choice; defines look and material used. Click with a similar material to change.
-gui.platformer.slot.material2.info=Support Material; defines support material used, no effect on appearance. Click with a similar material to change.
-gui.platformer.button.select.info=Platform Selector; cycles between the available platform type and base material sets.
-gui.platformer.preview.info=Platform Preview; rendering of the final product.
-
-gui.platformer.basic.txt=Storage In, Buffer & Craft Out
-gui.platformer.output.txt=Buffer & Craft Out
-gui.platformer.decon.txt=Deconstruction In/Out
-gui.platformer.storage.txt=Storage In/Out
+gui.platformer.slot.storage.info=存储槽; 用来存储合成所需要的材料。
+gui.platformer.slot.craft.info=合成输出槽; 如果材料足够，点击即可合成。
+gui.platformer.slot.decon.info=销毁槽; 站台可以在这里被销毁。堆叠数量必须等于或者大于它被合成时的数量。
+gui.platformer.slot.buffer.info=输出缓冲槽; 作为自动化合成的临时存储区。合成其他物品时候这里必须为空。
+gui.platformer.slot.material1.info=材料选择区; 定义外观和使用的材料。用相同的材料点击来改变。
+gui.platformer.slot.material2.info=支持的材料; 定义支持可用的材料，对外观没有影响。用相同的材料点击来改变。
+gui.platformer.button.select.info=站台选择区; 循环选择可用的站台类型和基础的材料设置。
+gui.platformer.preview.info=站台预览区; 渲染最终的物品外观。
+gui.platformer.basic.txt=输入，缓冲和合成输出
+gui.platformer.output.txt=缓冲和合成输出
+gui.platformer.decon.txt=销毁输入/输出
+gui.platformer.storage.txt=输入/输出
 
 !---------------------------------------------------- INVENTORY ---------------------------------------------------!
-inv.platformer=PlatFormer
-inv.platformer.output=PlatFormer Output
-inv.platformer.deconstruct=PlatFormer Deconstruct
-inv.platformer.storage=Platformer Storage
+inv.platformer=站台合成器
+inv.platformer.output=站台合成器输出
+inv.platformer.deconstruct=站台合成器销毁
+inv.platformer.storage=站台合成器存储
 
 !-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!
-tile.platforms.platform.wood.flat.name=Wooden Platform
-tile.platforms.platform.wood.ramp.name=Wooden Ramp
-tile.platforms.platform.wood.frame.name=Wooden Frame
-tile.platforms.platform.wood.rise.name=Wooden Rise
-tile.platforms.platform.wood.rail.name=Wooden Handrail
-tile.platforms.platform.stone.flat.name=Stone Platform
-tile.platforms.platform.stone.ramp.name=Stone Ramp
-tile.platforms.platform.stone.frame.name=Stone Frame
-tile.platforms.platform.stone.rise.name=Stone Rise
-tile.platforms.platform.stone.rail.name=Stone Handrail
-tile.platforms.platform.metal.flat.name=Metal Platform
-tile.platforms.platform.metal.ramp.name=Metal Ramp
-tile.platforms.platform.metal.frame.name=Metal Frame
-tile.platforms.platform.metal.rise.name=Metal Rise
-tile.platforms.platform.metal.rail.name=Metal Handrail
-tile.platforms.platform.platformer.name=PlatFormer
+tile.platforms.platform.wood.flat.name=木质站台
+tile.platforms.platform.wood.ramp.name=木质斜坡
+tile.platforms.platform.wood.frame.name=木质框架
+tile.platforms.platform.wood.rise.name=木质楼梯
+tile.platforms.platform.wood.rail.name=木质扶手
+tile.platforms.platform.stone.flat.name=石质站台
+tile.platforms.platform.stone.ramp.name=石质斜坡
+tile.platforms.platform.stone.frame.name=石质框架
+tile.platforms.platform.stone.rise.name=石质楼梯
+tile.platforms.platform.stone.rail.name=石质扶手
+tile.platforms.platform.metal.flat.name=金属站台
+tile.platforms.platform.metal.ramp.name=金属斜坡
+tile.platforms.platform.metal.frame.name=金属框架
+tile.platforms.platform.metal.rise.name=金属楼梯
+tile.platforms.platform.metal.rail.name=金属扶手
+tile.platforms.platform.platformer.name=站台合成器
 
-item.platforms.wrench.name=Monkey Wrench
+item.platforms.wrench.name=活动扳手
