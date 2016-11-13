@@ -1,4 +1,4 @@
-﻿!---------------------------------------- MultiBeds en_US.lang Localization----------------------------------------!
+﻿!---------------------------------------- Platforms en_US.lang Localization ---------------------------------------!
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
@@ -18,7 +18,6 @@ gui.platformer.slot.material1.info=Material Choice; defines look and material us
 gui.platformer.slot.material2.info=Support Material; defines support material used, no effect on appearance. Click with a similar material to change.
 gui.platformer.button.select.info=Platform Selector; cycles between the available platform type and base material sets.
 gui.platformer.preview.info=Platform Preview; rendering of the final product.
-
 gui.platformer.basic.txt=Storage In, Buffer & Craft Out
 gui.platformer.output.txt=Buffer & Craft Out
 gui.platformer.decon.txt=Deconstruction In/Out
