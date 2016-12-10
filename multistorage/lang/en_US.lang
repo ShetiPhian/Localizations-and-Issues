@@ -15,7 +15,7 @@ error.multistorage.vault.east.msg=East Vault Wall Incomplete
 error.multistorage.vault.west.msg=West Vault Wall Incomplete
 error.multistorage.vault.hidedoor.msg=You cannot block access to a door you don't own
 error.multistorage.vault.door.placement.msg=Door must be placed in a 2x2 or 3x3 opening that is framed with vault blocks
-
+error.multistorage.vault.power.missing.msg=No supporting Power API found<br>Block inactive
 error.multistorage.bag.nolink1.txt=Can not link bag, you do not own this chest
 error.multistorage.bag.nolink2.txt=Can not link bag, Chest owner is unknown
 
@@ -31,6 +31,7 @@ info.multistorage.vault.white.txt=Whitelist
 info.multistorage.vault.black.txt=Blacklist
 info.multistorage.vault.intruder.removed.txt=Vault Intruder Removed
 info.multistorage.vault.intruder.killed.txt=Repeated Vault Intruder Killed
+info.multistorage.vault.power.supporting.txt=Supporting:
 
 notice.multistorage.noedit.txt=You can not edit this vault
 notice.multistorage.owneronly.txt=Only the Vault Owner can preform that action
@@ -119,7 +120,7 @@ tile.multistorage.vault.redstone.name=Vault Redstone Pass
 tile.multistorage.vault.liquid.name=Vault Liquid Pass
 tile.multistorage.vault.power.eu.name=Vault EU Power Pass
 tile.multistorage.vault.power.rf.name=Vault RF Power Pass
-tile.multistorage.vault.power.tesla.name=Vault Tesla Power Pass
+tile.multistorage.vault.power.caps.name=Vault Power Pass
 
 tile.multistorage.vault.wall.broken.name=Broken Vault Wall Block
 tile.multistorage.vault.item.broken.name=Broken Vault Item Box
@@ -127,7 +128,7 @@ tile.multistorage.vault.redstone.broken.name=Broken Vault Redstone Pass
 tile.multistorage.vault.liquid.broken.name=Broken Vault Liquid Pass
 tile.multistorage.vault.power.eu.broken.name=Broken Vault EU Power Pass
 tile.multistorage.vault.power.rf.broken.name=Broken Vault RF Power Pass
-tile.multistorage.vault.power.tesla.broken.name=Broken Vault Tesla Power Pass
+tile.multistorage.vault.power.caps.broken.name=Broken Vault Power Pass
 
 tile.multistorage.vault.corer.name=Vault Core Changer
 
