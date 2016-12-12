@@ -48,6 +48,9 @@ info.terraqueous.turtleupgrade.visual.msg=§eEquipped Visual Only,<br>§ePlace i
 info.terraqueous.infuse.txt=Infuse With Ender Energy
 info.terraqueous.fusion.txt=Fusion via Ender Energy
 
+info.colorizer.preset.save.txt=Right-Click: Save
+info.colorizer.preset.load.txt=Left-Click: Load
+
 !--------------------------------------------------- JEI INFO -----------------------------------------------------!
 info.terraqueous.drying.source.txt=Created by drying tall grass on sand in a hot biome or on stone above lava
 info.terraqueous.drying.create.txt=Continue drying to create
