@@ -1,0 +1,33 @@
+﻿!------------------------------------- ShetiPhianCore fr_CA.lang Localization -------------------------------------!
+ ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
+ ! msg entries can span multiple lines, use <br> to indicate a line break.
+ 
+ !------------------------------------------------------ MISC ------------------------------------------------------!
+ info.down=Bas
+ info.up=Haut
+ info.north=Nord
+ info.south=Sud
+ info.west=Ouest
+ info.east=Est
+ info.bottom=Dessous
+ info.top=Dessus
+ info.back=Arrière
+ info.front=Avant
+ info.left=Gauche
+ info.right=Droite
+ 
+ gui.side_disabled.txt=Désactivé
+ 
+ !----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
+ info.shetiphian.holdshift.txt=§2Tapez MAJ pour plus d'info
+ info.shetiphian.creativeolny.txt=§eElément en mode créatif uniquement
+ info.shetiphian.guide.txt=Guide du frustré
+ info.shetiphian.unused.name=Elément inutilisé
+ 
+ !------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!
+ fluid.tile.lava=Lave
+ fluid.tile.water=Eau
+ item.dyePowder.green.name=Teinture verte
+ item.dyePowder.red.name=Teinture rouge
+ item.dyePowder.yellow.name=Teinture jaune
+ 
