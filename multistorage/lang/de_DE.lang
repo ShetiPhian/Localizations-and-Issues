@@ -1,0 +1,137 @@
+﻿!-------------------------------------- MultiStorage de_DE.lang Localization --------------------------------------!
+! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
+! msg entries can span multiple lines, use <br> to indicate a line break.
+
+!------------------------------------------------------ MISC ------------------------------------------------------!
+itemGroup.multistorage=MultiStorage
+
+!----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
+error.multistorage.vault.size.msg=Tresorraum Größe ungültig. 4x4x4 min, 16x16x16 max
+error.multistorage.vault.ceiling.msg=Tresorraum Decke unvollständig
+error.multistorage.vault.floor.msg=Tresorraum Boden unvollständig
+error.multistorage.vault.north.msg=Nördliche Tresorraumwand unvollständig
+error.multistorage.vault.south.msg=Südliche Tresorraumwand unvollständig
+error.multistorage.vault.east.msg=Östliche Tresorraumwand unvollständig
+error.multistorage.vault.west.msg=Westliche Tresorraumwand unvollständig
+error.multistorage.vault.hidedoor.msg=Du kannst den Zugang zu einer fremden Tür nicht blockieren
+error.multistorage.vault.door.placement.msg=Tür muss in einer 2x2 oder 3x3 Öffnung umgeben mit Tresorblöcken plaziert werden
+error.multistorage.vault.power.missing.msg=Keine unterstützte Strom API gefunden<br>Block unaktiv
+error.multistorage.bag.nolink1.txt=Kann Beutel nicht verknüpfen, dir gehört diese Truhe nicht
+error.multistorage.bag.nolink2.txt=Kann Beutel nicht verknüpfen, Besitzer der Truhe ist unbekannt
+
+info.multistorage.vault.door.enter.txt=Tresorraum betreten
+info.multistorage.vault.door.leave.txt=Tresorraum verlassen
+info.multistorage.creativeolny.txt=§eKreativ Modus exklusiver Gegenstand
+info.multistorage.chest.public.txt=Öffentlich
+info.multistorage.chest.code.txt=Code:
+info.multistorage.chest.capacity.txt=Truhen Kapazität erhöht zu
+info.multistorage.craftingmaterial.txt=Crafting Material
+info.multistorage.vault.reason.txt=Grund
+info.multistorage.vault.white.txt=Whitelist
+info.multistorage.vault.black.txt=Blacklist
+info.multistorage.vault.intruder.removed.txt=Tresor Eindringling entfernt
+info.multistorage.vault.intruder.killed.txt=Wiederholter Tresor Eindringling getötet
+info.multistorage.vault.power.supporting.txt=Unterstützt:
+
+notice.multistorage.noedit.txt=Du kannst diesen Tresorraum nicht bearbeiten
+notice.multistorage.owneronly.txt=Nur der Tresorraum Eigentümer kann diese Aktion ausführen
+notice.multistorage.inuse.txt=Kann Tür nicht entfernen, ein andere Tresor nutzt diese als Wand
+notice.multistorage.noplayer.txt=Ein Spieler ist für diese Aktion benötigt.
+notice.multistorage.vault.removedoor.txt=Tresortür entfernt
+notice.multistorage.vault.added.txt=HINZUGEFÜGT zur Tresor Zugangsliste
+notice.multistorage.vault.removed.txt=ENTFERNT von der Tresor Zugangsliste
+notice.multistorage.vault.setowner.txt=gehört nun dieser Tresorraum
+notice.multistorage.vault.promote.txt=BEFÖRDERT zum Super-User
+notice.multistorage.vault.demote.txt=DEGRADIERT von Super-User
+notice.multistorage.vault.listtype.txt=Tresor Filter gesetzt zu
+notice.multistorage.vault.defence.off.txt=Tresor Verteidigung gesetzt zu: AUS; Diese Tür wird nicht nach Eindringlingen suchen
+notice.multistorage.vault.defence.kick.txt=Tresor Verteidigung gesetzt zu: ENTFERNEN; Eindringlinge werden aus diesem Tresor entfernt
+notice.multistorage.vault.defence.kill.txt=Tresor Verteidigung gesetzt zu: TÖTEN; Eindringlinge werden aus diesem Tresor entfernt, Wiederholungstäter werden getötet
+notice.multistorage.vault.intruder.removed.txt=Du hast nicht die Berechtigung in diesem Tresor zu sein, komm NICHT wieder.
+notice.multistorage.vault.intruder.killed.txt=Du wurdest gewarnt, komm damit klar.
+
+!-------------------------------------------------- GUI TEXT --------------------------------------------------!
+gui.multistorage.vault.access.txt=Zugangsliste
+gui.multistorage.vault.owner.txt=Besitzer
+gui.multistorage.vault.button.add.txt=Hinzufügen
+gui.multistorage.vault.button.remove.txt=Entfernen
+gui.multistorage.vault.button.promote.txt=Befördern
+gui.multistorage.vault.button.demote.txt=Degradieren
+gui.multistorage.vault.button.owner.txt=Besitzer festlegen
+gui.multistorage.vault.button.access.txt=Tresorzugangs Kontrolle
+gui.multistorage.vault.button.door.txt=Tresortür entfernen
+gui.multistorage.vault.button.filter.white.txt=Filter Mode: Whitelist<br>Benützer mussen zum betreten auf der Liste seien<br><br>Klicken um die Filterung zu ändern
+gui.multistorage.vault.button.filter.black.txt=Filter Mode: Blacklist<br>anyone can enter unless they are listed<br>excluding stared users<br><br>Klicken um die Filterung zu ändern
+gui.multistorage.vault.button.defence.off.txt=Defence Mode: Aus<br>Keine Aktion bei Eindringlingen<br><br>Klicken um den Modus zu ändern
+gui.multistorage.vault.button.defence.kick.txt=Defence Mode: Entfernen<br>Eindringlinge werden entfernt<br><br>Klicken um den Modus zu ändern
+gui.multistorage.vault.button.defence.kill.txt=Defence Mode: Töten<br>Eindringlinge werden entfernt,<br>Wiederholungstäter werden getötet<br><br>Klicken um den Modus zu ändern
+gui.multistorage.vault.enterreason.txt=Begründung hier eingeben
+
+gui.multistorage.junkbox.usedspace.txt=Benutzte Kapazität
+gui.multistorage.junkbox.usedspace.msg=Maximale Kapazität bassiert auf der<br>maximalen Stapel Größe der Items,<br>leere Plätze zählen als 64
+gui.multistorage.junkbox.usedslots.txt=Benutzte Plätze
+gui.multistorage.junkbox.usedslots.msg=Maximum kann durch<br>hinzufügen einer zweiten Truhe<br>und/oder Benutzung eines Upgrades erhöht werden
+
+!---------------------------------------------------- INVENTORY ---------------------------------------------------!
+inv.stacking.chest=Stapel Truhe
+inv.stacking.chest.dense=Kompakte Stapel Truhe
+inv.chameleon.chest=Chameleon Truhe
+inv.chameleon.chest.dense=Kompakte Chameleon Truhe
+inv.junkbox=Junkbox
+inv.junkbox.dense=Kompakte Junkbox
+inv.junkbox.double=Doppel-Junkbox
+inv.junkbox.dense.double=Kompakte Doppel-Junkbox
+inv.vault.itembox=Tresor Gegenstands Box
+
+inv.corer.fuel=Corer Treibstoff
+inv.corer.items=Corer Inventar
+
+!----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!
+item.multistorage.enderbag.public.name=EnderLink Beutel
+item.multistorage.enderbag.private.name=EnderLink Beutel
+item.multistorage.enderbag.personal.name=EnderBeutel
+
+tile.multistorage.enderchest.public.name=EnderLink Truhe
+tile.multistorage.enderchest.private.name=EnderLink Truhe
+
+tile.multistorage.storage.cloud.upgrade.name=Cloud Speicher Upgrade
+tile.multistorage.storage.cloud.stacking.name=Cloud Speicher
+tile.multistorage.storage.cloud.stacking.dense.name=Kompakter Cloud Speicher
+tile.multistorage.storage.cloud.chameleon.name=Dunst Speicher
+tile.multistorage.storage.cloud.chameleon.dense.name=Kompakter Dunst Speicher
+tile.multistorage.storage.cloud.junkbox.name=Cloud Junkbox
+tile.multistorage.storage.cloud.junkbox.dense.name=Kompakte Cloud Junkbox
+
+tile.multistorage.storage.stone.upgrade.name=Stein Speicher Upgrade
+tile.multistorage.storage.stone.stacking.name=Stein Speicher
+tile.multistorage.storage.stone.stacking.dense.name=Kompakter Stein Speicher
+tile.multistorage.storage.stone.chameleon.name=Chameleon Speicher
+tile.multistorage.storage.stone.chameleon.dense.name=Kompakter Chameleon Speicher
+tile.multistorage.storage.stone.junkbox.name=Stein Junkbox
+tile.multistorage.storage.stone.junkbox.dense.name=Kompakte Stein Junkbox
+
+fluid.multistorage.concrete=Tresor Beton
+
+tile.multistorage.vault.bucket.name=Tresor Beton
+tile.multistorage.vault.door.name=Tresor Tür
+tile.multistorage.vault.wall.name=Tresor Wand Block
+tile.multistorage.vault.item.name=Tresor Gegenstands Box
+tile.multistorage.vault.redstone.name=Tresor Redstone Pass
+tile.multistorage.vault.liquid.name=Tresor Flüssigkeits Pass
+tile.multistorage.vault.power.eu.name=Tresor EU Strom Pass
+tile.multistorage.vault.power.rf.name=Tresor RF Strom Pass
+tile.multistorage.vault.power.caps.name=Tresor Strom Pass
+
+tile.multistorage.vault.wall.broken.name=Kaputter Tresor Wand Block
+tile.multistorage.vault.item.broken.name=Kaputte Tresor Gegenstands Box
+tile.multistorage.vault.redstone.broken.name=Kaputter Tresor Redstone Pass
+tile.multistorage.vault.liquid.broken.name=Kaputter Tresor Flüssigkeits Pass
+tile.multistorage.vault.power.eu.broken.name=Kaputter Tresor EU Strom Pass
+tile.multistorage.vault.power.rf.broken.name=Kaputter Tresor RF Strom Pass
+tile.multistorage.vault.power.caps.broken.name=Kaputter Tresor Strom Pass
+
+tile.multistorage.vault.corer.name=Tresor Kern Tauscher
+
+!--------------------------------------------------- NAMES FIX ----------------------------------------------------!
+fluid.tile.lava=Lava
+fluid.tile.water=Wasser
