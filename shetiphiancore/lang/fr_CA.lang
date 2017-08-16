@@ -2,8 +2,8 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 1
-! Translated by: Mazdallier (rev1)[2017/01/21]
+! Revision 2
+! Translated by: Mazdallier (rev1)[2017/01/21], !! (rev2)[0000/00/00]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 info.down=Bas
@@ -26,6 +26,9 @@ info.shetiphian.holdshift.txt=§2Tapez MAJ pour plus d'info
 info.shetiphian.creativeolny.txt=§eElément en mode créatif uniquement
 info.shetiphian.guide.txt=Guide du frustré
 info.shetiphian.unused.name=Elément inutilisé
+
+!!error.shetiphian.team.noteam.txt=Your not on a team
+!!error.shetiphian.team.wrong.txt=Object owned by another team
 
 !------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!
 fluid.tile.lava=Lave

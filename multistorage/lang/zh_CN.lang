@@ -2,8 +2,8 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 2
-! Translated by: TartaricAcid (rev1)[2016/11/12], !! (rev2)[0000/00/00]
+! Revision 3
+! Translated by: TartaricAcid (rev1)[2016/11/12], !! (rev3)[0000/00/00]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.multistorage=多样化存储
@@ -22,6 +22,17 @@ error.multistorage.vault.door.placement.msg=保险库大门必须放在2×2或3�
 
 error.multistorage.bag.nolink1.txt=不能链接末影袋，这个末影链接箱不属于你
 error.multistorage.bag.nolink2.txt=不能链接末影袋，链接箱所有者未知
+!!error.multistorage.bag.nolink3.txt=Can not link bag, you're not on the same team
+!!error.multistorage.bag.corrupted.txt=Can not open bag; Stack NBT data missing
+
+!!error.multistorage.chest.public.disabled.txt=Public chests are disabled, chests must be upgraded to use
+!!error.multistorage.chest.private.disabled.txt=Creation of private chests is disabled
+!!error.multistorage.chest.team.disabled.txt=Creation of team chests is disabled
+!!error.multistorage.chest.private.denied.txt=Only the owner can preform that action
+!!error.multistorage.chest.team.denied.txt=Only team members can preform that action
+!!error.multistorage.bag.public.disabled.txt=Public bags are disabled
+!!error.multistorage.bag.private.disabled.txt=Creation of private bags is disabled
+!!error.multistorage.bag.team.disabled.txt=Creation of team bags is disabled
 
 info.multistorage.vault.door.enter.txt=进入保险库
 info.multistorage.vault.door.leave.txt=离开保险库
@@ -76,6 +87,23 @@ gui.multistorage.junkbox.usedspace.msg=堆叠总数最大值基于<br>空间格�
 gui.multistorage.junkbox.usedslots.txt=已用存储空间
 gui.multistorage.junkbox.usedslots.msg=存储空间的增加方法是<br>通过堆叠第二个废料箱<br>和/或使用升级
 
+!!gui.multistorage.queue.slot.head.out.info=Queue Start; this is the item at the start of the queue
+!!gui.multistorage.queue.slot.head.in.info=Insert Start; items placed here will be inserted into the start of the queue
+!!gui.multistorage.queue.slot.tail.out.info=Queue End; this is the item at the end of the queue
+!!gui.multistorage.queue.slot.tail.in.info=Insert End; items placed here will be inserted into the end of the queue
+!!gui.multistorage.queue.button.toggle.info=Toggle; changes the slot shift-clicking inserts into
+!!gui.multistorage.queue.list.inventory.info=Queue; items in this queue, sorted from start to end
+!!gui.multistorage.queue.head.io.txt=Start In/Out
+!!gui.multistorage.queue.head.in.txt=Start In
+!!gui.multistorage.queue.head.out.txt=Start Out
+!!gui.multistorage.queue.head.out.single.txt=Start Out, Dropper Mode: Single
+!!gui.multistorage.queue.head.out.stack.txt=Start Out, Dropper Mode: Stack
+!!gui.multistorage.queue.tail.io.txt=End In/Out
+!!gui.multistorage.queue.tail.in.txt=End In
+!!gui.multistorage.queue.tail.out.txt=End Out
+!!gui.multistorage.queue.tail.out.single.txt=End Out, Dropper Mode: Single
+!!gui.multistorage.queue.tail.out.stack.txt=End Out, Dropper Mode: Stack
+
 !---------------------------------------------------- INVENTORY ---------------------------------------------------!
 inv.stacking.chest=叠柜
 inv.stacking.chest.dense=高级叠柜
@@ -85,6 +113,8 @@ inv.junkbox=废料箱
 inv.junkbox.dense=高级废料箱
 inv.junkbox.double=双层废料箱
 inv.junkbox.dense.double=高级双层废料箱
+!!inv.queue=Queue
+!!inv.queue.dense=Dense Queue
 inv.vault.itembox=保险库物品盒
 
 inv.corer.fuel=换装器燃料
@@ -93,10 +123,14 @@ inv.corer.items=换装器库存
 !----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!
 item.multistorage.enderbag.public.name=末影链接袋
 item.multistorage.enderbag.private.name=末影链接袋
+item.multistorage.enderbag.team.name=末影链接袋
 item.multistorage.enderbag.personal.name=末影袋
+
+!!tile.multistorage.cloud_hopper.name=Cloud Hopper
 
 tile.multistorage.enderchest.public.name=末影链接箱
 tile.multistorage.enderchest.private.name=末影链接箱
+tile.multistorage.enderchest.team.name=末影链接箱
 
 tile.multistorage.storage.cloud.upgrade.name=云存储升级
 tile.multistorage.storage.cloud.stacking.name=云叠柜
@@ -105,6 +139,8 @@ tile.multistorage.storage.cloud.chameleon.name=拟态云箱子
 tile.multistorage.storage.cloud.chameleon.dense.name=高级拟态云箱子
 tile.multistorage.storage.cloud.junkbox.name=云废料箱
 tile.multistorage.storage.cloud.junkbox.dense.name=高级云废料箱
+!!tile.multistorage.storage.cloud.queue.name=Cloud Queue
+!!tile.multistorage.storage.cloud.queue.dense.name=Dense Cloud Queue
 
 tile.multistorage.storage.stone.upgrade.name=存储升级
 tile.multistorage.storage.stone.stacking.name=石质叠柜
@@ -113,6 +149,8 @@ tile.multistorage.storage.stone.chameleon.name=拟态箱子
 tile.multistorage.storage.stone.chameleon.dense.name=高级拟态箱子
 tile.multistorage.storage.stone.junkbox.name=石质废料箱
 tile.multistorage.storage.stone.junkbox.dense.name=高级石质废料箱
+!!tile.multistorage.storage.stone.queue.name=Stone Queue
+!!tile.multistorage.storage.stone.queue.dense.name=Dense Stone Queue
 
 fluid.multistorage.concrete=混凝土
 

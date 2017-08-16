@@ -2,8 +2,8 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 1
-! Translated by: Oli95xz (rev1)[2017/02/19]
+! Revision 2
+! Translated by: Oli95xz (rev1)[2017/02/19], !! (rev2)[0000/00/00]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.endertanks=EnderTanks
@@ -11,6 +11,16 @@ itemGroup.endertanks=EnderTanks
 !----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
 error.endertanks.bucket.nolink1.txt=Kann Eimer nicht verknüpfen, das ist nicht dein Tank
 error.endertanks.bucket.nolink2.txt=Kann Eimer nicht verknüpfen, Tank Besitzer ist unbekannt
+!!error.endertanks.bucket.nolink3.txt=Can not link bucket, you're not on the same team
+
+!!error.endertanks.tank.public.disabled.txt=Public tanks are disabled, tanks must be upgraded to use
+!!error.endertanks.tank.private.disabled.txt=Creation of private tanks is disabled
+!!error.endertanks.tank.team.disabled.txt=Creation of team tanks is disabled
+!!error.endertanks.tank.private.denied.txt=Only the owner can preform that action
+!!error.endertanks.tank.team.denied.txt=Only team members can preform that action
+!!error.endertanks.bucket.public.disabled.txt=Public buckets are disabled
+!!error.endertanks.bucket.private.disabled.txt=Creation of private buckets is disabled
+!!error.endertanks.bucket.team.disabled.txt=Creation of team buckets is disabled
 
 info.endertanks.bucket.header.txt=Eimer
 info.endertanks.tank.header.txt=Tank
@@ -24,5 +34,7 @@ info.endertanks.tank.pump.txt=Pumpe
 !-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!
 item.endertanks.bucket.public.name=Ender Eimer
 item.endertanks.bucket.private.name=Ender Eimer
+item.endertanks.bucket.team.name=Ender Eimer
 tile.endertanks.tank.public.name=Ender Tank
 tile.endertanks.tank.private.name=Ender Tank
+tile.endertanks.tank.team.name=Ender Tank

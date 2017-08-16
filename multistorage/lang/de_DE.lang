@@ -2,8 +2,8 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 2
-! Translated by: Oli95xz (rev2)[2017/02/19]
+! Revision 3
+! Translated by: Oli95xz (rev2)[2017/02/19], !! (rev3)[0000/00/00]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.multistorage=MultiStorage
@@ -19,8 +19,20 @@ error.multistorage.vault.west.msg=Westliche Tresorraumwand unvollständig
 error.multistorage.vault.hidedoor.msg=Du kannst den Zugang zu einer fremden Tür nicht blockieren
 error.multistorage.vault.door.placement.msg=Tür muss in einer 2x2 oder 3x3 Öffnung umgeben mit Tresorblöcken plaziert werden
 error.multistorage.vault.power.missing.msg=Keine unterstützte Strom API gefunden<br>Block unaktiv
+
 error.multistorage.bag.nolink1.txt=Kann Beutel nicht verknüpfen, dir gehört diese Truhe nicht
 error.multistorage.bag.nolink2.txt=Kann Beutel nicht verknüpfen, Besitzer der Truhe ist unbekannt
+!!error.multistorage.bag.nolink3.txt=Can not link bag, you're not on the same team
+!!error.multistorage.bag.corrupted.txt=Can not open bag; Stack NBT data missing
+
+!!error.multistorage.chest.public.disabled.txt=Public chests are disabled, chests must be upgraded to use
+!!error.multistorage.chest.private.disabled.txt=Creation of private chests is disabled
+!!error.multistorage.chest.team.disabled.txt=Creation of team chests is disabled
+!!error.multistorage.chest.private.denied.txt=Only the owner can preform that action
+!!error.multistorage.chest.team.denied.txt=Only team members can preform that action
+!!error.multistorage.bag.public.disabled.txt=Public bags are disabled
+!!error.multistorage.bag.private.disabled.txt=Creation of private bags is disabled
+!!error.multistorage.bag.team.disabled.txt=Creation of team bags is disabled
 
 info.multistorage.vault.door.enter.txt=Tresorraum betreten
 info.multistorage.vault.door.leave.txt=Tresorraum verlassen
@@ -75,6 +87,23 @@ gui.multistorage.junkbox.usedspace.msg=Maximale Kapazität bassiert auf der<br>m
 gui.multistorage.junkbox.usedslots.txt=Benutzte Plätze
 gui.multistorage.junkbox.usedslots.msg=Maximum kann durch<br>hinzufügen einer zweiten Truhe<br>und/oder Benutzung eines Upgrades erhöht werden
 
+!!gui.multistorage.queue.slot.head.out.info=Queue Start; this is the item at the start of the queue
+!!gui.multistorage.queue.slot.head.in.info=Insert Start; items placed here will be inserted into the start of the queue
+!!gui.multistorage.queue.slot.tail.out.info=Queue End; this is the item at the end of the queue
+!!gui.multistorage.queue.slot.tail.in.info=Insert End; items placed here will be inserted into the end of the queue
+!!gui.multistorage.queue.button.toggle.info=Toggle; changes the slot shift-clicking inserts into
+!!gui.multistorage.queue.list.inventory.info=Queue; items in this queue, sorted from start to end
+!!gui.multistorage.queue.head.io.txt=Start In/Out
+!!gui.multistorage.queue.head.in.txt=Start In
+!!gui.multistorage.queue.head.out.txt=Start Out
+!!gui.multistorage.queue.head.out.single.txt=Start Out, Dropper Mode: Single
+!!gui.multistorage.queue.head.out.stack.txt=Start Out, Dropper Mode: Stack
+!!gui.multistorage.queue.tail.io.txt=End In/Out
+!!gui.multistorage.queue.tail.in.txt=End In
+!!gui.multistorage.queue.tail.out.txt=End Out
+!!gui.multistorage.queue.tail.out.single.txt=End Out, Dropper Mode: Single
+!!gui.multistorage.queue.tail.out.stack.txt=End Out, Dropper Mode: Stack
+
 !---------------------------------------------------- INVENTORY ---------------------------------------------------!
 inv.stacking.chest=Stapel Truhe
 inv.stacking.chest.dense=Kompakte Stapel Truhe
@@ -84,6 +113,8 @@ inv.junkbox=Junkbox
 inv.junkbox.dense=Kompakte Junkbox
 inv.junkbox.double=Doppel-Junkbox
 inv.junkbox.dense.double=Kompakte Doppel-Junkbox
+!!inv.queue=Queue
+!!inv.queue.dense=Dense Queue
 inv.vault.itembox=Tresor Gegenstands Box
 
 inv.corer.fuel=Corer Treibstoff
@@ -92,10 +123,14 @@ inv.corer.items=Corer Inventar
 !----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!
 item.multistorage.enderbag.public.name=EnderLink Beutel
 item.multistorage.enderbag.private.name=EnderLink Beutel
+item.multistorage.enderbag.team.name=EnderLink Beutel
 item.multistorage.enderbag.personal.name=EnderBeutel
+
+!!tile.multistorage.cloud_hopper.name=Cloud Hopper
 
 tile.multistorage.enderchest.public.name=EnderLink Truhe
 tile.multistorage.enderchest.private.name=EnderLink Truhe
+tile.multistorage.enderchest.team.name=EnderLink Truhe
 
 tile.multistorage.storage.cloud.upgrade.name=Cloud Speicher Upgrade
 tile.multistorage.storage.cloud.stacking.name=Cloud Speicher
@@ -104,6 +139,8 @@ tile.multistorage.storage.cloud.chameleon.name=Dunst Speicher
 tile.multistorage.storage.cloud.chameleon.dense.name=Kompakter Dunst Speicher
 tile.multistorage.storage.cloud.junkbox.name=Cloud Junkbox
 tile.multistorage.storage.cloud.junkbox.dense.name=Kompakte Cloud Junkbox
+!!tile.multistorage.storage.cloud.queue.name=Cloud Queue
+!!tile.multistorage.storage.cloud.queue.dense.name=Dense Cloud Queue
 
 tile.multistorage.storage.stone.upgrade.name=Stein Speicher Upgrade
 tile.multistorage.storage.stone.stacking.name=Stein Speicher
@@ -112,6 +149,8 @@ tile.multistorage.storage.stone.chameleon.name=Chameleon Speicher
 tile.multistorage.storage.stone.chameleon.dense.name=Kompakter Chameleon Speicher
 tile.multistorage.storage.stone.junkbox.name=Stein Junkbox
 tile.multistorage.storage.stone.junkbox.dense.name=Kompakte Stein Junkbox
+!!tile.multistorage.storage.stone.queue.name=Stone Queue
+!!tile.multistorage.storage.stone.queue.dense.name=Dense Stone Queue
 
 fluid.multistorage.concrete=Tresor Beton
 
