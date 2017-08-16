@@ -2,6 +2,9 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break
 
+! Revision 1
+! Translated by: Mazdallier (rev1)[2017/01/26]
+
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.endertanks=EnderTanks
 

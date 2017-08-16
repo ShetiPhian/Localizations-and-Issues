@@ -2,6 +2,9 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
+! Revision 2
+! Translated by: TartaricAcid (rev1)[2016/11/12], !! (rev2)[0000/00/00]
+
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.multistorage=多样化存储
 
@@ -15,6 +18,7 @@ error.multistorage.vault.east.msg=保险库东墙壁不完整
 error.multistorage.vault.west.msg=保险库西墙壁不完整
 error.multistorage.vault.hidedoor.msg=你不能访问这个门，它不属于你
 error.multistorage.vault.door.placement.msg=保险库大门必须放在2×2或3×3的开口中，该开口用保险库壁构成
+!!error.multistorage.vault.power.missing.msg=No supporting Power API found<br>Block inactive
 
 error.multistorage.bag.nolink1.txt=不能链接末影袋，这个末影链接箱不属于你
 error.multistorage.bag.nolink2.txt=不能链接末影袋，链接箱所有者未知
@@ -31,6 +35,7 @@ info.multistorage.vault.white.txt=白名单
 info.multistorage.vault.black.txt=黑名单
 info.multistorage.vault.intruder.removed.txt=保险库侵入者已移除
 info.multistorage.vault.intruder.killed.txt=反复侵入保险库的人已被杀死
+!!info.multistorage.vault.power.supporting.txt=Supporting:
 
 notice.multistorage.noedit.txt=您无法编辑此保险库
 notice.multistorage.owneronly.txt=只有保险库所有者可以执行该操作
@@ -119,7 +124,7 @@ tile.multistorage.vault.redstone.name=保险库红石IO端口
 tile.multistorage.vault.liquid.name=保险库液体IO端口
 tile.multistorage.vault.power.eu.name=保险库EU能量IO端口
 tile.multistorage.vault.power.rf.name=保险库RF能量IO端口
-tile.multistorage.vault.power.tesla.name=保险库Tesla能量IO端口
+!!tile.multistorage.vault.power.caps.name=Vault Power Pass
 
 tile.multistorage.vault.wall.broken.name=破碎的保险库壁块
 tile.multistorage.vault.item.broken.name=破损的物品IO端口
@@ -128,6 +133,7 @@ tile.multistorage.vault.liquid.broken.name=破损的液体IO端口
 tile.multistorage.vault.power.eu.broken.name=破损的EU能量IO端口
 tile.multistorage.vault.power.rf.broken.name=破损的RF能量IO端口
 tile.multistorage.vault.power.tesla.broken.name=破损的Tesla能量IO端口
+!!tile.multistorage.vault.power.caps.broken.name=Broken Vault Power Pass
 
 tile.multistorage.vault.corer.name=保险库IO端口换装器
 
