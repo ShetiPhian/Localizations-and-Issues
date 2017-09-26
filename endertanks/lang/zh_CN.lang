@@ -11,16 +11,16 @@ itemGroup.endertanks=末影储罐
 !----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
 error.endertanks.bucket.nolink1.txt=无法连接到桶，你不是储罐拥有者
 error.endertanks.bucket.nolink2.txt=无法连接到桶，储罐拥有者未知
-!!error.endertanks.bucket.nolink3.txt=Can not link bucket, you're not on the same team
+!!error.endertanks.bucket.nolink3.txt=无法连接到桶，你不在相应的团队
 
-!!error.endertanks.tank.public.disabled.txt=Public tanks are disabled, tanks must be upgraded to use
-!!error.endertanks.tank.private.disabled.txt=Creation of private tanks is disabled
-!!error.endertanks.tank.team.disabled.txt=Creation of team tanks is disabled
-!!error.endertanks.tank.private.denied.txt=Only the owner can preform that action
-!!error.endertanks.tank.team.denied.txt=Only team members can preform that action
-!!error.endertanks.bucket.public.disabled.txt=Public buckets are disabled
-!!error.endertanks.bucket.private.disabled.txt=Creation of private buckets is disabled
-!!error.endertanks.bucket.team.disabled.txt=Creation of team buckets is disabled
+!!error.endertanks.tank.public.disabled.txt=公共储罐已被禁用，储罐需要升级后使用
+!!error.endertanks.tank.private.disabled.txt=禁止制作私有储罐
+!!error.endertanks.tank.team.disabled.txt=禁止制作团队储罐
+!!error.endertanks.tank.private.denied.txt=该动作只能所有者执行
+!!error.endertanks.tank.team.denied.txt=该动作只能团队成员执行
+!!error.endertanks.bucket.public.disabled.txt=公共桶已被禁用
+!!error.endertanks.bucket.private.disabled.txt=禁止制作私有桶
+!!error.endertanks.bucket.team.disabled.txt=禁止制作团队桶
 
 info.endertanks.bucket.header.txt=桶数据
 info.endertanks.tank.header.txt=储罐数据
