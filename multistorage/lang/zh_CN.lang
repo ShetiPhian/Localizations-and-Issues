@@ -3,6 +3,7 @@
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
 ! Revision 3
+! Translated by: TartaricAcid (rev1)[2016/11/12], Aemande123 (rev3)[2017/10/06]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.multistorage=多样化存储
@@ -169,6 +170,7 @@ tile.multistorage.vault.redstone.broken.name=破损的红石IO端口
 tile.multistorage.vault.liquid.broken.name=破损的液体IO端口
 tile.multistorage.vault.power.eu.broken.name=破损的EU能量IO端口
 tile.multistorage.vault.power.rf.broken.name=破损的RF能量IO端口
+tile.multistorage.vault.power.tesla.broken.name=破损的Tesla能量IO端口
 tile.multistorage.vault.power.caps.broken.name=破损的保险库电源端口
 
 tile.multistorage.vault.corer.name=保险库IO端口换装器
