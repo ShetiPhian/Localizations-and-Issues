@@ -1,9 +1,8 @@
-!-------------------------------------- MultiStorage zh_CN.lang Localization --------------------------------------!
+﻿!-------------------------------------- MultiStorage zh_CN.lang Localization --------------------------------------!
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
 ! Revision 3
-! Translated by: TartaricAcid (rev1)[2016/11/12], !! (rev3)[0000/00/00]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.multistorage=多样化存储
@@ -18,21 +17,21 @@ error.multistorage.vault.east.msg=保险库东墙壁不完整
 error.multistorage.vault.west.msg=保险库西墙壁不完整
 error.multistorage.vault.hidedoor.msg=你不能访问这个门，它不属于你
 error.multistorage.vault.door.placement.msg=保险库大门必须放在2×2或3×3的开口中，该开口用保险库壁构成
-!!error.multistorage.vault.power.missing.msg=No supporting Power API found<br>Block inactive
+error.multistorage.vault.power.missing.msg=找不到支持的Power API（能量API）<br>方块功能无法启用
 
 error.multistorage.bag.nolink1.txt=不能链接末影袋，这个末影链接箱不属于你
 error.multistorage.bag.nolink2.txt=不能链接末影袋，链接箱所有者未知
-!!error.multistorage.bag.nolink3.txt=Can not link bag, you're not on the same team
-!!error.multistorage.bag.corrupted.txt=Can not open bag; Stack NBT data missing
+error.multistorage.bag.nolink3.txt=不能链接末影袋，你不在同一个team团队
+error.multistorage.bag.corrupted.txt=不能打开袋子；堆栈NBT数据丢失
 
-!!error.multistorage.chest.public.disabled.txt=Public chests are disabled, chests must be upgraded to use
-!!error.multistorage.chest.private.disabled.txt=Creation of private chests is disabled
-!!error.multistorage.chest.team.disabled.txt=Creation of team chests is disabled
-!!error.multistorage.chest.private.denied.txt=Only the owner can preform that action
-!!error.multistorage.chest.team.denied.txt=Only team members can preform that action
-!!error.multistorage.bag.public.disabled.txt=Public bags are disabled
-!!error.multistorage.bag.private.disabled.txt=Creation of private bags is disabled
-!!error.multistorage.bag.team.disabled.txt=Creation of team bags is disabled
+error.multistorage.chest.public.disabled.txt=公共箱子被禁用，箱子必须升级才能使用
+error.multistorage.chest.private.disabled.txt=创建私人箱子被禁止
+error.multistorage.chest.team.disabled.txt=创建team团队箱子被禁止
+error.multistorage.chest.private.denied.txt=只有所有者可以执行该操作
+error.multistorage.chest.team.denied.txt=只有team团队成员才能执行此操作
+error.multistorage.bag.public.disabled.txt=公共袋子被禁用
+error.multistorage.bag.private.disabled.txt=创建私人袋子被禁用
+error.multistorage.bag.team.disabled.txt=创建team团队袋子被禁用
 
 info.multistorage.vault.door.enter.txt=进入保险库
 info.multistorage.vault.door.leave.txt=离开保险库
@@ -46,7 +45,7 @@ info.multistorage.vault.white.txt=白名单
 info.multistorage.vault.black.txt=黑名单
 info.multistorage.vault.intruder.removed.txt=保险库侵入者已移除
 info.multistorage.vault.intruder.killed.txt=反复侵入保险库的人已被杀死
-!!info.multistorage.vault.power.supporting.txt=Supporting:
+info.multistorage.vault.power.supporting.txt=支持：
 
 notice.multistorage.noedit.txt=您无法编辑此保险库
 notice.multistorage.owneronly.txt=只有保险库所有者可以执行该操作
@@ -59,9 +58,9 @@ notice.multistorage.vault.setowner.txt=现在是该保险库所有者
 notice.multistorage.vault.promote.txt=升级到管理员
 notice.multistorage.vault.demote.txt=从管理员降级
 notice.multistorage.vault.listtype.txt=保险库过滤条件设置为
-notice.multistorage.vault.defence.off.txt=保险库防御设置为：OFF; 这扇门不会扫描入侵者
-notice.multistorage.vault.defence.kick.txt=保险库防御设置为：KICK; 入侵者将被踢出这个保险库
-notice.multistorage.vault.defence.kill.txt=保险库防御设置为：KILL; 入侵者将被踢出这个保险库，如果重复的侵入将被杀死
+notice.multistorage.vault.defence.off.txt=保险库防御设置为：OFF； 这扇门不会扫描入侵者
+notice.multistorage.vault.defence.kick.txt=保险库防御设置为：KICK； 入侵者将被踢出这个保险库
+notice.multistorage.vault.defence.kill.txt=保险库防御设置为：KILL； 入侵者将被踢出这个保险库，如果重复的侵入将被杀死
 notice.multistorage.vault.intruder.removed.txt=您没有在此保险库中的权限，请不要再次输入。
 notice.multistorage.vault.intruder.killed.txt=你被警告，请处理这个警告相关的所有问题
 
@@ -82,27 +81,27 @@ gui.multistorage.vault.button.defence.kick.txt=防御模式：KICK<br>入侵者�
 gui.multistorage.vault.button.defence.kill.txt=防御模式: Kill<br>入侵者将被踢出,<br>重复侵入的入侵者将被杀死<br> <br>单击以更改模式
 gui.multistorage.vault.enterreason.txt=在这里输入卸下原因
 
-gui.multistorage.junkbox.usedspace.txt=已用堆叠总数
-gui.multistorage.junkbox.usedspace.msg=堆叠总数最大值基于<br>空间格数乘以物品能堆叠多少,<br>默认堆叠数为64
+gui.multistorage.junkbox.usedspace.txt=已用堆栈总数
+gui.multistorage.junkbox.usedspace.msg=堆栈总数最大值基于<br>空间格数乘以物品能堆栈多少,<br>默认堆栈数为64
 gui.multistorage.junkbox.usedslots.txt=已用存储空间
 gui.multistorage.junkbox.usedslots.msg=存储空间的增加方法是<br>通过堆叠第二个废料箱<br>和/或使用升级
 
-!!gui.multistorage.queue.slot.head.out.info=Queue Start; this is the item at the start of the queue
-!!gui.multistorage.queue.slot.head.in.info=Insert Start; items placed here will be inserted into the start of the queue
-!!gui.multistorage.queue.slot.tail.out.info=Queue End; this is the item at the end of the queue
-!!gui.multistorage.queue.slot.tail.in.info=Insert End; items placed here will be inserted into the end of the queue
-!!gui.multistorage.queue.button.toggle.info=Toggle; changes the slot shift-clicking inserts into
-!!gui.multistorage.queue.list.inventory.info=Queue; items in this queue, sorted from start to end
-!!gui.multistorage.queue.head.io.txt=Start In/Out
-!!gui.multistorage.queue.head.in.txt=Start In
-!!gui.multistorage.queue.head.out.txt=Start Out
-!!gui.multistorage.queue.head.out.single.txt=Start Out, Dropper Mode: Single
-!!gui.multistorage.queue.head.out.stack.txt=Start Out, Dropper Mode: Stack
-!!gui.multistorage.queue.tail.io.txt=End In/Out
-!!gui.multistorage.queue.tail.in.txt=End In
-!!gui.multistorage.queue.tail.out.txt=End Out
-!!gui.multistorage.queue.tail.out.single.txt=End Out, Dropper Mode: Single
-!!gui.multistorage.queue.tail.out.stack.txt=End Out, Dropper Mode: Stack
+gui.multistorage.queue.slot.head.out.info=排序箱起始槽；这里显示排序最前端的物品
+gui.multistorage.queue.slot.head.in.info=插入起始槽；在这个槽放入的物品将作为排序最前端的物品显示
+gui.multistorage.queue.slot.tail.out.info=排序箱末尾槽；这里显示排序最末尾的物品
+gui.multistorage.queue.slot.tail.in.info=插入末尾槽；在这个槽放入的物品将作为排序最末端的物品显示
+gui.multistorage.queue.button.toggle.info=切换；改变Shift点击物品时物品放入的位置
+gui.multistorage.queue.list.inventory.info=排序；此序列中显示的物品将从头（最后放入）到尾（最初放入）排序
+gui.multistorage.queue.head.io.txt=起始槽，输入/输出
+gui.multistorage.queue.head.in.txt=起始槽，只输入
+gui.multistorage.queue.head.out.txt=起始槽，只输出
+gui.multistorage.queue.head.out.single.txt=起始槽，只输出，输出模式：单个
+gui.multistorage.queue.head.out.stack.txt=起始槽，只输出，输出模式：多个
+gui.multistorage.queue.tail.io.txt=末尾槽，输入/输出
+gui.multistorage.queue.tail.in.txt=末尾槽，只输入
+gui.multistorage.queue.tail.out.txt=末尾槽，只输出
+gui.multistorage.queue.tail.out.single.txt=末尾槽，只输出，输出模式：单个
+gui.multistorage.queue.tail.out.stack.txt=末尾槽，只输出，输出模式：多个
 
 !---------------------------------------------------- INVENTORY ---------------------------------------------------!
 inv.stacking.chest=叠柜
@@ -113,8 +112,8 @@ inv.junkbox=废料箱
 inv.junkbox.dense=高级废料箱
 inv.junkbox.double=双层废料箱
 inv.junkbox.dense.double=高级双层废料箱
-!!inv.queue=Queue
-!!inv.queue.dense=Dense Queue
+inv.queue=排序箱
+inv.queue.dense=高级排序箱
 inv.vault.itembox=保险库物品盒
 
 inv.corer.fuel=换装器燃料
@@ -126,7 +125,7 @@ item.multistorage.enderbag.private.name=末影链接袋
 item.multistorage.enderbag.team.name=末影链接袋
 item.multistorage.enderbag.personal.name=末影袋
 
-!!tile.multistorage.cloud_hopper.name=Cloud Hopper
+tile.multistorage.cloud_hopper.name=云漏斗
 
 tile.multistorage.enderchest.public.name=末影链接箱
 tile.multistorage.enderchest.private.name=末影链接箱
@@ -139,8 +138,8 @@ tile.multistorage.storage.cloud.chameleon.name=拟态云箱子
 tile.multistorage.storage.cloud.chameleon.dense.name=高级拟态云箱子
 tile.multistorage.storage.cloud.junkbox.name=云废料箱
 tile.multistorage.storage.cloud.junkbox.dense.name=高级云废料箱
-!!tile.multistorage.storage.cloud.queue.name=Cloud Queue
-!!tile.multistorage.storage.cloud.queue.dense.name=Dense Cloud Queue
+tile.multistorage.storage.cloud.queue.name=云排序箱
+tile.multistorage.storage.cloud.queue.dense.name=高级云排序箱
 
 tile.multistorage.storage.stone.upgrade.name=存储升级
 tile.multistorage.storage.stone.stacking.name=石质叠柜
@@ -149,8 +148,8 @@ tile.multistorage.storage.stone.chameleon.name=拟态箱子
 tile.multistorage.storage.stone.chameleon.dense.name=高级拟态箱子
 tile.multistorage.storage.stone.junkbox.name=石质废料箱
 tile.multistorage.storage.stone.junkbox.dense.name=高级石质废料箱
-!!tile.multistorage.storage.stone.queue.name=Stone Queue
-!!tile.multistorage.storage.stone.queue.dense.name=Dense Stone Queue
+tile.multistorage.storage.stone.queue.name=石质排序箱
+tile.multistorage.storage.stone.queue.dense.name=高级石质排序箱
 
 fluid.multistorage.concrete=混凝土
 
@@ -162,7 +161,7 @@ tile.multistorage.vault.redstone.name=保险库红石IO端口
 tile.multistorage.vault.liquid.name=保险库液体IO端口
 tile.multistorage.vault.power.eu.name=保险库EU能量IO端口
 tile.multistorage.vault.power.rf.name=保险库RF能量IO端口
-!!tile.multistorage.vault.power.caps.name=Vault Power Pass
+tile.multistorage.vault.power.caps.name=保险库电源端口
 
 tile.multistorage.vault.wall.broken.name=破碎的保险库壁块
 tile.multistorage.vault.item.broken.name=破损的物品IO端口
@@ -170,8 +169,7 @@ tile.multistorage.vault.redstone.broken.name=破损的红石IO端口
 tile.multistorage.vault.liquid.broken.name=破损的液体IO端口
 tile.multistorage.vault.power.eu.broken.name=破损的EU能量IO端口
 tile.multistorage.vault.power.rf.broken.name=破损的RF能量IO端口
-tile.multistorage.vault.power.tesla.broken.name=破损的Tesla能量IO端口
-!!tile.multistorage.vault.power.caps.broken.name=Broken Vault Power Pass
+tile.multistorage.vault.power.caps.broken.name=破损的保险库电源端口
 
 tile.multistorage.vault.corer.name=保险库IO端口换装器
 
