@@ -2,8 +2,6 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 3
-
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.terraqueous=Terraqueous
 death.attack.terraqueous.coconut=Next time on 'When Coconuts Attack!' %1$s is killed by a falling coconut.
@@ -17,6 +15,16 @@ death.attack.terraqueous.multitool.direct=%1$s knows not to mess with %2$s while
 death.attack.terraqueous.multitool.direct.item=%3$s truly is a MultiTool, %2$s just took down %1$s wit it.
 potion.terraqueous.deathfruit.countdown=Crash
 potion.terraqueous.deathfruit.withdraw=Withdraw
+potion.terraqueous.pitchfork.ready=Pitchfork Ready
+potion.terraqueous.pitchfork.angrymob=§6/!\ §4Angry Mob §6/!\
+potion.terraqueous.displacement=Displacement
+potion.effect.displacement=Potion of Displacement
+splash_potion.effect.displacement=Splash Potion of Displacement
+lingering_potion.effect.displacement=Lingering Potion of Displacement
+potion.terraqueous.firewater=Firewater
+potion.effect.firewater=Potion of Firewater
+splash_potion.effect.firewater=Splash Potion of Firewater
+lingering_potion.effect.firewater=Lingering Potion of Firewater
 turtle.terraqueous.colorizer.name=Colorizer
 fluid.tile.coconutmilk=Coconut Milk
 
@@ -34,6 +42,7 @@ info.terraqueous.stormscroll.txt=Someone has scribbled on it
 info.terraqueous.missingblocks.txt=Your world is missing the blocks needed to build this device.
 info.terraqueous.hammer.txt=§oJust a normal hammer...
 info.terraqueous.multitool.txt=§oSneak Scroll to Change Mode
+info.terraqueous.pitchfork.txt=§7§oTry not to incite an angry mob
 
 info.terraqueous.cloudstaff.mode.txt=§oSneak Scroll to Change Block
 msg.terraqueous.cloudstaff.placing.txt=Placing: %1$s<br>%2$s Blocks Available
@@ -57,8 +66,9 @@ info.colorizer.preset.save.txt=Right-Click: Save
 info.colorizer.preset.load.txt=Left-Click: Load
 
 !--------------------------------------------------- JEI INFO -----------------------------------------------------!
-info.terraqueous.drying.source.txt=Created by drying tall grass on sand in a hot biome or on stone above lava
+info.terraqueous.drying.finished.txt=The finished product from drying grass
 info.terraqueous.drying.create.txt=Continue drying to create
+info.terraqueous.drying.source.msg=How to Dry:<br>Place tall grass, loose grass, or drying grass, via right-click (shift + right-click for tall grass)<br><br>This does not work in cold biomes.<br><br>Drying is faster on sand in a hot biome, or when placed on a stone with lava underneath.
 
 info.terraqueous.exp.txt=Exp
 
@@ -100,6 +110,8 @@ inv.craftfurnace.output=CraftFurnace Output
 inv.stormforge=StormForge
 
 !----------------------------------------------------- BLOCKS -----------------------------------------------------!
+tile.terraqueous.border.name=Border
+
 tile.terraqueous.cloudfancy.column.name=Cloud Column
 tile.terraqueous.cloudfancy.capital.name=Cloud Column Capital
 tile.terraqueous.cloudfancy.arch.name=Cloud Arch
@@ -392,6 +404,8 @@ item.terraqueous.multitool.shovel.name=Endimium Shovel
 item.terraqueous.multitool.hoe.name=Endimium Hoe
 item.terraqueous.multitool.weapon.name=Burnium Weapon
 item.terraqueous.multitool.broken.name=Broken MultiTool
+
+item.terraqueous.pitchfork.name=Pitchfork
 
 item.terraqueous.scythe.small.name=Sickle
 item.terraqueous.scythe.large.name=Scythe

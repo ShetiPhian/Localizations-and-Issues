@@ -2,8 +2,8 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 2
-! Translated by: Mazdallier (rev1)[2017/01/21], !! (rev2)[0000/00/00]
+! Translated by:
+!  Mazdallier [2017/01/21]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 info.down=Bas

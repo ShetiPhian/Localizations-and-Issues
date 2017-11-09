@@ -2,8 +2,8 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 3
-! Translated by: Oli95xz (rev2)[2017/02/19], !! (rev3)[0000/00/00]
+! Translated by:
+!  Oli95xz [2017/02/19]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.multistorage=MultiStorage
@@ -163,6 +163,7 @@ tile.multistorage.vault.liquid.name=Tresor Flüssigkeits Pass
 tile.multistorage.vault.power.eu.name=Tresor EU Strom Pass
 tile.multistorage.vault.power.rf.name=Tresor RF Strom Pass
 tile.multistorage.vault.power.caps.name=Tresor Strom Pass
+!!tile.multistorage.vault.window.name=Vault Window
 
 tile.multistorage.vault.wall.broken.name=Kaputter Tresor Wand Block
 tile.multistorage.vault.item.broken.name=Kaputte Tresor Gegenstands Box
@@ -171,6 +172,7 @@ tile.multistorage.vault.liquid.broken.name=Kaputter Tresor Flüssigkeits Pass
 tile.multistorage.vault.power.eu.broken.name=Kaputter Tresor EU Strom Pass
 tile.multistorage.vault.power.rf.broken.name=Kaputter Tresor RF Strom Pass
 tile.multistorage.vault.power.caps.broken.name=Kaputter Tresor Strom Pass
+!!tile.multistorage.vault.window.broken.name=Broken Vault Window
 
 tile.multistorage.vault.corer.name=Tresor Kern Tauscher
 

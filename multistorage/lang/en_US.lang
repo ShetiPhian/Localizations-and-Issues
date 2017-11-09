@@ -2,8 +2,6 @@
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
 
-! Revision 3
-
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.multistorage=MultiStorage
 
@@ -16,7 +14,7 @@ error.multistorage.vault.south.msg=South Vault Wall Incomplete
 error.multistorage.vault.east.msg=East Vault Wall Incomplete
 error.multistorage.vault.west.msg=West Vault Wall Incomplete
 error.multistorage.vault.hidedoor.msg=You cannot block access to a door you don't own
-error.multistorage.vault.door.placement.msg=Door must be placed in a 2x2 or 3x3 opening that is framed with vault blocks
+error.multistorage.vault.door.placement.msg=Door must be placed in a 2x2 or 3x3 opening that is framed with solid vault blocks
 error.multistorage.vault.power.missing.msg=No supporting Power API found<br>Block inactive
 
 error.multistorage.bag.nolink1.txt=Can not link bag, you do not own this chest
@@ -162,6 +160,7 @@ tile.multistorage.vault.liquid.name=Vault Liquid Pass
 tile.multistorage.vault.power.eu.name=Vault EU Power Pass
 tile.multistorage.vault.power.rf.name=Vault RF Power Pass
 tile.multistorage.vault.power.caps.name=Vault Power Pass
+tile.multistorage.vault.window.name=Vault Window
 
 tile.multistorage.vault.wall.broken.name=Broken Vault Wall Block
 tile.multistorage.vault.item.broken.name=Broken Vault Item Box
@@ -170,6 +169,7 @@ tile.multistorage.vault.liquid.broken.name=Broken Vault Liquid Pass
 tile.multistorage.vault.power.eu.broken.name=Broken Vault EU Power Pass
 tile.multistorage.vault.power.rf.broken.name=Broken Vault RF Power Pass
 tile.multistorage.vault.power.caps.broken.name=Broken Vault Power Pass
+tile.multistorage.vault.window.broken.name=Broken Vault Window
 
 tile.multistorage.vault.corer.name=Vault Core Changer
 
