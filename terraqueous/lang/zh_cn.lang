@@ -25,7 +25,7 @@ potion.terraqueous.firewater=烈酒
 potion.effect.firewater=烈酒药水
 splash_potion.effect.firewater=喷溅型烈酒药水
 lingering_potion.effect.firewater=滞留型烈酒药水
-turtle.terraqueous.colorizer.name=上色器
+turtle.terraqueous.colorizer.name=分子着色器
 fluid.tile.coconutmilk=椰奶
 
 !------------------------------------------------ COMMAND MESSAGE -------------------------------------------------!
@@ -345,7 +345,7 @@ item.terraqueous.burnium_belt.name=灼焰腰带
 item.terraqueous.cloudstaff.name=云之管理者
 
 item.terraqueous.cloudtalisman.name=云之护身符
-item.terraqueous.colorizer.name=分子上色器
+item.terraqueous.colorizer.name=分子着色器
 item.terraqueous.endermonocle.name=末影透镜
 
 item.terraqueous.itemhammer.normal.name=锤子
