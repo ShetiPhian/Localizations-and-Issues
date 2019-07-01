@@ -9,7 +9,7 @@ death.attack.terraqueous.coconut.player=%2$s刚刚偷了个椰子来杀死%1$s�
 death.attack.terraqueous.coconut.playeritem=也许今天不是他的幸运日，%1$s在逃避拿着%3$s的%2$s时被椰子砸死了。
 death.attack.terraqueous.coconut.direct=%2$s用椰子砸了%1$s的头。真是机智！
 death.attack.terraqueous.coconut.direct.item=%1$s被%2$s用一个叫%3$s的椰子砸死了。真有人给椰子取名字？
-death.attack.terraqueous.scythe.direct=收割者%2$s成功收集了%1$s。
+death.attack.terraqueous.scythe.direct=死神%2$s成功收割了%1$s。
 death.attack.terraqueous.scythe.direct.item=凭借从未让人失望的%3$s，收割者%2$s成功收集了%1$s。
 death.attack.terraqueous.multitool.direct=%1$s学到了不要惹拿着多功能工具的%2$s。
 death.attack.terraqueous.multitool.direct.item=%3$s只是一个多功能工具，%2$s利用它打败了%1$s。
@@ -173,7 +173,7 @@ tile.terraqueous.flower.silver.name=幽灵花
 tile.terraqueous.flower.gray.name=灰色幽灵花
 tile.terraqueous.flower.pink.name=玫瑰
 tile.terraqueous.flower.lime.name=迪尔德丽花
-tile.terraqueous.flower.yellow.name==水仙
+tile.terraqueous.flower.yellow.name=水仙
 tile.terraqueous.flower.lightblue.name=蓝铃花
 tile.terraqueous.flower.magenta.name=报春花
 tile.terraqueous.flower.orange.name=万寿菊
