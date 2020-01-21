@@ -1,9 +1,6 @@
-!--------------------------------------- EnderTanks zh_CN.lang Localization ---------------------------------------!
+﻿!--------------------------------------- EnderTanks zh_cn.lang Localization ---------------------------------------!
 ! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
 ! msg entries can span multiple lines, use <br> to indicate a line break.
-
-! Translated by:
-!  TartaricAcid [2016/11/12]
 
 !------------------------------------------------------ MISC ------------------------------------------------------!
 itemGroup.endertanks=末影储罐
@@ -11,16 +8,16 @@ itemGroup.endertanks=末影储罐
 !----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
 error.endertanks.bucket.nolink1.txt=无法连接到桶，你不是储罐拥有者
 error.endertanks.bucket.nolink2.txt=无法连接到桶，储罐拥有者未知
-error.endertanks.bucket.nolink3.txt=无法连接到桶，你不在相应的团队
+error.endertanks.bucket.nolink3.txt=无法连接到桶，你和储罐拥有者不在同一个组别
 
-error.endertanks.tank.public.disabled.txt=公共储罐已被禁用，储罐需要升级后使用
-error.endertanks.tank.private.disabled.txt=禁止制作私有储罐
-error.endertanks.tank.team.disabled.txt=禁止制作团队储罐
-error.endertanks.tank.private.denied.txt=该动作只能所有者执行
-error.endertanks.tank.team.denied.txt=该动作只能团队成员执行
-error.endertanks.bucket.public.disabled.txt=公共桶已被禁用
-error.endertanks.bucket.private.disabled.txt=禁止制作私有桶
-error.endertanks.bucket.team.disabled.txt=禁止制作团队桶
+error.endertanks.tank.public.disabled.txt=公共储罐被禁止使用，储罐必须升级才能使用
+error.endertanks.tank.private.disabled.txt=私人储罐被禁止创建
+error.endertanks.tank.team.disabled.txt=组内公用的储罐已被禁止创建
+error.endertanks.tank.private.denied.txt=只有拥有者才可以那样操作
+error.endertanks.tank.team.denied.txt=只有组内成员才可以那样操作
+error.endertanks.bucket.public.disabled.txt=公共的桶已被禁止使用
+error.endertanks.bucket.private.disabled.txt=私人的桶已被禁止创建
+error.endertanks.bucket.team.disabled.txt=组内公用的桶已被禁止创建
 
 info.endertanks.bucket.header.txt=桶数据
 info.endertanks.tank.header.txt=储罐数据
