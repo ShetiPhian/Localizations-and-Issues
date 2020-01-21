@@ -4,7 +4,7 @@
     "": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "": "------------------------------------------------------ MISC ------------------------------------------------------!",
-    "itemGroup.endertanks": "EnderTanks",
+    "itemGroup.endertanks": "末影储罐",
 
     "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "error.endertanks.bucket.nolink1.txt": "无法连接到桶，你不是储罐拥有者",
