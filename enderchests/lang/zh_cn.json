@@ -1,0 +1,44 @@
+{
+    "": "-------------------------------------- EnderChests zh_cn.json Localization --------------------------------------!",
+    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "": "Translated by:",
+    "": "TartaricAcid [2016/11/12], Aemande123 [2017/10/06]",
+
+    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "!!itemGroup.enderchests": "EnderChests",
+
+    "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+
+    "error.enderchests.bag.nolink1.txt": "不能链接末影袋，这个末影链接箱不属于你",
+    "error.enderchests.bag.nolink2.txt": "不能链接末影袋，链接箱所有者未知",
+    "error.enderchests.bag.nolink3.txt": "不能链接末影袋，你不在同一个team团队",
+    "error.enderchests.bag.corrupted.txt": "不能打开袋子；堆栈NBT数据丢失",
+
+    "error.enderchests.chest.public.disabled.txt": "公共箱子被禁用，箱子必须升级才能使用",
+    "error.enderchests.chest.private.disabled.txt": "创建私人箱子被禁止",
+    "error.enderchests.chest.team.disabled.txt": "创建team团队箱子被禁止",
+    "error.enderchests.chest.private.denied.txt": "只有所有者可以执行该操作",
+    "error.enderchests.chest.team.denied.txt": "只有team团队成员才能执行此操作",
+    "error.enderchests.bag.public.disabled.txt": "公共袋子被禁用",
+    "error.enderchests.bag.private.disabled.txt": "创建私人袋子被禁用",
+    "error.enderchests.bag.team.disabled.txt": "创建team团队袋子被禁用",
+
+    "info.enderchests.chest.public.txt": "公共",
+    "info.enderchests.chest.code.txt": "编码:",
+    "info.enderchests.chest.capacity.txt": "箱子容量增加到",
+
+    "info.enderchests.craftingmaterial.txt": "制作材料",
+
+    "": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "末影袋",
+
+    "item.enderchests.bag.public": "末影链接袋",
+    "item.enderchests.bag.private": "末影链接袋",
+    "item.enderchests.bag.team": "末影链接袋",
+
+    "block.enderchests.chest.public": "末影链接箱",
+    "block.enderchests.chest.private": "末影链接箱",
+    "block.enderchests.chest.team": "末影链接箱"
+}

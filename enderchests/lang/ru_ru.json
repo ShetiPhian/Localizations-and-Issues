@@ -1,0 +1,43 @@
+{
+    "": "-------------------------------------- EnderChests ru_ru.json Localization --------------------------------------!",
+    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "": "Translated by:",
+    "": "Mr_Krab [2017/11/8]",
+
+    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
+
+    "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1.txt": "Нельзя связать сумку, вы не владеете этим сундуком",
+    "error.enderchests.bag.nolink2.txt": "Не удается связать сумку, владелец сундука неизвестен",
+    "error.enderchests.bag.nolink3.txt": "Нельзя связать сумку, вы не в одной команде",
+    "error.enderchests.bag.corrupted.txt": "Не удается открыть сумку; Недостаток NBT данных",
+
+    "error.enderchests.chest.public.disabled.txt": "Публичные сундуки отключены, сундуки должны быть модернизированы для использования",
+    "error.enderchests.chest.private.disabled.txt": "Создание приватных сундуков запрещено",
+    "error.enderchests.chest.team.disabled.txt": "Создание командных сундуков запрещено",
+    "error.enderchests.chest.private.denied.txt": "Только владелец может выполнить это действие",
+    "error.enderchests.chest.team.denied.txt": "Только члены команды могут выполнить это действие",
+    "error.enderchests.bag.public.disabled.txt": "Публичные сумки отключены",
+    "error.enderchests.bag.private.disabled.txt": "Создание приватных сумок отключено",
+    "error.enderchests.bag.team.disabled.txt": "Создание командных сумок отключено",
+
+    "info.enderchests.chest.public.txt": "Общественное использование",
+    "info.enderchests.chest.code.txt": "Код:",
+    "info.enderchests.chest.capacity.txt": "Объем сундука увеличен до",
+
+    "info.enderchests.craftingmaterial.txt": "Ремесленный материал",
+
+    "": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "Эндер сумка",
+
+    "item.enderchests.bag.public": "Эндер сумка",
+    "item.enderchests.bag.private": "Эндер сумка",
+    "item.enderchests.bag.team": "Эндер сумка",
+
+    "block.enderchests.chest.public": "Эндер сундук",
+    "block.enderchests.chest.private": "Эндер сундук",
+    "block.enderchests.chest.team": "Эндер сундук"
+}

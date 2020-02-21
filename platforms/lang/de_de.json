@@ -1,0 +1,45 @@
+{
+    "": "---------------------------------------- Platforms de_de.json Localization ---------------------------------------!",
+    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "": "Translated by:",
+    "": "Oli95xz [2017/02/19]",
+
+    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.platforms": "Platforms",
+
+    "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.platforms.base.txt": "§6Basis:§7§o",
+    "info.platforms.addon.txt": "§6Schiene:§7§o",
+
+    "": "------------------------------------------------------ GUI -------------------------------------------------------!",
+    "gui.platformer.slot.storage.info": "Speicher; wird genutzt um Materialien zum Craften zu lagern",
+    "gui.platformer.slot.craft.info": "Craft Ausgabe; wenn benötigte Materialien verfügbar sind, hier klicken zum craften.",
+    "gui.platformer.slot.decon.info": "Dekonstruktion; Plattformen können hier zerlegt werden. Stapelgröße muss gleich oder größer der beim Craften erhaltenen Menge seien.",
+    "gui.platformer.slot.buffer.info": "Ausgabe Puffer; wird zur temporären Lagerung zwecks Automatisierung genutzt. Muss leer sein, bevor mehr gecraftet werden kann.",
+    "gui.platformer.slot.material.info": "Material Auswahl; definiert Aussehen und benutztes Material.",
+    "gui.platformer.button.select.info": "Plattform Auswähler; wechselt zwischen den verfügbaren plattform Typen.",
+    "gui.platformer.preview.info": "Plattform Vorschau; Vorschau des finalen Produktes.",
+    "gui.platformer.basic.txt": "Speicher Eingang, Puffer & Crafting Ausgabe",
+    "gui.platformer.output.txt": "Puffer & Crafting Ausgabe",
+    "gui.platformer.decon.txt": "Dekonstruktion Ein-/Ausgang",
+    "gui.platformer.storage.txt": "Speicher Ein-/Ausgang",
+
+    "": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
+    "inv.platformer": "PlattFormer",
+    "inv.platformer.output": "PlattFormer Ausgabe",
+    "inv.platformer.deconstruct": "PlattFormer Dekonstruktion",
+    "inv.platformer.storage": "Plattformer Speicher",
+
+    "": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "block.platforms.flat": "Plattform",
+    "block.platforms.ramp": "Rampe",
+    "block.platforms.floor": "Boden",
+    "block.platforms.frame": "Rahmen",
+    "block.platforms.rise": "Aufgang",
+    "block.platforms.rail": "Geländer",
+    "block.platforms.platformer": "PlattFormer",
+
+    "item.platforms.wrench": "\"Monkey\" Schraubenschlüssel"
+}

@@ -1,0 +1,42 @@
+{
+    "": "--------------------------------------- EnderTanks pl_pl.json Localization ---------------------------------------!",
+    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "": "Translated by:",
+    "": "Amakazor [2017/09/20]",
+
+    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.endertanks": "EnderTanks",
+
+    "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.endertanks.bucket.nolink1.txt": "Nie można połączyć wiadra, nie jesteś właścicielem tego zbiornika",
+    "error.endertanks.bucket.nolink2.txt": "Nie można połączyć wiadra, właściciel nieznany",
+    "error.endertanks.bucket.nolink3.txt": "Nie można połączyć wiadra, nie jesteś w tej samej drużynie",
+
+    "error.endertanks.tank.public.disabled.txt": "Publiczne zbiorniki są niedostępne. Należy ulepszyć zbiornik aby go użyć",
+    "error.endertanks.tank.private.disabled.txt": "Tworzenie prywatnego zbiornika jest niedostępne",
+    "error.endertanks.tank.team.disabled.txt": "Tworzenie drużynowego zbiornika jest niedostępne",
+    "error.endertanks.tank.private.denied.txt": "Tylko właściciel może to zrobić",
+    "error.endertanks.tank.team.denied.txt": "Tylko członkowie drużyny mogą to zrobić",
+    "error.endertanks.bucket.public.disabled.txt": "Publiczne wiadra są niedostępne",
+    "error.endertanks.bucket.private.disabled.txt": "Tworzenie prywatnego wiadra jest niedostępne",
+    "error.endertanks.bucket.team.disabled.txt": "Tworzenie drużynowego wiadra jest niedostępne",
+
+    "info.endertanks.bucket.header.txt": "Wiadro",
+    "info.endertanks.tank.header.txt": "Zbiornik",
+    "info.endertanks.tank.empty.txt": "Pusty",
+    "info.endertanks.tank.public.txt": "Publiczny",
+    "info.endertanks.tank.code.txt": "Kod:",
+    "info.endertanks.tank.capacity.txt": "Pojemność zbiornika powiększona do",
+    "info.endertanks.tank.pump.upgrade.txt": "Pompa ulepszona do",
+    "info.endertanks.tank.pump.txt": "Pompa",
+
+    "": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "item.endertanks.bucket.public": "Ender Wiadro",
+    "item.endertanks.bucket.private": "Ender Wiadro",
+    "item.endertanks.bucket.team": "Ender Wiadro",
+    "block.endertanks.tank.public": "Ender Zbiornik",
+    "block.endertanks.tank.private": "Ender Zbiornik",
+    "block.endertanks.tank.team": "Ender Zbiornik"
+}
