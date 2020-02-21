@@ -1,0 +1,55 @@
+!---------------------------------------- Platforms de_de.lang Localization ---------------------------------------!
+! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
+! msg entries can span multiple lines, use <br> to indicate a line break.
+
+! Translated by:
+!  Oli95xz [2017/02/19]
+
+!------------------------------------------------------ MISC ------------------------------------------------------!
+itemGroup.platforms=Platforms
+
+!----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
+info.platforms.base.txt=§6Basis:§7§o
+info.platforms.addon.txt=§6Schiene:§7§o
+
+!------------------------------------------------------ GUI -------------------------------------------------------!
+gui.platformer.slot.storage.info=Speicher; wird genutzt um Materialien zum Craften zu lagern
+gui.platformer.slot.craft.info=Craft Ausgabe; wenn benötigte Materialien verfügbar sind, hier klicken zum craften.
+gui.platformer.slot.decon.info=Dekonstruktion; Plattformen können hier zerlegt werden. Stapelgröße muss gleich oder größer der beim Craften erhaltenen Menge seien.
+gui.platformer.slot.buffer.info=Ausgabe Puffer; wird zur temporären Lagerung zwecks Automatisierung genutzt. Muss leer sein, bevor mehr gecraftet werden kann.
+gui.platformer.slot.material.info=Material Auswahl; definiert Aussehen und benutztes Material.
+gui.platformer.button.select.info=Plattform Auswähler; wechselt zwischen den verfügbaren plattform Typen.
+gui.platformer.preview.info=Plattform Vorschau; Vorschau des finalen Produktes.
+gui.platformer.basic.txt=Speicher Eingang, Puffer & Crafting Ausgabe
+gui.platformer.output.txt=Puffer & Crafting Ausgabe
+gui.platformer.decon.txt=Dekonstruktion Ein-/Ausgang
+gui.platformer.storage.txt=Speicher Ein-/Ausgang
+
+!---------------------------------------------------- INVENTORY ---------------------------------------------------!
+inv.platformer=PlattFormer
+inv.platformer.output=PlattFormer Ausgabe
+inv.platformer.deconstruct=PlattFormer Dekonstruktion
+inv.platformer.storage=Plattformer Speicher
+
+!-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!
+tile.platforms.platform.wood.flat.name=Hölzerne Plattform
+tile.platforms.platform.wood.ramp.name=Hölzerne Rampe
+tile.platforms.platform.wood.floor.name=Hölzerner Boden
+tile.platforms.platform.wood.frame.name=Hölzerner Rahmen
+tile.platforms.platform.wood.rise.name=Hölzerner Aufgang
+tile.platforms.platform.wood.rail.name=Hölzernes Geländer
+tile.platforms.platform.stone.flat.name=Stein Plattform
+tile.platforms.platform.stone.ramp.name=Stein Rampe
+tile.platforms.platform.stone.floor.name=Stein Boden
+tile.platforms.platform.stone.frame.name=Stein Rahmen
+tile.platforms.platform.stone.rise.name=Stein Aufgang
+tile.platforms.platform.stone.rail.name=Stein Geländer
+tile.platforms.platform.metal.flat.name=Metall Plattform
+tile.platforms.platform.metal.ramp.name=Metall Rampe
+tile.platforms.platform.metal.floor.name=Metall Boden
+tile.platforms.platform.metal.frame.name=Metall Rahmen
+tile.platforms.platform.metal.rise.name=Metall Aufgang
+tile.platforms.platform.metal.rail.name=Metall Geländer
+tile.platforms.platform.platformer.name=PlattFormer
+
+item.platforms.wrench.name="Monkey" Schraubenschlüssel

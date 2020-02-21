@@ -1,0 +1,179 @@
+!-------------------------------------- MultiStorage ru_ru.lang Localization --------------------------------------!
+! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
+! msg entries can span multiple lines, use <br> to indicate a line break.
+
+! Translated by:
+!  Mr_Krab [2017/11/8]
+
+!------------------------------------------------------ MISC ------------------------------------------------------!
+itemGroup.multistorage=MultiStorage
+
+!----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!
+error.multistorage.vault.size.msg=Неверный размер хранилища. 4x4x4 минимум, 16x16x16 максимум
+error.multistorage.vault.ceiling.msg=Потолок хранилища не закончен
+error.multistorage.vault.floor.msg=Пол не закончен
+error.multistorage.vault.north.msg=Северная стена не закончена
+error.multistorage.vault.south.msg=Южная стена не закончена
+error.multistorage.vault.east.msg=Восточная стена не закончена
+error.multistorage.vault.west.msg=Западная стена не закончена
+error.multistorage.vault.hidedoor.msg=Вы не можете блокировать доступ к двери, которой вы не владеете
+error.multistorage.vault.door.placement.msg=Дверь должна быть помещена в отверстие 2x2 или 3x3, которое обрамлено блоками хранилища
+error.multistorage.vault.power.missing.msg=Не найденно поддерживаемого API питания<br>Блок не активен
+
+error.multistorage.bag.nolink1.txt=Нельзя связать сумку, вы не владеете этим сундуком
+error.multistorage.bag.nolink2.txt=Не удается связать сумку, владелец сундука неизвестен
+error.multistorage.bag.nolink3.txt=Нельзя связать сумку, вы не в одной команде
+error.multistorage.bag.corrupted.txt=Не удается открыть сумку; Недостаток NBT данных
+
+error.multistorage.chest.public.disabled.txt=Публичные сундуки отключены, сундуки должны быть модернизированы для использования
+error.multistorage.chest.private.disabled.txt=Создание приватных сундуков запрещено
+error.multistorage.chest.team.disabled.txt=Создание командных сундуков запрещено
+error.multistorage.chest.private.denied.txt=Только владелец может выполнить это действие
+error.multistorage.chest.team.denied.txt=Только члены команды могут выполнить это действие
+error.multistorage.bag.public.disabled.txt=Публичные сумки отключены
+error.multistorage.bag.private.disabled.txt=Создание приватных сумок отключено
+error.multistorage.bag.team.disabled.txt=Создание командных сумок отключено
+
+info.multistorage.vault.door.enter.txt=Вошел в хранилище
+info.multistorage.vault.door.leave.txt=Хранилище слева
+info.multistorage.creativeolny.txt=§eПредмет только для креатива
+info.multistorage.chest.public.txt=Общественное использование
+info.multistorage.chest.code.txt=Код:
+info.multistorage.chest.capacity.txt=Объем сундука увеличен до
+info.multistorage.craftingmaterial.txt=Ремесленный материал
+info.multistorage.vault.reason.txt=Причина
+info.multistorage.vault.white.txt=Белый список
+info.multistorage.vault.black.txt=Черный список
+info.multistorage.vault.intruder.removed.txt=Вторжение в хранилище, нарушитель изгнан
+info.multistorage.vault.intruder.killed.txt=Повторное вторжение в хранилище, нарушитель убит
+info.multistorage.vault.power.supporting.txt=Поддержка:
+
+notice.multistorage.noedit.txt=Вы не можете редактировать это хранилище
+notice.multistorage.owneronly.txt=Только владелец хранилища может выполнить это действие
+notice.multistorage.inuse.txt=Не могу удалить дверь, другое хранилище использует ее в качестве стены
+notice.multistorage.noplayer.txt=Для этого требуется игрок.
+notice.multistorage.vault.removedoor.txt=Убрана дверь хранилища
+notice.multistorage.vault.added.txt=добавлен(а) в список доступа к хранилищу
+notice.multistorage.vault.removed.txt=удаляется из списка доступа к хранилищу
+notice.multistorage.vault.setowner.txt=теперь владелец этого хранилища
+notice.multistorage.vault.promote.txt=повышается до уровня суперпользователя
+notice.multistorage.vault.demote.txt=больше не суперпользователь
+notice.multistorage.vault.listtype.txt=Фильтр хранилища установлен на
+notice.multistorage.vault.defence.off.txt=Защита хранилища установлена в: OFF; Эта дверь не будет сканировать нарушителей
+notice.multistorage.vault.defence.kick.txt=Защита хранилища установлена в: KICK; Нарушителей вышвырнут из этого хранилища
+notice.multistorage.vault.defence.kill.txt=Защита хранилища установлена в: KILL; Нарушителей вышвырнут из этого хранилища, за повторные преступления будут убиты
+notice.multistorage.vault.intruder.removed.txt=У вас нет разрешения находиться в этом хранилище, НЕ входите повторно.
+notice.multistorage.vault.intruder.killed.txt=Ну, вас предупреждали, прощайтесь с жизнью.
+
+!-------------------------------------------------- GUI TEXT --------------------------------------------------!
+gui.multistorage.vault.access.txt=Список доступа
+gui.multistorage.vault.owner.txt=Владелец
+gui.multistorage.vault.button.add.txt=Добавить
+gui.multistorage.vault.button.remove.txt=Удалить
+gui.multistorage.vault.button.promote.txt=Повысить
+gui.multistorage.vault.button.demote.txt=Понизить
+gui.multistorage.vault.button.owner.txt=Установить владельцем
+gui.multistorage.vault.button.access.txt=Контроль доступа к хранилищу
+gui.multistorage.vault.button.door.txt=Удалить дверь хранилища
+gui.multistorage.vault.button.filter.white.txt=Режим фильтра: Белый список<br>игроки должны быть в списке, чтобы войти<br><br>Нажмите, чтобы изменить фильтрацию
+gui.multistorage.vault.button.filter.black.txt=Режим фильтра: Черный список<br>войти может любой, если его нет в списке<br>excluding stared users<br><br>Нажмите, чтобы изменить фильтрацию
+gui.multistorage.vault.button.defence.off.txt=Режим обороны: Off<br>никаких действий против злоумышленников<br><br>Нажмите, чтобы изменить режим
+gui.multistorage.vault.button.defence.kick.txt=Режим обороны: Kick<br>нарушители будут выгнаны<br><br>Нажмите, чтобы изменить режим
+gui.multistorage.vault.button.defence.kill.txt=Режим обороны: Kill<br>нарушители будут выгнаны,<br>при повторном входе они будут убиты<br><br>Нажмите, чтобы изменить режим
+gui.multistorage.vault.enterreason.txt=Введите причину здесь
+
+gui.multistorage.junkbox.usedspace.txt=Используемое пространство
+gui.multistorage.junkbox.usedspace.msg=Максимум основан на<br>максимальном размере стака предметов,<br>пустые слоты считаются 64
+gui.multistorage.junkbox.usedslots.txt=Используемые слоты
+gui.multistorage.junkbox.usedslots.msg=Максимум можно увеличить<br>уложив второй сундук<br>и/или с помощью обновления
+
+gui.multistorage.queue.slot.head.out.info=Начало очереди; этот предмет в начале очереди
+gui.multistorage.queue.slot.head.in.info=Вставка в начало; помещенные здесь предметы будут вставлены в начало очереди
+gui.multistorage.queue.slot.tail.out.info=Конец очереди; этот предмет в конце очереди
+gui.multistorage.queue.slot.tail.in.info=Вставка в конец; помещенные здесь предметы будут вставлены в конец очереди
+gui.multistorage.queue.button.toggle.info=Переключатель; изменение вставляемого слота по shift + клик
+gui.multistorage.queue.list.inventory.info=Очередь; предметы в этой очереди, отсортированные от начала до конца
+gui.multistorage.queue.head.io.txt=Старт Ввод/Вывод
+gui.multistorage.queue.head.in.txt=Старт Ввод
+gui.multistorage.queue.head.out.txt=Старт Вывод
+gui.multistorage.queue.head.out.single.txt=Старт Вывод, Режим дропера: Одиночный
+gui.multistorage.queue.head.out.stack.txt=Старт Вывод, Режим дропера: Стак
+gui.multistorage.queue.tail.io.txt=Конец Ввод/Вывод
+gui.multistorage.queue.tail.in.txt=Конец Ввод
+gui.multistorage.queue.tail.out.txt=Конец Вывод
+gui.multistorage.queue.tail.out.single.txt=Конец Вывод, Режим дропера: Одиночный
+gui.multistorage.queue.tail.out.stack.txt=Конец Вывод, Режим дропера: Стак
+
+!---------------------------------------------------- INVENTORY ---------------------------------------------------!
+inv.stacking.chest=Уложенный сундук
+inv.stacking.chest.dense=Плотно уложенный сундук
+inv.chameleon.chest=Хамелеонный сундук
+inv.chameleon.chest.dense=Плотный хамелеонный сундук
+inv.junkbox=Мусорный ящик
+inv.junkbox.dense=Плотный мусорный ящик
+inv.junkbox.double=Двойной мусорный ящик
+inv.junkbox.dense.double=Плотный двойной мусорный ящик
+inv.queue=Очередь
+inv.queue.dense=Плотная очередь
+inv.vault.itembox=Ящик хранилища предметов
+
+inv.corer.fuel=Топливный бур
+inv.corer.items=Бур инвентаря
+
+!----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!
+item.multistorage.enderbag.public.name=Эндер сумка
+item.multistorage.enderbag.private.name=Эндер сумка
+item.multistorage.enderbag.team.name=Эндер сумка
+item.multistorage.enderbag.personal.name=Эндер сумка
+
+tile.multistorage.cloud_hopper.name=Облачная воронка
+
+tile.multistorage.enderchest.public.name=Эндер сундук
+tile.multistorage.enderchest.private.name=Эндер сундук
+tile.multistorage.enderchest.team.name=Эндер сундук
+
+tile.multistorage.storage.cloud.upgrade.name=Апгрейд облачного хранилища
+tile.multistorage.storage.cloud.stacking.name=Облачное хранилище
+tile.multistorage.storage.cloud.stacking.dense.name=Плотное облачное хранилище
+tile.multistorage.storage.cloud.chameleon.name=Хранилище паров
+tile.multistorage.storage.cloud.chameleon.dense.name=Плотное хранилище паров
+tile.multistorage.storage.cloud.junkbox.name=Облачный мусорный ящик
+tile.multistorage.storage.cloud.junkbox.dense.name=Плотный облачный мусорный ящик
+tile.multistorage.storage.cloud.queue.name=Облачная очередь
+tile.multistorage.storage.cloud.queue.dense.name=Плотная облачная очередь
+
+tile.multistorage.storage.stone.upgrade.name=Апгрейд каменного хранилища
+tile.multistorage.storage.stone.stacking.name=Каменное хранилище
+tile.multistorage.storage.stone.stacking.dense.name=Плотное каменное хранилище
+tile.multistorage.storage.stone.chameleon.name=Хранилище хамелеон
+tile.multistorage.storage.stone.chameleon.dense.name=Плотное хранилище хамелеон
+tile.multistorage.storage.stone.junkbox.name=Каменный мусорный ящик
+tile.multistorage.storage.stone.junkbox.dense.name=Плотный каменный мусорный ящик
+tile.multistorage.storage.stone.queue.name=Каменная очередь
+tile.multistorage.storage.stone.queue.dense.name=Плотная каменная очередь
+
+fluid.multistorage.concrete=Бетон для хранилища
+
+tile.multistorage.vault.bucket.name=Бетон для хранилища
+tile.multistorage.vault.door.name=Дверь хранилища
+tile.multistorage.vault.wall.name=Блок стены хранилища
+tile.multistorage.vault.item.name=Ящик для хранения предметов
+tile.multistorage.vault.redstone.name=Редстоуновый проход хранилища
+tile.multistorage.vault.liquid.name=Жидкостный проход хранилища
+tile.multistorage.vault.power.eu.name=EU энергетический проход хранилища
+tile.multistorage.vault.power.rf.name=RF энергетический проход хранилища
+tile.multistorage.vault.power.caps.name=Энергетический прохоод хранилища
+
+tile.multistorage.vault.wall.broken.name=Сломаный блок стены хранилища
+tile.multistorage.vault.item.broken.name=Сломаный ящий для предметов хранилища
+tile.multistorage.vault.redstone.broken.name=Сломаный редстоуновый проход хранилища
+tile.multistorage.vault.liquid.broken.name=Сломаный жидкостный проход хранилища
+tile.multistorage.vault.power.eu.broken.name=Сломаный EU энергетический проход хранилища
+tile.multistorage.vault.power.rf.broken.name=Сломаный RF энергетический проход хранилища
+tile.multistorage.vault.power.caps.broken.name=Сломаный энергетический проход хранилища
+
+tile.multistorage.vault.corer.name=Изменено ядро хранилища
+
+!--------------------------------------------------- NAMES FIX ----------------------------------------------------!
+fluid.tile.lava=Лава
+fluid.tile.water=Вода

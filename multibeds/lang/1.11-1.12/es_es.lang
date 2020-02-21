@@ -1,0 +1,16 @@
+﻿!---------------------------------------- MultiBeds es_es.lang Localization ---------------------------------------!
+! Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes
+! msg entries can span multiple lines, use <br> to indicate a line break.
+
+! Translate by:
+!  Dorzar(VeryHardChamp) [2017/07/23]
+
+!------------------------------------------------------ MISC ------------------------------------------------------!
+itemGroup.multibeds=MultiBeds
+
+!-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!
+item.multibeds.beds.baffle.name=Cojines de pluma
+item.multibeds.beds.cloud.name=Cama de nubes
+item.multibeds.beds.earth.name=Cama
+item.multibeds.beds.spread.name=Cubrecama
+item.multibeds.beds.decorative.name=Cubrecama decorado
