@@ -1,9 +1,9 @@
 ﻿{
-    "": "---------------------------------------- MultiBeds en_us.json Localization ---------------------------------------!",
-    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "": "embroidery gui entries, excludes button, can span multiple lines, use <br> to indicate a line break.",
+    "_comment": "---------------------------------------- MultiBeds en_us.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "embroidery gui entries, excludes button, can span multiple lines, use <br> to indicate a line break.",
 
-    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.multibeds": "MultiBeds",
 
     "error.multibeds.embroidery.no_blanket": "No Blanket To Embroider",
@@ -132,7 +132,7 @@
     "misc.multibeds.art.winner_winner": "Winner Winner",
     "misc.multibeds.art.zoom_zoom": "Zoom Zoom",
 
-    "": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
     "block.multibeds.custom": "Custom Bed",
     "block.multibeds.slab": "Slab Bed",
     "block.multibeds.cot": "Cot",
