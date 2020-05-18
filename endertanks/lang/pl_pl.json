@@ -1,15 +1,12 @@
 {
-    "": "--------------------------------------- EnderTanks pl_pl.json Localization ---------------------------------------!",
-    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "": "msg entries can span multiple lines, use <br> to indicate a line break.",
+    "_comment": "--------------------------------------- EnderTanks pl_pl.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
-    "": "Translated by:",
-    "": "Amakazor [2017/09/20]",
-
-    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.endertanks": "EnderTanks",
 
-    "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "error.endertanks.bucket.nolink1.txt": "Nie można połączyć wiadra, nie jesteś właścicielem tego zbiornika",
     "error.endertanks.bucket.nolink2.txt": "Nie można połączyć wiadra, właściciel nieznany",
     "error.endertanks.bucket.nolink3.txt": "Nie można połączyć wiadra, nie jesteś w tej samej drużynie",
@@ -32,7 +29,7 @@
     "info.endertanks.tank.pump.upgrade.txt": "Pompa ulepszona do",
     "info.endertanks.tank.pump.txt": "Pompa",
 
-    "": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
     "item.endertanks.bucket.public": "Ender Wiadro",
     "item.endertanks.bucket.private": "Ender Wiadro",
     "item.endertanks.bucket.team": "Ender Wiadro",

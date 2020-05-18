@@ -1,16 +1,12 @@
 {
-    "": "-------------------------------------- EnderChests zh_cn.json Localization --------------------------------------!",
-    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "": "msg entries can span multiple lines, use <br> to indicate a line break.",
+    "_comment": "-------------------------------------- EnderChests zh_cn.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
-    "": "Translated by:",
-    "": "TartaricAcid [2016/11/12], Aemande123 [2017/10/06]",
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
 
-    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
-    "!!itemGroup.enderchests": "EnderChests",
-
-    "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "error.enderchests.bag.nolink1.txt": "不能链接末影袋，这个末影链接箱不属于你",
     "error.enderchests.bag.nolink2.txt": "不能链接末影袋，链接箱所有者未知",
     "error.enderchests.bag.nolink3.txt": "不能链接末影袋，你不在同一个team团队",
@@ -31,7 +27,7 @@
 
     "info.enderchests.craftingmaterial.txt": "制作材料",
 
-    "": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
     "item.enderchests.ender_pouch": "末影袋",
 
     "item.enderchests.bag.public": "末影链接袋",

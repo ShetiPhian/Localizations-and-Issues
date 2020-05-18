@@ -1,12 +1,12 @@
 {
-    "": "--------------------------------------- EnderTanks zh_cn.json Localization ---------------------------------------!",
-    "": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "": "msg entries can span multiple lines, use <br> to indicate a line break.",
+    "_comment": "--------------------------------------- EnderTanks zh_cn.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
-    "": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.endertanks": "末影储罐",
 
-    "": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "error.endertanks.bucket.nolink1.txt": "无法连接到桶，你不是储罐拥有者",
     "error.endertanks.bucket.nolink2.txt": "无法连接到桶，储罐拥有者未知",
     "error.endertanks.bucket.nolink3.txt": "无法连接到桶，你和储罐拥有者不在同一个组别",
@@ -29,7 +29,7 @@
     "info.endertanks.tank.pump.upgrade.txt": "泵速升级到",
     "info.endertanks.tank.pump.txt": "泵速",
 
-    "": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
     "item.endertanks.bucket.public": "末影之桶",
     "item.endertanks.bucket.private": "末影之桶",
     "item.endertanks.bucket.team": "末影之桶",
