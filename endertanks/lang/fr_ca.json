@@ -16,6 +16,7 @@
     "error.endertanks.tank.team.disabled.txt": "Creation of team tanks is disabled",
     "error.endertanks.tank.private.denied.txt": "Only the owner can preform that action",
     "error.endertanks.tank.team.denied.txt": "Only team members can preform that action",
+    "error.endertanks.tank.upgrade_used.txt": "That upgrade item can only be applied once per tank",
     "error.endertanks.bucket.public.disabled.txt": "Public buckets are disabled",
     "error.endertanks.bucket.private.disabled.txt": "Creation of private buckets is disabled",
     "error.endertanks.bucket.team.disabled.txt": "Creation of team buckets is disabled",

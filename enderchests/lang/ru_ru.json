@@ -17,6 +17,7 @@
     "error.enderchests.chest.team.disabled.txt": "Создание командных сундуков запрещено",
     "error.enderchests.chest.private.denied.txt": "Только владелец может выполнить это действие",
     "error.enderchests.chest.team.denied.txt": "Только члены команды могут выполнить это действие",
+    "error.enderchests.chest.upgrade_used.txt": "That upgrade item can only be applied once per chest",
     "error.enderchests.bag.public.disabled.txt": "Публичные сумки отключены",
     "error.enderchests.bag.private.disabled.txt": "Создание приватных сумок отключено",
     "error.enderchests.bag.team.disabled.txt": "Создание командных сумок отключено",

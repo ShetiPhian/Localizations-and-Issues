@@ -17,6 +17,7 @@
     "error.endertanks.tank.team.disabled.txt": "Создание командного резервуара отключено",
     "error.endertanks.tank.private.denied.txt": "Только владелец может формовать это действие",
     "error.endertanks.tank.team.denied.txt": "Только участники команды могут формовать это действие",
+    "error.endertanks.tank.upgrade_used.txt": "That upgrade item can only be applied once per tank",
     "error.endertanks.bucket.public.disabled.txt": "Публичные вёдра отключены",
     "error.endertanks.bucket.private.disabled.txt": "Создание публичных вёдер отключено",
     "error.endertanks.bucket.team.disabled.txt": "Создание командных вёдер отключено",

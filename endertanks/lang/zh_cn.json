@@ -16,6 +16,7 @@
     "error.endertanks.tank.team.disabled.txt": "组内公用的储罐已被禁止创建",
     "error.endertanks.tank.private.denied.txt": "只有拥有者才可以那样操作",
     "error.endertanks.tank.team.denied.txt": "只有组内成员才可以那样操作",
+    "error.endertanks.tank.upgrade_used.txt": "That upgrade item can only be applied once per tank",
     "error.endertanks.bucket.public.disabled.txt": "公共的桶已被禁止使用",
     "error.endertanks.bucket.private.disabled.txt": "私人的桶已被禁止创建",
     "error.endertanks.bucket.team.disabled.txt": "组内公用的桶已被禁止创建",
