@@ -169,6 +169,8 @@
     "block.terraqueous.auspicious_garden_fence": "Auspicious Garden Fence",
     "block.terraqueous.foreboding_garden_fence": "Foreboding Garden Fence",
     "block.terraqueous.speed_strip": "Speed Strip",
+    "block.terraqueous.picket_fence": "Picket Fence",
+    "block.terraqueous.iron_fence": "Iron Fence",
 
     "block.terraqueous.cloud_workbench": "Cloud Workbench",
     "block.terraqueous.cloud_furnace": "Cloud Furnace",
@@ -594,5 +596,6 @@
 
     "_comment": "--------------------------------------------------- ENTITIES -----------------------------------------------------!",
     "entity.terraqueous.coconut": "Coconut",
-    "entity.coconut": "Coconut"
+    "entity.coconut": "Coconut",
+    "entity.minecraft.villager.terraqueous.gardner": "Gardner"
 }
