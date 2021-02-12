@@ -17,7 +17,7 @@
     "error.enderchests.chest.team.disabled.txt": "创建team团队箱子被禁止",
     "error.enderchests.chest.private.denied.txt": "只有所有者可以执行该操作",
     "error.enderchests.chest.team.denied.txt": "只有team团队成员才能执行此操作",
-    "error.enderchests.chest.upgrade_used.txt": "That upgrade item can only be applied once per chest",
+    "error.enderchests.chest.upgrade_used.txt": "一个箱子只能使用一次升级物品",
     "error.enderchests.bag.public.disabled.txt": "公共袋子被禁用",
     "error.enderchests.bag.private.disabled.txt": "创建私人袋子被禁用",
     "error.enderchests.bag.team.disabled.txt": "创建team团队袋子被禁用",
