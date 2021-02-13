@@ -1,0 +1,19 @@
+{
+    "_comment": "--------------------------------------- TerraHeads en_us.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.terraheads": "TerraHeads",
+
+    "biome.minecraft.snow": "积雪",
+
+    "_comment": "----------------------------------------------------- BLOCKS -----------------------------------------------------!",
+
+    "block.terraheads.villager_head": "村民的头颅",
+    "block.terraheads.zombie_villager_head": "僵尸村民的头颅",
+    "block.terraheads.illager_head": "灾厄村民的头颅",
+    "block.terraheads.wandering_trader_head": "流浪商人的头颅",
+    "block.terraheads.witch_head": "女巫的头颅",
+
+    "_comment": "------------------------------------------------------------------------------------------------------------------!"
+}
