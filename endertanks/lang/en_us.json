@@ -30,6 +30,12 @@
     "info.endertanks.tank.pump.upgrade.txt": "Pump upgraded to",
     "info.endertanks.tank.pump.txt": "Pump",
 
+    "info.endertanks.tank.type.fluid.txt": "§3§oFluid:§r",
+    "info.endertanks.tank.type.mekanism.gas.txt": "§3§oMekanism Gas:§r",
+    "info.endertanks.tank.type.mekanism.infusion.txt": "§3§oMekanism Infusion:§r",
+    "info.endertanks.tank.type.mekanism.pigment.txt": "§3§oMekanism Pigment:§r",
+    "info.endertanks.tank.type.mekanism.slurry.txt": "§3§oMekanism Slurry:§r",
+
     "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
     "item.endertanks.bucket.public": "Ender Bucket",
     "item.endertanks.bucket.private": "Ender Bucket",
