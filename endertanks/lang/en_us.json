@@ -21,6 +21,12 @@
     "error.endertanks.bucket.private.disabled.txt": "Creation of private buckets is disabled",
     "error.endertanks.bucket.team.disabled.txt": "Creation of team buckets is disabled",
 
+    "info.endertanks.bucket.mode.info.txt": " §oSneak Scroll to Change Mode",
+    "info.endertanks.bucket.mode.normal.txt": "§7Mode:§o Normal (Pickup, Sneak to Place)",
+    "info.endertanks.bucket.mode.invert.txt": "§7Mode:§o Invert (Place, Sneak to Pickup)",
+    "info.endertanks.bucket.mode.pickup.txt": "§7Mode:§o Pickup Only",
+    "info.endertanks.bucket.mode.place.txt": "§7Mode:§o Place Only",
+
     "info.endertanks.bucket.header.txt": "Bucket",
     "info.endertanks.tank.header.txt": "Tank",
     "info.endertanks.tank.empty.txt": "Empty",
