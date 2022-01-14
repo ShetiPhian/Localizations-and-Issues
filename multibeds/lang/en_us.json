@@ -58,10 +58,6 @@
     "gui.multibeds.embroidery.scale.increase": "Increase Pixel Scale<br>Shortcut: +",
     "gui.multibeds.embroidery.scale.decrease": "Decrease Pixel Scale<br>Shortcut: -",
 
-    "info.multibeds.no_texture": "Texture Data Missing",
-    "info.multibeds.invalid_texture": "Texture Block Missing",
-    "info.multibeds.default_texture": "Using Default",
-
     "misc.multibeds.pattern": "Pattern",
     "misc.multibeds.pattern.argyle": "Argyle",
     "misc.multibeds.pattern.buffalo_plaid": "Buffalo Plaid",

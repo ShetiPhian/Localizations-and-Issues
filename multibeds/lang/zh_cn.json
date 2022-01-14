@@ -48,10 +48,6 @@
     "gui.multibeds.embroidery.draw.undo": "撤消<br>快捷键：Ctrl-Z",
     "gui.multibeds.embroidery.draw.redo": "恢复<br>快捷键：Ctrl-Y",
 
-    "info.multibeds.no_texture": "材质数据丢失",
-    "info.multibeds.invalid_texture": "材质方块丢失",
-    "info.multibeds.default_texture": "使用默认的材质",
-
     "misc.multibeds.pattern": "图案",
     "misc.multibeds.pattern.argyle": "阿盖尔菱形花纹",
     "misc.multibeds.pattern.buffalo_plaid": "布法罗格花纹",

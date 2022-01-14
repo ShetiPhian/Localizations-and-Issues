@@ -45,6 +45,10 @@
     "error.shetiphian.team.noteam.txt": "你们不是同一个team团队",
     "error.shetiphian.team.wrong.txt": "对象是另一个team团队",
 
+    "info.shetiphian.texture.missing": "材质数据丢失",
+    "info.shetiphian.texture.invalid": "材质方块丢失",
+    "info.shetiphian.texture.defaulted": "使用默认的材质",
+
     "_comment": "------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!",
     "fluid.tile.lava": "熔岩",
     "fluid.tile.water": "水",
