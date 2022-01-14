@@ -17,7 +17,7 @@
     "info.left": "Left",
     "info.right": "Right",
 
-    "gui.side_disabled.txt": "Disabled",
+    "gui.side_disabled": "Disabled",
 
     "color.white": "White",
     "color.orange": "Orange",
@@ -37,13 +37,13 @@
     "color.black": "Black",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "info.shetiphian.holdshift.txt": "§2Hold SHIFT for more info",
-    "info.shetiphian.creativeolny.txt": "§eCreative Mode Only Item",
-    "info.shetiphian.guide.txt": "Fruzstrated's Guide",
+    "info.shetiphian.holdshift": "§2Hold SHIFT for more info",
+    "info.shetiphian.creativeolny": "§eCreative Mode Only Item",
+    "info.shetiphian.guide": "Fruzstrated's Guide",
     "info.shetiphian.unused": "Unused Item",
 
-    "error.shetiphian.team.noteam.txt": "Your not on a team",
-    "error.shetiphian.team.wrong.txt": "Object owned by another team",
+    "error.shetiphian.team.noteam": "Your not on a team",
+    "error.shetiphian.team.wrong": "Object owned by another team",
 
     "info.shetiphian.texture.missing": "Texture Data Missing",
     "info.shetiphian.texture.invalid": "Texture Block Missing",

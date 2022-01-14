@@ -17,7 +17,7 @@
     "info.left": "左",
     "info.right": "右",
 
-    "gui.side_disabled.txt": "禁用",
+    "gui.side_disabled": "禁用",
 
     "color.white": "白色",
     "color.orange": "橙色",
@@ -37,13 +37,13 @@
     "color.black": "黑色",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "info.shetiphian.holdshift.txt": "§2按下SHIFT查看更多信息",
-    "info.shetiphian.creativeolny.txt": "§e创造模式专用",
-    "info.shetiphian.guide.txt": "Fruzstrated的指导手册",
+    "info.shetiphian.holdshift": "§2按下SHIFT查看更多信息",
+    "info.shetiphian.creativeolny": "§e创造模式专用",
+    "info.shetiphian.guide": "Fruzstrated的指导手册",
     "info.shetiphian.unused": "未使用的物品",
 
-    "error.shetiphian.team.noteam.txt": "你们不是同一个team团队",
-    "error.shetiphian.team.wrong.txt": "对象是另一个team团队",
+    "error.shetiphian.team.noteam": "你们不是同一个team团队",
+    "error.shetiphian.team.wrong": "对象是另一个team团队",
 
     "info.shetiphian.texture.missing": "材质数据丢失",
     "info.shetiphian.texture.invalid": "材质方块丢失",
