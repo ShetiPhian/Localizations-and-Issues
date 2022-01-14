@@ -1,0 +1,41 @@
+{
+    "_comment": "--------------------------------------- EnderTanks ru_ru.json локализация ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
+    "_comment": "Translate by DrHesperus",
+
+    "_comment": "------------------------------------------------------ РАЗНОЕ ------------------------------------------------------!",
+    "itemGroup.endertanks": "EnderTanks",
+
+    "_comment": "----------------------------------------------- ОШИБКА/ИНФОРМАЦИЯ/ПРИМЕЧАНИЕ ------------------------------------------------!",
+    "error.endertanks.bucket.nolink1.txt": "Нельзя связать ведро, Вы не владеете этим ведром",
+    "error.endertanks.bucket.nolink2.txt": "Нельзя связать ведро, владелец Резервуара неизвестен",
+    "error.endertanks.bucket.nolink3.txt": "Нельзя связать ведро, Вы не в одной команде",
+
+    "error.endertanks.tank.public.disabled.txt": "Публичные резервуары отключены, резервуары могут быть улучшены, чтобы использовать",
+    "error.endertanks.tank.private.disabled.txt": "Создание личных резервуаров отключено",
+    "error.endertanks.tank.team.disabled.txt": "Создание командного резервуара отключено",
+    "error.endertanks.tank.private.denied.txt": "Только владелец может формовать это действие",
+    "error.endertanks.tank.team.denied.txt": "Только участники команды могут формовать это действие",
+    "error.endertanks.tank.upgrade_used.txt": "That upgrade item can only be applied once per tank",
+    "error.endertanks.bucket.public.disabled.txt": "Публичные вёдра отключены",
+    "error.endertanks.bucket.private.disabled.txt": "Создание публичных вёдер отключено",
+    "error.endertanks.bucket.team.disabled.txt": "Создание командных вёдер отключено",
+
+    "info.endertanks.bucket.header.txt": "Ведро",
+    "info.endertanks.tank.header.txt": "Резервуар",
+    "info.endertanks.tank.empty.txt": "Пустой",
+    "info.endertanks.tank.public.txt": "Публичное использование",
+    "info.endertanks.tank.code.txt": "Код:",
+    "info.endertanks.tank.capacity.txt": "Объём резервуара улучшен до",
+    "info.endertanks.tank.pump.upgrade.txt": "Помпа улучшена до",
+    "info.endertanks.tank.pump.txt": "Помпа",
+
+    "_comment": "-------------------------------------------------- ПРЕДМЕТЫ/БЛОКИ --------------------------------------------------!",
+    "item.endertanks.bucket.public": "Эндер ведро",
+    "item.endertanks.bucket.private": "Эндер ведро",
+    "item.endertanks.bucket.team": "Эндер ведро",
+    "block.endertanks.tank.public": "Эндер резервуар",
+    "block.endertanks.tank.private": "Эндер резервуар",
+    "block.endertanks.tank.team": "Эндер резервуар"
+}

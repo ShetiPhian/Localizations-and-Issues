@@ -1,0 +1,49 @@
+{
+    "_comment": "---------------------------------------- Platforms zh_cn.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.platforms": "Platforms",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.platforms.base.txt": "§6基座：§7§o",
+    "info.platforms.addon.txt": "§6铁轨：§7§o",
+    "info.platforms.wrench.tooltip.txt": "显示放置预览",
+    "info.platforms.wrench.tooltip.msg": "副手拿着扳手，主手拿着任意平台，<br>就可以显示你现在的视角放置平台后的预览。",
+
+    "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
+    "gui.platformer.slot.storage.info": "存储槽；用来存储合成所需要的材料。",
+    "gui.platformer.slot.craft.info": "合成输出槽；如果材料足够，点击即可合成。",
+    "gui.platformer.slot.decon.info": "销毁槽；站台可以在这里被销毁。堆叠数量必须等于或者大于它被合成时的数量。",
+    "gui.platformer.slot.buffer.info": "输出缓冲槽；作为自动化合成的临时存储区。合成其他物品时候这里必须为空。",
+    "gui.platformer.slot.material.info": "材料选择区；定义外观和使用的材料。",
+    "gui.platformer.button.select.info": "可用平台类型之间循环。",
+    "gui.platformer.preview.info": "站台预览区；渲染最终的物品外观。",
+    "gui.platformer.basic.txt": "输入，缓冲和合成输出",
+    "gui.platformer.output.txt": "缓冲和合成输出",
+    "gui.platformer.decon.txt": "销毁输入/输出",
+    "gui.platformer.storage.txt": "输入/输出",
+
+    "gui.platform_select.back.txt": "§7§l返回：§r 左箭头 / 向上滚动",
+    "gui.platform_select.next.txt": "§7§l下一步：§r 右箭头 / 向下滚动",
+    "gui.platform_select.first.txt": "§7§l最初的选择：§r 空格键",
+    "gui.platform_select.save.txt": "§7§l选定：§r 回车键 / 鼠标右击",
+
+    "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
+    "inv.platformer": "站台合成器",
+    "inv.platformer.output": "站台合成器输出",
+    "inv.platformer.deconstruct": "站台合成器销毁",
+    "inv.platformer.storage": "站台合成器存储",
+
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "block.platforms.flat": "站台",
+    "block.platforms.ramp": "斜坡",
+    "block.platforms.floor": "地板",
+    "block.platforms.frame": "框架",
+    "block.platforms.rise": "楼梯",
+    "block.platforms.rail": "扶手",
+    "block.platforms.platformer": "站台合成器",
+
+    "item.platforms.wrench": "活动扳手"
+}
