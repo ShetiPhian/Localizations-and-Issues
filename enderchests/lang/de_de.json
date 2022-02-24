@@ -7,35 +7,35 @@
     "itemGroup.enderchests": "EnderChests",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "error.enderchests.bag.nolink1": "Kann Beutel nicht verknüpfen, dir gehört diese Truhe nicht",
-    "error.enderchests.bag.nolink2": "Kann Beutel nicht verknüpfen, Besitzer der Truhe ist unbekannt",
-    "error.enderchests.bag.nolink3": "Can not link bag, you're not on the same team",
-    "error.enderchests.bag.corrupted": "Can not open bag; Stack NBT data missing",
+    "error.enderchests.bag.nolink1": "Beutel kann nicht verknüpft werden, da dir diese Truhe nicht gehört",
+    "error.enderchests.bag.nolink2": "Beutel kann nicht verknüpft werden, da der Besitzer dieser Truhe unbekannt ist",
+    "error.enderchests.bag.nolink3": "Beutel kann nicht verknüpft werden, da du nicht im selben Team bist",
+    "error.enderchests.bag.corrupted": "Beutel kann nicht verknüpft werden, da die Stack NBT daten fehlen",
 
-    "error.enderchests.chest.public.disabled": "Public chests are disabled, chests must be upgraded to use",
-    "error.enderchests.chest.private.disabled": "Creation of private chests is disabled",
-    "error.enderchests.chest.team.disabled": "Creation of team chests is disabled",
-    "error.enderchests.chest.private.denied": "Only the owner can preform that action",
-    "error.enderchests.chest.team.denied": "Only team members can preform that action",
-    "error.enderchests.chest.upgrade_used": "That upgrade item can only be applied once per chest",
-    "error.enderchests.bag.public.disabled": "Public bags are disabled",
-    "error.enderchests.bag.private.disabled": "Creation of private bags is disabled",
-    "error.enderchests.bag.team.disabled": "Creation of team bags is disabled",
+    "error.enderchests.chest.public.disabled": "Öffentliche Truhen sind deaktiviert, diese Truhe muss verbessert werden um sie nutzen zu können",
+    "error.enderchests.chest.private.disabled": "Das Erstellen von privaten Truhen wurde deaktiviert",
+    "error.enderchests.chest.team.disabled": "Das Erstellung von Teamtruhen wurde deaktiviert",
+    "error.enderchests.chest.private.denied": "Nur der Besitzer kann diese Aktion ausführen",
+    "error.enderchests.chest.team.denied": "Nur Teammitglieder können diese Aktion ausführen",
+    "error.enderchests.chest.upgrade_used": "Diese Verbesserung kann nur einmal pro Truhe angewendet werden",
+    "error.enderchests.bag.public.disabled": "Öffentliche Beutel sind deaktiviert",
+    "error.enderchests.bag.private.disabled": "Das Erstellen von privaten Beuteln wurde deaktiviert",
+    "error.enderchests.bag.team.disabled": "Das Erstellen von Teambeuteln wurde deaktiviert",
 
     "info.enderchests.chest.public": "Öffentlich",
     "info.enderchests.chest.code": "Code:",
-    "info.enderchests.chest.capacity": "Truhen Kapazität erhöht zu",
+    "info.enderchests.chest.capacity": "Truhenkapazität erhöht auf",
 
-    "info.enderchests.craftingmaterial": "Crafting Material",
+    "info.enderchests.craftingmaterial": "Herstellungsmaterial",
 
     "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
     "item.enderchests.ender_pouch": "EnderBeutel",
 
-    "item.enderchests.bag.public": "Ender Beutel",
-    "item.enderchests.bag.private": "Ender Beutel",
-    "item.enderchests.bag.team": "Ender Beutel",
+    "item.enderchests.bag.public": "Enderbeutel",
+    "item.enderchests.bag.private": "Enderbeutel",
+    "item.enderchests.bag.team": "Enderbeutel",
 
-    "block.enderchests.chest.public": "Ender Truhe",
-    "block.enderchests.chest.private": "Ender Truhe",
-    "block.enderchests.chest.team": "Ender Truhe"
+    "block.enderchests.chest.public": "Endertruhe",
+    "block.enderchests.chest.private": "Endertruhe",
+    "block.enderchests.chest.team": "Endertruhe"
 }
