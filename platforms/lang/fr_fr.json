@@ -1,13 +1,13 @@
 {
-    "_comment": "---------------------------------------- Platforms en_us.json Localization ---------------------------------------!",
+    "_comment": "---------------------------------------- Platforms fr_fr.json Localization ---------------------------------------!",
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
     "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
-    "itemGroup.platforms": "Plateformes",
+    "itemGroup.platforms": "Platforms",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "info.platforms.base": "§6Base :§7§o",
+    "info.platforms.base": "§6Base:§7§o",
     "info.platforms.addon": "§6Rail:§7§o",
     "info.platforms.wrench.tooltip": "affiche le guide de placement",
     "info.platforms.wrench.tooltip.msg": "Guide de placement de la plate-forme<br>affiché lorsque vous tenez la clé dans<br>la main secondaire et que vous tenez une plate-forme<br>dans la main principale",

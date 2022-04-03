@@ -1,0 +1,41 @@
+{
+    "_comment": "-------------------------------------- EnderChests it_it.json Localization --------------------------------------!",
+    "_comment": "Mantenere il file con la codifica UTF-8 per supportare la formattazione della chat http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1.txt": "Impossibile collegare la borsa, non sei il proprietario di questo baule",
+    "error.enderchests.bag.nolink2.txt": "Impossibile collegare la borsa, il proprietario del baule è sconosciuto",
+    "error.enderchests.bag.nolink3.txt": "Impossibile collegare la borsa, non sei nello stessa squadra",
+    "error.enderchests.bag.corrupted.txt": "Impossibile collegare la borsa; Stack NBT data missing",
+
+    "error.enderchests.chest.public.disabled.txt": "Bauli pubblici disabilitati, i bauli vanno potenziati per usarli",
+    "error.enderchests.chest.private.disabled.txt": "La creazione di bauli pubblici è disabilitata",
+    "error.enderchests.chest.team.disabled.txt": "La creazione di bauli di squadra è disabilitata",
+    "error.enderchests.chest.private.denied.txt": "Solo il proprietario può effettuare quest'azione",
+    "error.enderchests.chest.team.denied.txt": "Solo i membri della squadra possono effettuare quest'azione",
+    "error.enderchests.chest.upgrade_used.txt": "L'oggetto per il potenziamento può essere applicato solo una volta per baule",
+    "error.enderchests.bag.public.disabled.txt": "Le borse pubbliche sono disabilitate",
+    "error.enderchests.bag.private.disabled.txt": "La creazione di borse pribate è disabilitata",
+    "error.enderchests.bag.team.disabled.txt": "Creazione delle borse di squadra disabilitata",
+
+    "info.enderchests.chest.public.txt": "Uso Pubblico",
+    "info.enderchests.chest.code.txt": "Codice:",
+    "info.enderchests.chest.capacity.txt": "Capacitù del baule incrementata a",
+
+    "info.enderchests.craftingmaterial.txt": "Materiale per la Fabbricazione",
+
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "Borsa dell'Ender",
+
+    "item.enderchests.bag.public": "Borsa dell'Ender",
+    "item.enderchests.bag.private": "Borsa dell'Ender",
+    "item.enderchests.bag.team": "Borsa dell'Ender",
+
+    "block.enderchests.chest.public": "Borsa dell'Ender",
+    "block.enderchests.chest.private": "Borsa dell'Ender",
+    "block.enderchests.chest.team": "Borsa dell'Ender"
+}
