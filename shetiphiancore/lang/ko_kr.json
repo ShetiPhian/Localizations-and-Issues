@@ -1,0 +1,118 @@
+{
+    "_comment": "------------------------------------- ShetiPhianCore ko_kr.json Localization -------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "info.down": "아래",
+    "info.up": "위",
+    "info.north": "북쪽",
+    "info.south": "남쪽",
+    "info.west": "서쪽",
+    "info.east": "동쪽",
+    "info.bottom": "하단",
+    "info.top": "상단",
+    "info.back": "뒤",
+    "info.front": "앞",
+    "info.left": "왼쪽",
+    "info.right": "오른쪽",
+
+    "gui.side_disabled": "비활성화",
+
+    "color.white": "하얀색",
+    "color.orange": "주황색",
+    "color.magenta": "자홍색",
+    "color.light_blue": "하늘색",
+    "color.yellow": "노란색",
+    "color.lime": "연두색",
+    "color.pink": "분홍색",
+    "color.gray": "회색",
+    "color.light_gray": "회백색",
+    "color.cyan": "청록색",
+    "color.purple": "보라색",
+    "color.blue": "파라색",
+    "color.brown": "갈색",
+    "color.green": "초록색",
+    "color.red": "빨간색",
+    "color.black": "검은색",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.shetiphian.holdshift": "§2더 많은 정보를 보려면 SHIFT를 누르세요.",
+    "info.shetiphian.creativeolny": "§e크리에이티브 모드 전용 아이템",
+    "info.shetiphian.guide": "Fruzstrated의 가이드",
+    "info.shetiphian.unused": "사용되지 않는 아이템",
+
+    "error.shetiphian.team.noteam": "당신은 팀에 있지 않습니다.",
+    "error.shetiphian.team.wrong": "다른 팀이 소유한 객체입니다.",
+
+    "info.shetiphian.texture.missing": "텍스쳐 데이터 없음",
+    "info.shetiphian.texture.invalid": "텍스쳐 블록 없음",
+    "info.shetiphian.texture.defaulted": "기본 사용",
+
+    "_comment": "--------------------------------------------------- TEAMS -----------------------------------------------------!",
+    "shetiphiancore.team.create.success": "팀을 성공적으로 만들었습니다.",
+    "shetiphiancore.team.create.fail.inteam": "먼저 현재 팀을 떠나야합니다.",
+    "shetiphiancore.team.create.fail.exists": "그 이름을 가진 팀이 이미 존재합니다.",
+
+    "shetiphiancore.team.rename.success": "%1$s이(가) %2$s(으)로 이름을 바꾸었습니다.",
+    "shetiphiancore.team.rename.fail.same": "같은 이름이 주어져 이름을 바꾸지 않았습니다.",
+
+    "shetiphiancore.team.invite.send.success": "초대를 성공적으로 보냈습니다.",
+    "shetiphiancore.team.invite.send.fail.member": "그 플레이어는 이미 구성원입니다.",
+    "shetiphiancore.team.invite.send.fail.pending": "그 플레이어는 이미 %1$s으로의 초대를 대기중입니다.",
+    "shetiphiancore.team.invite.receive.notice": "당신은 %1$s에 가입하도록 초대받았습니다. (다음 %3$s분 이내에 %2$s을(를) 사용하여 수락)",
+    "shetiphiancore.team.invite.accept.success": "당신은 이제 %1$s의 회원입니다.",
+    "shetiphiancore.team.invite.accept.success.notice": "%1$s이(가) 팀에 가입했습니다.",
+    "shetiphiancore.team.invite.accept.fail.permissions": "나를 초대한 플레이어가 더 이상 구성원을 추가할 수 있는 권한이 없으므로 참여할 수 없습니다.",
+    "shetiphiancore.team.invite.accept.fail.member": "당신은 이미 이 팀의 구성원입니다",
+    "shetiphiancore.team.invite.accept.fail.inteam": "초대를 수락할 수 없습니다. 먼저 현재 팀을 떠나야 합니다.",
+    "shetiphiancore.team.invite.accept.fail.noinvite": "수락할 팀 초대가 없습니다.",
+
+    "shetiphiancore.team.leave.success": "당신은 팀을 떠났습니다.",
+    "shetiphiancore.team.leave.success.notice": "%1$s이(가) 팀을 떠났습니다.",
+    "shetiphiancore.team.leave.fail.leader": "리더는 팀을 양도하거나 해산해야합니다.",
+
+    "shetiphiancore.team.kick.success": "플레이어가 팀에서 추방되었습니다.",
+    "shetiphiancore.team.kick.success.notice": "당신은 팀에서 추방되었습니다.",
+    "shetiphiancore.team.kick.fail.rank": "당신은 당신보다 낮은 등급의 플레이어만 추방할 수 있습니다.",
+    "shetiphiancore.team.kick.fail.team": "그 플레이어는 당신의 팀의 구성원이 아닙니다.",
+
+    "shetiphiancore.team.rank.promote.success": "구성원을 성공적으로 승급시켰습니다.",
+    "shetiphiancore.team.rank.promote.success.notice": "당신은 팀 관리자로 승급했습니다.",
+    "shetiphiancore.team.rank.promote.fail.manager": "구성원이 이미 관리자입니다.",
+    "shetiphiancore.team.rank.promote.fail.not_member": "구성원이 아닌 플레이어를 승급시킬 수 없습니다.",
+
+    "shetiphiancore.team.rank.demote.success": "구성원을 성공적으로 강등시켰습니다.",
+    "shetiphiancore.team.rank.demote.success.notice": "당신은 강등되어 더 이상 팀 관리자가 아닙니다.",
+    "shetiphiancore.team.rank.demote.success.self": "당신은 성공적으로 자기자신을 강등했습니다.",
+
+    "shetiphiancore.team.transfer.success": "리더권이 성공적으로 양도되었습니다.",
+    "shetiphiancore.team.transfer.success.notice": "당신은 이제 %1$s의 리더입니다.",
+    "shetiphiancore.team.transfer.fail.self": "양도 중단: 자신에게 양도할 수 없음",
+
+    "shetiphiancore.team.disband.success": "%1$s가 해산되었습니다.",
+    "shetiphiancore.team.disband.fail": "당신은 이제 팀 리더가 아닙니다.",
+
+    "shetiphiancore.team.no_teams": "팀이 없습니다.",
+    "shetiphiancore.team.members.empty": "팀의 구성원이 없습니다.",
+    "shetiphiancore.team.members.error.noteam": "팀이 존재하지 않습니다.",
+
+    "shetiphiancore.team.error.no_team": "당신은 팀에 소속되어있지 않습니다.",
+    "shetiphiancore.team.error.not_manager.self": "당신은 팀 관리자가 아닙니다.",
+    "shetiphiancore.team.error.not_manager.other": "그 플레이어는 팀 관리자가 아닙니다.",
+
+    "shetiphiancore.team.sysadmin.kick.success": "플레이어가 팀에서 추방되었습니다.",
+    "shetiphiancore.team.sysadmin.kick.inform": "서버 관리자가 당신을 %1$s에서 추방하였습니다.",
+    "shetiphiancore.team.sysadmin.add.success": "플레이어가 팀에 가입되었습니다.",
+    "shetiphiancore.team.sysadmin.add.inform": "당신은 %1$s에 가입되었습니다.",
+    "shetiphiancore.team.sysadmin.transfer.fail": "양도 중단: 그 유저는 이미 리더입니다.",
+    "shetiphiancore.team.sysadmin.disband.success": "팀이 해산되어 모든 구성원이 추방되었습니다.",
+    "shetiphiancore.team.sysadmin.disband.inform": "어드민이 %1$s을(를) 해산했습니다. 당신은 더 이상 팀에 소속되어있지 않습니다.",
+
+    "_comment": "------------------------------------------------ NAME CORRECTIONS ------------------------------------------------!",
+    "fluid.tile.lava": "용암",
+    "fluid.tile.water": "물",
+    "item.dyePowder.green": "초록색 염료",
+    "item.dyePowder.red": "빨간색 염료",
+    "item.dyePowder.yellow": "노란색 염료"
+}
