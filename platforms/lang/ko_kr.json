@@ -1,0 +1,49 @@
+{
+    "_comment": "---------------------------------------- Platforms ko_kr.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.platforms": "Platforms",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "info.platforms.base": "§6베이스:§7§o",
+    "info.platforms.addon": "§6레일:§7§o",
+    "info.platforms.wrench.tooltip": "배치 가이드 표시",
+    "info.platforms.wrench.tooltip.msg": "보조 손에 렌치를 들고<br>주 손에 플랫폼을 들 때<br>플랫폼 배치 가이드를 표시합니다.",
+
+    "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
+    "gui.platformer.slot.storage.info": "저장소; 제작하는 데 필요한 재료들을 저장하는 데 쓰입니다.",
+    "gui.platformer.slot.craft.info": "제작 출력; 필요한 재료들이 모두 있으면 여기를 클릭하여 제작하세요.",
+    "gui.platformer.slot.decon.info": "해체; 여기에서 플랫폼을 나눌 수 있습니다. 스택 크기는 제작 시 받는 양과 같거나 큽니다.",
+    "gui.platformer.slot.buffer.info": "출력 버퍼; 자동화를 위한 임시 저장소로 사용합니다. 제작되기 전에는 비어있어야합니다.",
+    "gui.platformer.slot.material.info": "재료 선택; 사용되는 블록과 외관을 정의합니다.",
+    "gui.platformer.button.select.info": "플랫폼 선택자; 사용 가능한 플랫폼 사이를 순환합니다.",
+    "gui.platformer.preview.info": "플래폼 미리보기; 최종 생산물을 보여줍니다.",
+    "gui.platformer.basic": "저장소 입력, 버퍼 & 제작 출력",
+    "gui.platformer.output": "버퍼 & 제작 출력",
+    "gui.platformer.decon": "해체 입/출력",
+    "gui.platformer.storage": "저장소 입/출력",
+
+    "gui.platform_select.back": "§7§l이전:§r 왼쪽 화살표 / Scroll Up",
+    "gui.platform_select.next": "§7§l이후:§r 오른쪽 화살표 / Scroll Down",
+    "gui.platform_select.first": "§7§l초기 옵션:§r 스페이스 바",
+    "gui.platform_select.save": "§7§l선택:§r 엔터 / 우클릭",
+
+    "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
+    "inv.platformer": "플랫포머",
+    "inv.platformer.output": "플랫포머 출력",
+    "inv.platformer.deconstruct": "플랫포머 해체",
+    "inv.platformer.storage": "플랫포머 저장소",
+
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "block.platforms.flat": "플랫폼",
+    "block.platforms.ramp": "비탈길",
+    "block.platforms.floor": "바닥",
+    "block.platforms.frame": "프레임",
+    "block.platforms.rise": "오르막길",
+    "block.platforms.rail": "핸드레일",
+    "block.platforms.platformer": "플랫포머",
+
+    "item.platforms.wrench": "몽키 스패너"
+}
