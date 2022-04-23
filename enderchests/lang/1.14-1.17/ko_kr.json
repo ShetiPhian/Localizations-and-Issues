@@ -1,0 +1,41 @@
+{
+    "_comment": "-------------------------------------- EnderChests ko_kr.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1.txt": "가방에 연결할 수 없습니다. 당신은 이 상자를 소유하고 있지 않습니다.",
+    "error.enderchests.bag.nolink2.txt": "가방에 연결할 수 없습니다. 상자의 소유자를 알 수 없습니다.",
+    "error.enderchests.bag.nolink3.txt": "가방에 연결할 수 없습니다. 당신은 같은 팀에 소속되어 있지 않습니다.",
+    "error.enderchests.bag.corrupted.txt": "가방을 열 수 없습니다. 스택 NBT 데이터가 없습니다.",
+
+    "error.enderchests.chest.public.disabled.txt": "공용 상자는 비활성화 되어있습니다. 상자를 사용하려면 업그레이드해야만 합니다.",
+    "error.enderchests.chest.private.disabled.txt": "개인 상자의 생성은 비활성화 되어있습니다.",
+    "error.enderchests.chest.team.disabled.txt": "팀 상자의 생성은 비활성화 되어있습니다.",
+    "error.enderchests.chest.private.denied.txt": "소유자만 해당 작업을 수행할 수 있습니다.",
+    "error.enderchests.chest.team.denied.txt": "팀 구성원만 해당 작업을 수행할 수 있습니다.",
+    "error.enderchests.chest.upgrade_used.txt": "그 업그레이드 아이템은 상자 당 하나만 적용할 수 있습니다.",
+    "error.enderchests.bag.public.disabled.txt": "공용 가방은 비활성화 되어있습니다.",
+    "error.enderchests.bag.private.disabled.txt": "개인 가방의 생성은 비활성화 되어있습니다.",
+    "error.enderchests.bag.team.disabled.txt": "팀 가방의 생성은 비활성화 되어있습니다.",
+
+    "info.enderchests.chest.public.txt": "공용 사용",
+    "info.enderchests.chest.code.txt": "코드:",
+    "info.enderchests.chest.capacity.txt": "상자의 용량이 다음으로 증가했습니다.",
+
+    "info.enderchests.craftingmaterial.txt": "제작 재료",
+
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "엔더 주머니",
+
+    "item.enderchests.bag.public": "엔더 가방",
+    "item.enderchests.bag.private": "엔더 가방",
+    "item.enderchests.bag.team": "엔더 가방",
+
+    "block.enderchests.chest.public": "엔더 상자",
+    "block.enderchests.chest.private": "엔더 상자",
+    "block.enderchests.chest.team": "엔더 상자"
+}
