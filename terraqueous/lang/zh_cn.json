@@ -1,7 +1,6 @@
 {
     "_comment": "--------------------------------------- Terraqueous zh_cn.json Localization --------------------------------------!",
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.terraqueous": "地灵云心/海树山花",
@@ -40,20 +39,20 @@
     "info.terraqueous.multitool": "§o按住SHIFT并滑动滚轮以切换模式",
 
     "info.terraqueous.cloudstaff.mode": "§o按住SHIFT并滑动滚轮以切换放置方块",
-    "msg.terraqueous.cloudstaff.placing": "放置方块：%1$s<br>%2$s 个方块剩余",
+    "info.terraqueous.cloudstaff.placing": "放置方块：%1$s \n%2$s 个方块剩余",
 
     "info.terraqueous.column.sneak_place": "§o潜行放置将材质改成柱底",
 
     "info.terraqueous.scythe.modechanged": "§6收割模式：§r",
     "info.terraqueous.scythe.small": "§o手柄缩短以供日常使用",
     "info.terraqueous.scythe.large": "§o手柄伸长以供地面工作",
-    "msg.terraqueous.scythe.shift": "§4右键：<br>§7切换镰刀/大镰刀<br>§4按住SHIFT并滑动滚轮：<br>§7切换收割模式",
+    "info.terraqueous.scythe.shift": "§4右键： \n§7切换镰刀/大镰刀 \n§4按住SHIFT并滑动滚轮： \n§7切换收割模式",
     "info.terraqueous.scythe.mode": "§4当前使用的收割模式：",
-    "msg.terraqueous.scythe.mode.type": "相似方块；相同类型（植物/作物及树叶)",
-    "msg.terraqueous.scythe.mode.block": "相似方块；相同方块Id",
-    "msg.terraqueous.scythe.mode.tag": "相似方块；相同方块Tag",
-    "msg.terraqueous.scythe.mode.state": "相同方块；相同方块状态",
-    "msg.terraqueous.scythe.mode.all": "所有植物/作物及树叶",
+    "info.terraqueous.scythe.mode.type": "相似方块；相同类型（植物/作物及树叶)",
+    "info.terraqueous.scythe.mode.block": "相似方块；相同方块Id",
+    "info.terraqueous.scythe.mode.tag": "相似方块；相同方块Tag",
+    "info.terraqueous.scythe.mode.state": "相同方块；相同方块状态",
+    "info.terraqueous.scythe.mode.all": "所有植物/作物及树叶",
 
     "info.terraqueous.deathfruit": "§o这不可能对你有好处",
 
@@ -63,7 +62,7 @@
     "info.colorizer.preset.save": "右键：保存",
     "info.colorizer.preset.load": "左键：加载",
 
-    "info.terraqueous.toon_trotters.msg": "这上面写着东西！<br>§o “千万不要看向脚下<br>§o—— 你的朋友；Wile E. Coyote\"",
+    "info.terraqueous.toon_trotters": "这上面写着东西！ \n§o “千万不要看向脚下 \n§o—— 你的朋友；Wile E. Coyote\"",
 
     "info.terraqueous.waterpearl.water": "提供无限水以：",
     "info.terraqueous.waterpearl.placement": "世界填充",
@@ -74,7 +73,7 @@
     "_comment": "--------------------------------------------------- JEI INFO -----------------------------------------------------!",
     "info.terraqueous.drying.finished": "晾晒草得到的产品",
     "info.terraqueous.drying.create": "继续晾晒以获得干草",
-    "info.terraqueous.drying.source.msg": "如何晾晒草：<br>通过右键将高草从、疏松的草、晾晒中的草放在地上。（高草从需要按住SHIFT右键）<br><br>在寒冷的生物群系无法进行晾晒<br><br>将草放置在沙子、岩浆上方的石头或者炎热的生物群系可使晾晒速度加快。",
+    "info.terraqueous.drying.source": "如何晾晒草： \n通过右键将高草从、疏松的草、晾晒中的草放在地上。（高草从需要按住SHIFT右键） \n\n在寒冷的生物群系无法进行晾晒 \n\n将草放置在沙子、岩浆上方的石头或者炎热的生物群系可使晾晒速度加快。",
 
     "info.terraqueous.exp": "经验等级",
     "info.terraqueous.visible": "使用%1$s点魔力查看附魔",

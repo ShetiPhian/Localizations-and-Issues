@@ -1,7 +1,6 @@
 {
     "_comment": "---------------------------------------- Platforms ko_kr.json Localization ---------------------------------------!",
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.platforms": "Platforms",
@@ -10,7 +9,7 @@
     "info.platforms.base": "§6베이스:§7§o",
     "info.platforms.addon": "§6레일:§7§o",
     "info.platforms.wrench.tooltip": "배치 가이드 표시",
-    "info.platforms.wrench.tooltip.msg": "보조 손에 렌치를 들고<br>주 손에 플랫폼을 들 때<br>플랫폼 배치 가이드를 표시합니다.",
+    "info.platforms.wrench.tooltip2": "보조 손에 렌치를 들고 \n주 손에 플랫폼을 들 때 \n플랫폼 배치 가이드를 표시합니다.",
 
     "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
     "gui.platformer.slot.storage.info": "저장소; 제작하는 데 필요한 재료들을 저장하는 데 쓰입니다.",

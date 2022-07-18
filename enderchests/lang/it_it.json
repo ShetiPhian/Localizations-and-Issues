@@ -1,7 +1,6 @@
 {
     "_comment": "-------------------------------------- EnderChests it_it.json Localization --------------------------------------!",
     "_comment": "Mantenere il file con la codifica UTF-8 per supportare la formattazione della chat http://minecraft.gamepedia.com/Formatting_codes",
-    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.enderchests": "EnderChests",

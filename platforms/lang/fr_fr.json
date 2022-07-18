@@ -1,7 +1,6 @@
 {
     "_comment": "---------------------------------------- Platforms fr_fr.json Localization ---------------------------------------!",
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.platforms": "Platforms",
@@ -10,7 +9,7 @@
     "info.platforms.base": "§6Base:§7§o",
     "info.platforms.addon": "§6Rail:§7§o",
     "info.platforms.wrench.tooltip": "affiche le guide de placement",
-    "info.platforms.wrench.tooltip.msg": "Guide de placement de la plate-forme<br>affiché lorsque vous tenez la clé dans<br>la main secondaire et que vous tenez une plate-forme<br>dans la main principale",
+    "info.platforms.wrench.tooltip2": "Guide de placement de la plate-forme \naffiché lorsque vous tenez la clé dans \nla main secondaire et que vous tenez une plate-forme \ndans la main principale",
 
     "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
     "gui.platformer.slot.storage.info": "Espace de rangement ; Utilisé pour stocker les matériaux nécessaires à l'artisanat.",

@@ -1,7 +1,6 @@
 {
     "_comment": "--------------------------------------- Terraqueous en_us.json Localization --------------------------------------!",
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.terraqueous": "Terraqueous",
@@ -40,20 +39,20 @@
     "info.terraqueous.multitool": "§oSneak Scroll to Change Mode",
 
     "info.terraqueous.cloudstaff.mode": "§oSneak Scroll to Change Block",
-    "msg.terraqueous.cloudstaff.placing": "Placing: %1$s<br>%2$s Blocks Available",
+    "info.terraqueous.cloudstaff.placing": "Placing: %1$s \n%2$s Blocks Available",
 
     "info.terraqueous.column.sneak_place": "§oSneak to place end cap",
 
     "info.terraqueous.scythe.modechanged": "§6Harvest Mode: §r",
     "info.terraqueous.scythe.small": "§oHandle retracted for overhead use",
     "info.terraqueous.scythe.large": "§oHandle extended for ground use",
-    "msg.terraqueous.scythe.shift": "§4Right-Click:<br>§7Toggle Scythe/Sickle<br>§4Sneak Scroll:<br>§7Change Harvest Mode",
+    "info.terraqueous.scythe.shift": "§4Right-Click: \n§7Toggle Scythe/Sickle \n§4Sneak Scroll: \n§7Change Harvest Mode",
     "info.terraqueous.scythe.mode": "§4Current Harvest Mode:",
-    "msg.terraqueous.scythe.mode.type": "Similar; Same Type (plants/crops or leaves)",
-    "msg.terraqueous.scythe.mode.block": "Similar Block; Same BlockId",
-    "msg.terraqueous.scythe.mode.tag": "Similar Block; Same a BlockTag",
-    "msg.terraqueous.scythe.mode.state": "Identical Block; Same BlockState",
-    "msg.terraqueous.scythe.mode.all": "All plants/crops and leaves",
+    "info.terraqueous.scythe.mode.type": "Similar; Same Type (plants/crops or leaves)",
+    "info.terraqueous.scythe.mode.block": "Similar Block; Same BlockId",
+    "info.terraqueous.scythe.mode.tag": "Similar Block; Same a BlockTag",
+    "info.terraqueous.scythe.mode.state": "Identical Block; Same BlockState",
+    "info.terraqueous.scythe.mode.all": "All plants/crops and leaves",
 
     "info.terraqueous.deathfruit": "§oThis can't be good for you",
 
@@ -63,7 +62,7 @@
     "info.colorizer.preset.save": "Right-Click: Save",
     "info.colorizer.preset.load": "Left-Click: Load",
 
-    "info.terraqueous.toon_trotters.msg": "They're signed!<br>§o \"Never look down<br>§o - Your friend; Wile E. Coyote\"",
+    "info.terraqueous.toon_trotters": "They're signed! \n§o \"Never look down \n§o - Your friend; Wile E. Coyote\"",
 
     "info.terraqueous.waterpearl.water": "Infinite water for:",
     "info.terraqueous.waterpearl.placement": "World Placement",
@@ -74,7 +73,7 @@
     "_comment": "--------------------------------------------------- JEI INFO -----------------------------------------------------!",
     "info.terraqueous.drying.finished": "The finished product from drying grass",
     "info.terraqueous.drying.create": "Continue drying to create",
-    "info.terraqueous.drying.source.msg": "How to Dry:<br>Place tall grass, loose grass, or drying grass, via right-click (shift + right-click for tall grass)<br><br>This does not work in cold biomes.<br><br>Drying is faster on sand in a hot biome, or when placed on a stone with lava underneath.",
+    "info.terraqueous.drying.source": "How to Dry: \nPlace tall grass, loose grass, or drying grass, via right-click (shift + right-click for tall grass) \n\nThis does not work in cold biomes. \n\nDrying is faster on sand in a hot biome, or when placed on a stone with lava underneath.",
 
     "info.terraqueous.exp": "Experience Levels",
     "info.terraqueous.visible": "Visible with %1$s EnchantPower",

@@ -1,7 +1,6 @@
 {
     "_comment": "---------------------------------------- Platforms zh_cn.json Localization ---------------------------------------!",
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.platforms": "Platforms",
@@ -10,7 +9,7 @@
     "info.platforms.base": "§6基座：§7§o",
     "info.platforms.addon": "§6铁轨：§7§o",
     "info.platforms.wrench.tooltip": "显示放置预览",
-    "info.platforms.wrench.tooltip.msg": "副手拿着扳手，主手拿着任意平台，<br>就可以显示你现在的视角放置平台后的预览。",
+    "info.platforms.wrench.tooltip2": "副手拿着扳手，主手拿着任意平台， \n就可以显示你现在的视角放置平台后的预览。",
 
     "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
     "gui.platformer.slot.storage.info": "存储槽；用来存储合成所需要的材料。",
