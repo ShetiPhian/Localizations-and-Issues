@@ -6,35 +6,35 @@
     "itemGroup.enderchests": "EnderChests",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "error.enderchests.bag.nolink1": "Нельзя связать сумку, вы не владеете этим сундуком",
-    "error.enderchests.bag.nolink2": "Не удается связать сумку, владелец сундука неизвестен",
-    "error.enderchests.bag.nolink3": "Нельзя связать сумку, вы не в одной команде",
-    "error.enderchests.bag.corrupted": "Не удается открыть сумку; Недостаток NBT данных",
+    "error.enderchests.bag.nolink1": "Нельзя связать мешок, ты не владеешь этим сундуком.",
+    "error.enderchests.bag.nolink2": "Нельзя связать мешок, владелец Сундука неизвестен",
+    "error.enderchests.bag.nolink3": "Нельзя связать мешок, ты не в его команде",
+    "error.enderchests.bag.corrupted": "Нельзя открыть мешок; Отсутствуют данные стэка NBT",
 
-    "error.enderchests.chest.public.disabled": "Публичные сундуки отключены, сундуки должны быть модернизированы для использования",
-    "error.enderchests.chest.private.disabled": "Создание приватных сундуков запрещено",
-    "error.enderchests.chest.team.disabled": "Создание командных сундуков запрещено",
-    "error.enderchests.chest.private.denied": "Только владелец может выполнить это действие",
-    "error.enderchests.chest.team.denied": "Только члены команды могут выполнить это действие",
-    "error.enderchests.chest.upgrade_used": "That upgrade item can only be applied once per chest",
-    "error.enderchests.bag.public.disabled": "Публичные сумки отключены",
-    "error.enderchests.bag.private.disabled": "Создание приватных сумок отключено",
-    "error.enderchests.bag.team.disabled": "Создание командных сумок отключено",
+    "error.enderchests.chest.public.disabled": "Общедоступные сундуки отключены, сундуки должны быть улучшены для использования.",
+    "error.enderchests.chest.private.disabled": "Создание личных сундуков отключено.",
+    "error.enderchests.chest.team.disabled": "Создание командных сундуков отключено.",
+    "error.enderchests.chest.private.denied": "Лишь владелец может предопределить такое действие.",
+    "error.enderchests.chest.team.denied": "Лишь участники команды могут предопределить такое действие.",
+    "error.enderchests.chest.upgrade_used": "Такой предмет модернизации может быть применён только один раз за сундук",
+    "error.enderchests.bag.public.disabled": "Общедоступные мешки отключены.",
+    "error.enderchests.bag.private.disabled": "Создание личных мешков отключено.",
+    "error.enderchests.bag.team.disabled": "Создание командных мешком отключено.",
 
-    "info.enderchests.chest.public": "Общественное использование",
+    "info.enderchests.chest.public": "Общедоступное использование",
     "info.enderchests.chest.code": "Код:",
-    "info.enderchests.chest.capacity": "Объем сундука увеличен до",
+    "info.enderchests.chest.capacity": "Вместимость сундука увеличен до",
 
-    "info.enderchests.craftingmaterial": "Ремесленный материал",
+    "info.enderchests.craftingmaterial": "Материал создания",
 
     "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
-    "item.enderchests.ender_pouch": "Эндер сумка",
+    "item.enderchests.ender_pouch": "Эндер-мешок",
 
-    "item.enderchests.bag.public": "Эндер сумка",
-    "item.enderchests.bag.private": "Эндер сумка",
-    "item.enderchests.bag.team": "Эндер сумка",
+    "item.enderchests.bag.public": "Эндер-мешок",
+    "item.enderchests.bag.private": "Эндер-мешок",
+    "item.enderchests.bag.team": "Эндер-мешок",
 
-    "block.enderchests.chest.public": "Эндер сундук",
-    "block.enderchests.chest.private": "Эндер сундук",
-    "block.enderchests.chest.team": "Эндер сундук"
+    "block.enderchests.chest.public": "Эндер-сундук",
+    "block.enderchests.chest.private": "Эндер-сундук",
+    "block.enderchests.chest.team": "Эндер-сундук"
 }
