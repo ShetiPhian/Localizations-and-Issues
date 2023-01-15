@@ -1,0 +1,21 @@
+{
+	// Select A GUI Style
+	"GUI_STYLE": {
+		/* Bed & Ladder Builders 
+		   #Allowed Values: DEFAULT, VANILLA
+		*/
+		"bed_kit": "DEFAULT",
+		/* Blanket Loom 
+		   #Allowed Values: DEFAULT, VANILLA
+		*/
+		"blanket_loom": "DEFAULT",
+		/* Embroidery Thread 
+		   #Allowed Values: DEFAULT, VANILLA
+		*/
+		"embroidery": "DEFAULT",
+		/* Embroidery Draw 
+		   #Allowed Values: DEFAULT, VANILLA
+		*/
+		"mc_painter": "DEFAULT"
+	}
+}

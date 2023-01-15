@@ -1,0 +1,540 @@
+#List of effects Trickster Bloom can apply
+"Trickster Bloom Effects" = ["effect[minecraft:speed];time[30-60];level[0-1]", "effect[minecraft:slowness];time[10-20];level[0-1]", "effect[minecraft:haste];time[60-120];level[0-1]", "effect[minecraft:mining_fatigue];time[60-120];level[0-1]", "effect[minecraft:strength];time[60-120];level[0-1]", "effect[minecraft:jump_boost];time[60-120];level[0-1]", "effect[minecraft:nausea];time[10];level[0]", "effect[minecraft:regeneration];time[10-30];level[0-1]", "effect[minecraft:resistance];time[60-120];level[0-1]", "effect[minecraft:fire_resistance];time[150-300];level[0-1]", "effect[minecraft:water_breathing];time[150-300];level[0-1]", "effect[minecraft:invisibility];time[60-300];level[0-1]", "effect[minecraft:blindness];time[30-60];level[0-1]", "effect[minecraft:night_vision];time[60-120];level[0-1]", "effect[minecraft:hunger];time[10-30];level[0-1]", "effect[minecraft:weakness];time[10-20];level[0-1]", "effect[minecraft:poison];time[5-10];level[0]", "effect[minecraft:wither];time[3-5];level[0]", "effect[minecraft:absorption];time[30-60];level[0-1]", "effect[minecraft:saturation];time[15-30];level[0-1]", "effect[minecraft:glowing];time[30-60];level[0-1]", "effect[minecraft:levitation];time[2-3];level[0]", "effect[minecraft:luck];time[30-60];level[0-1]", "effect[minecraft:unluck];time[20-40];level[0-1]", "effect[minecraft:slow_falling];time[15-30];level[0-1]", "effect[minecraft:conduit_power];time[90-180];level[0-1]", "effect[minecraft:dolphins_grace];time[30-60];level[0-1]", "effect[minecraft:hero_of_the_village];time[120];level[2-4]"]
+
+#Small decoration objects
+[doodads]
+
+	[doodads.branch]
+		#The number of attempts made to successfully drop an item
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_attempts = 1
+		#'1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+		#Range: 0 ~ 100
+		drop_chance = 1
+		#The number of items to drop on a successful attempt
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_amount = -2
+		#Items listed here have a chance to drop
+		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+		whitelist = ["minecraft:stick#1-3"]
+		#Items listed here can never drop
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		blacklist = []
+
+	[doodads.stone]
+		#The number of attempts made to successfully drop an item
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_attempts = 1
+		#'1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+		#Range: 0 ~ 100
+		drop_chance = 1
+		#The number of items to drop on a successful attempt
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_amount = -2
+		#Items listed here have a chance to drop
+		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+		whitelist = ["tag|forge:dusts#1", "terraqueous:gravel_lump#1"]
+		#Items listed here can never drop
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
+
+	[doodads.bone]
+		#The number of attempts made to successfully drop an item
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_attempts = 1
+		#'1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+		#Range: 0 ~ 100
+		drop_chance = 1
+		#The number of items to drop on a successful attempt
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_amount = -2
+		#Items listed here have a chance to drop
+		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+		whitelist = ["tag|forge:bones#1", "minecraft:bone_meal#1-3"]
+		#Items listed here can never drop
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		blacklist = []
+
+	[doodads.sandstone]
+		#The number of attempts made to successfully drop an item
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_attempts = 1
+		#'1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+		#Range: 0 ~ 100
+		drop_chance = 1
+		#The number of items to drop on a successful attempt
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_amount = -2
+		#Items listed here have a chance to drop
+		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+		whitelist = ["tag|forge:dusts#1", "terraqueous:sandstone_lump#1"]
+		#Items listed here can never drop
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
+
+	[doodads.red_sandstone]
+		#The number of attempts made to successfully drop an item
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_attempts = 1
+		#'1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+		#Range: 0 ~ 100
+		drop_chance = 1
+		#The number of items to drop on a successful attempt
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_amount = -2
+		#Items listed here have a chance to drop
+		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+		whitelist = ["tag|forge:dusts#1", "terraqueous:red_sandstone_lump#1"]
+		#Items listed here can never drop
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		blacklist = ["tag|forge:dusts/burnium", "tag|forge:dusts/endimium"]
+
+	[doodads.endimium]
+		#The number of attempts made to successfully drop an item
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_attempts = 1
+		#'1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+		#Range: 0 ~ 100
+		drop_chance = 1
+		#The number of items to drop on a successful attempt
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_amount = -3
+		#Items listed here have a chance to drop
+		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+		whitelist = ["tag|forge:gems/endimium#1-4", "tag|forge:dusts/endimium#1-4"]
+		#Items listed here can never drop
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		blacklist = []
+
+	[doodads.burnium]
+		#The number of attempts made to successfully drop an item
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_attempts = 1
+		#'1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+		#Range: 0 ~ 100
+		drop_chance = 1
+		#The number of items to drop on a successful attempt
+		#positive numbers are exact, negative are a random chance between 0 and the number
+		#Range: -100 ~ 100
+		drop_amount = -3
+		#Items listed here have a chance to drop
+		#Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+		whitelist = ["tag|forge:gems/burnium#1-4", "tag|forge:dusts/burnium#1-4"]
+		#Items listed here can never drop
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		blacklist = []
+
+[plants]
+	#If enabled Terraqueous flowers require shears to harvest, otherwise nothing will drop
+	flowersRequireShears = false
+
+	#Chance the plant will grow on the next block update
+	[plants.plant_grow]
+		#Range: 0 ~ 100
+		flower_normal = 10
+		#Range: 0 ~ 100
+		flower_rain = 9
+		#Range: 0 ~ 100
+		grass_normal = 95
+		#Range: 0 ~ 100
+		grass_rain = 75
+		#Range: 0 ~ 100
+		pineapple_normal = 8
+		#Range: 0 ~ 100
+		pineapple_rain = 5
+		#Range: 0 ~ 100
+		cactus_day = 0
+		#Range: 0 ~ 100
+		cactus_night = 8
+
+	#Chance the plant will spread on the next block update
+	[plants.plant_spread]
+		#Range: 0 ~ 100
+		flower_normal = 20
+		#Range: 0 ~ 100
+		flower_rain = 18
+		#Range: 0 ~ 100
+		grass_normal = 20
+		#Range: 0 ~ 100
+		grass_rain = 18
+		#Range: 0 ~ 100
+		grapevine_normal = 15
+		#Range: 0 ~ 100
+		grapevine_rain = 13
+		#Range: 0 ~ 100
+		lifevine_normal = 15
+		#Range: 0 ~ 100
+		lifevine_rain = 13
+		#Range: 0 ~ 100
+		deathvine_normal = 15
+		#Range: 0 ~ 100
+		deathvine_rain = 13
+
+	#Chance the plant will grow fruit on the next block update
+	[plants.fruit_grow]
+		#Range: 0 ~ 100
+		pineapple_normal = 40
+		#Range: 0 ~ 100
+		pineapple_rain = 40
+		#Range: 0 ~ 100
+		cactus_day = 0
+		#Range: 0 ~ 100
+		cactus_night = 40
+		#Range: 0 ~ 100
+		grapevine_normal = 40
+		#Range: 0 ~ 100
+		grapevine_rain = 40
+		#Range: 0 ~ 100
+		lifevine_normal = 40
+		#Range: 0 ~ 100
+		lifevine_rain = 40
+		#Range: 0 ~ 100
+		deathvine_normal = 40
+		#Range: 0 ~ 100
+		deathvine_rain = 40
+
+[trees]
+	#Controls if the fruit stays on the trees or randomly falls off
+	fruitStaysOnTrees = false
+
+	#'1 in x' chance the sapling will grow on the next block update
+	[trees.sapling_grow]
+		#Range: 0 ~ 100
+		apple = 7
+		#Range: 0 ~ 100
+		cherry = 7
+		#Range: 0 ~ 100
+		orange = 7
+		#Range: 0 ~ 100
+		pear = 7
+		#Range: 0 ~ 100
+		peach = 7
+		#Range: 0 ~ 100
+		mango = 7
+		#Range: 0 ~ 100
+		lemon = 7
+		#Range: 0 ~ 100
+		plum = 7
+		#Range: 0 ~ 100
+		coconut = 7
+		#Range: 0 ~ 100
+		banana = 7
+		#Range: 0 ~ 100
+		mulberry = 7
+
+	#'1 in x' chance the fruit flower will grow on the next block update
+	[trees.flower_grow]
+		#Range: 0 ~ 100
+		apple = 25
+		#Range: 0 ~ 100
+		cherry = 25
+		#Range: 0 ~ 100
+		orange = 25
+		#Range: 0 ~ 100
+		pear = 25
+		#Range: 0 ~ 100
+		peach = 25
+		#Range: 0 ~ 100
+		mango = 25
+		#Range: 0 ~ 100
+		lemon = 25
+		#Range: 0 ~ 100
+		plum = 25
+		#Range: 0 ~ 100
+		banana = 15
+		#Range: 0 ~ 100
+		mulberry = 25
+
+	#'1 in x' chance the fruit will grow on the next block update
+	[trees.fruit_grow]
+		#Range: 0 ~ 100
+		apple = 40
+		#Range: 0 ~ 100
+		cherry = 40
+		#Range: 0 ~ 100
+		orange = 40
+		#Range: 0 ~ 100
+		pear = 50
+		#Range: 0 ~ 100
+		peach = 40
+		#Range: 0 ~ 100
+		mango = 50
+		#Range: 0 ~ 100
+		lemon = 30
+		#Range: 0 ~ 100
+		plum = 40
+		#Range: 0 ~ 100
+		coconut = 20
+		#Range: 0 ~ 100
+		banana = 20
+		#Range: 0 ~ 100
+		mulberry = 40
+
+	#'1 in x' chance a fruit will fall on the next block update
+	#If 'fruitStaysOnTrees' is set true, fruit will never drop
+	[trees.fruit_fall]
+		#Range: 0 ~ 100
+		apple = 50
+		#Range: 0 ~ 100
+		cherry = 50
+		#Range: 0 ~ 100
+		orange = 50
+		#Range: 0 ~ 100
+		pear = 60
+		#Range: 0 ~ 100
+		peach = 50
+		#Range: 0 ~ 100
+		mango = 60
+		#Range: 0 ~ 100
+		lemon = 40
+		#Range: 0 ~ 100
+		plum = 50
+		#Range: 0 ~ 100
+		coconut = 70
+		#Range: 0 ~ 100
+		mulberry = 50
+
+#StormForge Settings
+#1EU = 4RF = 10J = 0.4MJ (http://ftbwiki.org/Power_Systems)
+[stormforge]
+	#Controls who has permission to create a StormForge.
+	#NOTE: Does not disable/remove existing StormForges
+	#Allowed Values: NO_ONE, OPS_ONLY, OPS_CREATIVE, EVERYONE
+	permissions = "EVERYONE"
+	#A smelting recipe's 'cookingtime' will be multiplied by this value when processed in a StormForge
+	#Range: 1.0 ~ 100.0
+	smeltingTimeMultiplier = 2.0
+	#The number of ticks needed to repair an item by one point
+	#Range: 20 ~ 600
+	ticksPerRepairPoint = 100
+	#The base amount of energy charged per tick
+	#This value is multiplied by the PowerMultiplier that matches the items requirements
+	#Range: 1 ~ 2048
+	powerPerTickBase = 32
+	#When charging with Forge Units, powerPerTickBase times this equals the base FU/t
+	#Range: 0.001 ~ 1000.0
+	powerMultiplierFU = 4.0
+	#When charging with Joules, powerPerTickBase times this equals the base J/t
+	#Range: 0.001 ~ 1000.0
+	powerMultiplierJ = 10.0
+
+[water_pearl]
+	#Prevent breath loss while held, or in the hotbar, or equipped as a bauble
+	give_water_breathing = true
+	#Allows the placement water into the world, and filling fluid inventories
+	world_interaction = true
+	#Adds fluid capabilities enabling machines that support it to pull water from the pearl
+	use_in_machines = true
+
+#Make adjustments to how different blocks/items function
+[tweaks]
+	#Glass Blocks will drop shards when broken, if it would otherwise drop nothing
+	glassshards_from_block = true
+	#Throwable Potions will drop a shard when broken
+	glassshards_from_potion_bottle = true
+	#Adds feather moulting
+	chickens_moult = true
+	#Adds two AITasks
+	#Animals the follow for wheat will also follow for hay
+	#Animals that eat grass will also eat hay
+	add_hay_ai_tasks = true
+	#Burnium will hiss and produce steam when touching water
+	burnium_reacts_to_water = true
+	#Water filled Planters can act as infinite water sources
+	#eg. middle block in a 1x3 layout, or all blocks in a 2x2 layout
+	planter_infinite_water = true
+	#Map of non-colored blocks that have colored variants but do not just add the color name to the start or end (eg. Glass & Stained Glass
+	#Format: <modId>:<base_blockId>:<colored_blockId> Note: the colored_blockId must include * in place of the color (eg. 'orange_stained_glass' = '*_stained_glass'
+	special_colorizer_class_mappings = ["minecraft:glass:*_stained_glass", "minecraft:glass_pane:*_stained_glass_pane"]
+
+	[tweaks.villager]
+		#Villagers will no longer trample Farmland back to dirt
+		disable_villager_trample = true
+		#Gardner Villager will cleanup excess grass and flowers (from this mod only) while wandering around
+		village_gardner_weeds = true
+		#Weighted list of item blocks the Gardner can plant
+		#Formats: ItemTag: 'tag|<tagId>#<weight>', Mod Item: '<modId>:<itemId>#<weight>', Note: Items are processed in listed order and are not overwritten. For instance; if you wanted Botania flowers be rare (a low weight), you must list their flowers or flower tag before 'tag|minecraft:flowers', otherwise their weight will be locked to the global tags weight
+		gardner_whitelist = ["tag|minecraft:flowers#10", "tag|minecraft:saplings#8", "minecraft:cactus#6", "terraqueous:cactus#6"]
+		#Gardner will never plant the following
+		#Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+		gardner_blacklist = ["minecraft:sunflower"]
+
+	#Controls which loot table injections are applied
+	[tweaks.loot_tables]
+
+		[tweaks.loot_tables.chests]
+			#Spawn Bonus Chests can contain LifeFruit
+			spawn_bonus_lifefruit = true
+			#Mineshaft Chests can contain DeathFruit
+			mineshaft_deathfruit = true
+			#Village Toolsmith Chests can contain a Molecular Colorizer
+			toolsmith_colorizer = true
+			#Dungeon Chests can contain a Molecular Colorizer
+			dungeon_colorizer = true
+			#Stronghold Library Chests can contain a Strange Scroll
+			stronghold_strange_scroll = true
+			#Nether Bridge Chests can contain a Strange Scroll
+			nether_bridge_strange_scroll = true
+			#Dungeon Chests can contain the Toon Trotters
+			dungeon_toon_trotters = true
+
+		[tweaks.loot_tables.mobs]
+			#Must be enabled for any of the mob specific ones to work
+			enable_extra_drops = true
+			blaze_burnium_dust = true
+			blaze_burnium_gem = true
+			enderman_ender_dust = true
+			enderman_endimium_dust = true
+			enderman_endimium_gem = true
+			endermite_ender_dust = true
+			endermite_endimium_dust = true
+			magma_cube_burnium_gem = true
+			piglin_gold_dust = true
+			wither_skeleton_coal_dust = true
+			zombie_leather_scraps = true
+
+	#Options used by the world generator
+	[tweaks.world_gen]
+		#This is a general on/off toggle
+		#For more control see the sub menu
+		generate_clouds = true
+		#This is a general on/off toggle
+		#For more control see the sub menu
+		generate_doodads = true
+		#This is a general on/off toggle
+		#For more control see the sub menu
+		generate_flowers = true
+		#This is a general on/off toggle
+		#For more control see the sub menu
+		generate_plants = true
+		#This is a general on/off toggle
+		#For more control see the sub menu
+		generate_trees = true
+		#This is a general on/off toggle
+		#For more control see the sub menu
+		generate_structures = true
+
+		#Generators will not generate in the biomes on this list
+		#The registered name is expected. [eg: minecraft:forest, minecraft:stony_shore] (regex supported)
+		[tweaks.world_gen.biome_blacklist]
+			#Biomes here are blacklist from all generators
+			global = []
+			clouds = []
+			doodads = []
+			flowers = []
+			plants = []
+			trees = []
+
+		#Generators will not generate in the dimensions on this list
+		#The registered name is expected. [eg: minecraft:overworld, minecraft:the_nether, minecraft:the_end] (regex supported)
+		#Finding the registered name:
+		#With an open source mod, running a search for RegistryKey<DimensionType> should get you the name.
+		#With closed sourced mods, asking the author or using a decompiler like JD-GUI are your options.
+		[tweaks.world_gen.dimension_blacklist]
+			#Dimensions here are blacklist from all generators
+			global = ["randomthings:spectre", "compactmachines:compactmachines"]
+			clouds = []
+			doodads = []
+			flowers = []
+			plants = []
+			trees = []
+
+		[tweaks.world_gen.clouds]
+			#Enable the generation of light cloud clusters
+			generate_light_clouds = true
+			#Enable the generation of dense cloud clusters
+			generate_dense_clouds = true
+			#Enable the generation of storm cloud clusters
+			generate_storm_clouds = true
+
+		[tweaks.world_gen.doodads]
+			#Enable the generation of stick/branch doodads
+			generate_stick = true
+			#Enable the generation of stone, sandstone, and red sandstone doodads
+			generate_stone = true
+			#Enable the generation of bone/fossil doodads
+			generate_bone = true
+			#Enable the generation of endimium crystals and ore
+			generate_endimium = true
+			#Enable the generation of burnium crystals and ore
+			generate_burnium = true
+
+		[tweaks.world_gen.flowers]
+			#While true flowers generated will differ by biome type
+			per_biome_flowers = true
+
+		[tweaks.world_gen.plants]
+			#Can Pineapples Generate
+			generate_pineapple = true
+			#Can Prickly Pear Cactus Generate
+			generate_cactus = true
+
+		[tweaks.world_gen.trees]
+			#Found in the following biome types:
+			#Forest
+			generate_apple = true
+			#Found in the following biome types:
+			#Hills
+			generate_cherry = true
+			#Found in the following biome types:
+			#Hills
+			generate_orange = true
+			#Found in the following biome types:
+			#Forest
+			generate_pear = true
+			#Found in the following biome types:
+			#Mountain
+			generate_peach = true
+			#Found in the following biome types:
+			#Forest
+			generate_mango = true
+			#Found in the following biome types:
+			#Hills
+			generate_lemon = true
+			#Found in the following biome types:
+			#Hills
+			generate_plum = true
+			#Found in the following biome types:
+			#Beach
+			generate_coconut = true
+			#Found in the following biome types:
+			#Jungle
+			generate_banana = true
+			#Found in the following biome types:
+			#Plains
+			generate_mulberry = true
+
+		[tweaks.world_gen.structures]
+			#Add structures to the Desert Village
+			desert_village = true
+			#Add structures to the Plains Village
+			plains_village = true
+			#Add structures to the Savanna Village
+			savanna_village = true
+			#Add structures to the Snowy Village
+			snowy_village = true
+			#Add structures to the Taiga Village
+			taiga_village = true
+			#Add structures to the Pillager Outpost
+			pillager_outpost = true
+
+	#Mod integration can be disabled to solve compatibility issues, remove unwanted/unneeded features, etc.
+	[tweaks.integration]
+		#CloudTalisman, BurniumBelt, ToonTrotters, and WaterPearl will function while equipped as a Curio
+		enableCurios = true
+		#Adds: fruit to the BioReactor, endimium/burnium ore to the LaserDrill, and flowers/cactus pear/pineapple/banana stalk to the Plant Gatherer
+		enableIndustrialForegoing = true
+

@@ -1,0 +1,7 @@
+{
+	// Choose enabled paintings
+	"PAINTINGS": {
+		"mlp_themed": false,
+		"mlp_oc": false
+	}
+}

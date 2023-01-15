@@ -1,0 +1,34 @@
+{
+	// Select A GUI Style
+	"GUI_STYLE": {
+		/* EnderChest 
+		   #Allowed Values: DEFAULT, VANILLA
+		*/
+		"ender_chest": "DEFAULT"
+	},
+	/* Color Values for Bands, 
+	   Format: Decimal Values (0 to 16,777,215) 
+	   You can use this website to get the decimal value of any color: 
+	   http://www.colorhexa.com 
+	   Or by using the Color Mixer from this website: 
+	   http://www.mathsisfun.com/hexadecimal-decimal-colors.html
+	*/
+	"COLOR_VALUES": {
+		"white": 16777215,
+		"orange": 14517579,
+		"magenta": 12411333,
+		"light_blue": 8296912,
+		"yellow": 12892206,
+		"lime": 4832573,
+		"pink": 14195370,
+		"gray": 4605510,
+		"light_gray": 11120559,
+		"cyan": 3373205,
+		"purple": 8996546,
+		"blue": 3292826,
+		"brown": 5650466,
+		"green": 3821086,
+		"red": 10828341,
+		"black": 2500134
+	}
+}

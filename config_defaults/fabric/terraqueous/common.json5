@@ -1,0 +1,590 @@
+{
+	// List of effects Trickster Bloom can apply
+	"trickster_bloom_effects": [
+		"effect[minecraft:speed];time[30-60];level[0-1]",
+		"effect[minecraft:slowness];time[10-20];level[0-1]",
+		"effect[minecraft:haste];time[60-120];level[0-1]",
+		"effect[minecraft:mining_fatigue];time[60-120];level[0-1]",
+		"effect[minecraft:strength];time[60-120];level[0-1]",
+		"effect[minecraft:jump_boost];time[60-120];level[0-1]",
+		"effect[minecraft:nausea];time[10];level[0]",
+		"effect[minecraft:regeneration];time[10-30];level[0-1]",
+		"effect[minecraft:resistance];time[60-120];level[0-1]",
+		"effect[minecraft:fire_resistance];time[150-300];level[0-1]",
+		"effect[minecraft:water_breathing];time[150-300];level[0-1]",
+		"effect[minecraft:invisibility];time[60-300];level[0-1]",
+		"effect[minecraft:blindness];time[30-60];level[0-1]",
+		"effect[minecraft:night_vision];time[60-120];level[0-1]",
+		"effect[minecraft:hunger];time[10-30];level[0-1]",
+		"effect[minecraft:weakness];time[10-20];level[0-1]",
+		"effect[minecraft:poison];time[5-10];level[0]",
+		"effect[minecraft:wither];time[3-5];level[0]",
+		"effect[minecraft:absorption];time[30-60];level[0-1]",
+		"effect[minecraft:saturation];time[15-30];level[0-1]",
+		"effect[minecraft:glowing];time[30-60];level[0-1]",
+		"effect[minecraft:levitation];time[2-3];level[0]",
+		"effect[minecraft:luck];time[30-60];level[0-1]",
+		"effect[minecraft:unluck];time[20-40];level[0-1]",
+		"effect[minecraft:slow_falling];time[15-30];level[0-1]",
+		"effect[minecraft:conduit_power];time[90-180];level[0-1]",
+		"effect[minecraft:dolphins_grace];time[30-60];level[0-1]",
+		"effect[minecraft:hero_of_the_village];time[120];level[2-4]"
+	],
+	// Small decoration objects
+	"DOODADS": {
+		"STICK": {
+			/* The number of attempts made to successfully drop an item
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_attempts": 1,
+			// '1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+			"drop_chance": 1,
+			/* The number of items to drop on a successful attempt
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_count": -2,
+			/* Items listed here have a chance to drop
+			   Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+			*/
+			"whitelist": [
+				"minecraft:stick#1-3"
+			],
+			/* Items listed here can never drop
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"blacklist": []
+		},
+		"STONE": {
+			/* The number of attempts made to successfully drop an item
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_attempts": 1,
+			// '1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+			"drop_chance": 1,
+			/* The number of items to drop on a successful attempt
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_count": -2,
+			/* Items listed here have a chance to drop
+			   Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+			*/
+			"whitelist": [
+				"tag|c:dusts#1",
+				"terraqueous:gravel_lump#1"
+			],
+			/* Items listed here can never drop
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"blacklist": [
+				"tag|c:burnium_dusts",
+				"tag|c:endimium_dusts"
+			]
+		},
+		"BONE": {
+			/* The number of attempts made to successfully drop an item
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_attempts": 1,
+			// '1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+			"drop_chance": 1,
+			/* The number of items to drop on a successful attempt
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_count": -2,
+			/* Items listed here have a chance to drop
+			   Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+			*/
+			"whitelist": [
+				"tag|c:bones#1",
+				"minecraft:bone_meal#1-3"
+			],
+			/* Items listed here can never drop
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"blacklist": []
+		},
+		"SANDSTONE": {
+			/* The number of attempts made to successfully drop an item
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_attempts": 1,
+			// '1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+			"drop_chance": 1,
+			/* The number of items to drop on a successful attempt
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_count": -2,
+			/* Items listed here have a chance to drop
+			   Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+			*/
+			"whitelist": [
+				"tag|c:dusts#1",
+				"terraqueous:sandstone_lump#1"
+			],
+			/* Items listed here can never drop
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"blacklist": [
+				"tag|c:burnium_dusts",
+				"tag|c:endimium_dusts"
+			]
+		},
+		"REDSANDSTONE": {
+			/* The number of attempts made to successfully drop an item
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_attempts": 1,
+			// '1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+			"drop_chance": 1,
+			/* The number of items to drop on a successful attempt
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_count": -2,
+			/* Items listed here have a chance to drop
+			   Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+			*/
+			"whitelist": [
+				"tag|c:dusts#1",
+				"terraqueous:red_sandstone_lump#1"
+			],
+			/* Items listed here can never drop
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"blacklist": [
+				"tag|c:burnium_dusts",
+				"tag|c:endimium_dusts"
+			]
+		},
+		"ENDIMIUM": {
+			/* The number of attempts made to successfully drop an item
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_attempts": 1,
+			// '1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+			"drop_chance": 1,
+			/* The number of items to drop on a successful attempt
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_count": -3,
+			/* Items listed here have a chance to drop
+			   Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+			*/
+			"whitelist": [
+				"tag|c:endimium_gems#1-4",
+				"tag|c:endimium_dusts#1-4"
+			],
+			/* Items listed here can never drop
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"blacklist": []
+		},
+		"BURNIUM": {
+			/* The number of attempts made to successfully drop an item
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_attempts": 1,
+			// '1 in x' chance the doodad will drop something from the whitelist, excluding items from the blacklist
+			"drop_chance": 1,
+			/* The number of items to drop on a successful attempt
+			   positive numbers are exact, negative are a random chance between 0 and the number
+			*/
+			"drop_count": -3,
+			/* Items listed here have a chance to drop
+			   Formats: ItemTag: 'tag|<tagId>#<count>', Mod Item: '<modId>:<itemId>#<count>'
+			*/
+			"whitelist": [
+				"tag|c:burnium_gems#1-4",
+				"tag|c:burnium_dusts#1-4"
+			],
+			/* Items listed here can never drop
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"blacklist": []
+		}
+	},
+	"PLANTS": {
+		// If enabled Terraqueous flowers require shears to harvest, otherwise nothing will drop
+		"flowers_require_shears": true,
+		// Chance the plant will grow on the next block update
+		"PLANT_GROW": {
+			"flower_normal": 10,
+			"flower_rain": 9,
+			"grass_normal": 95,
+			"grass_rain": 75,
+			"pineapple_normal": 8,
+			"pineapple_rain": 5,
+			"cactus_day": 0,
+			"cactus_night": 8
+		},
+		// Chance the plant will spread on the next block update
+		"PLANT_SPREAD": {
+			"flower_normal": 20,
+			"flower_rain": 18,
+			"grass_normal": 20,
+			"grass_rain": 18,
+			"grapevine_normal": 15,
+			"grapevine_rain": 13,
+			"lifevine_normal": 0,
+			"lifevine_rain": 8,
+			"deathvine_normal": 0,
+			"deathvine_rain": 8
+		},
+		// Chance the plant will grow fruit on the next block update
+		"FRUIT_GROW": {
+			"pineapple_normal": 40,
+			"pineapple_rain": 40,
+			"cactus_day": 0,
+			"cactus_night": 40,
+			"grapevine_normal": 40,
+			"grapevine_rain": 40,
+			"lifevine_normal": 40,
+			"lifevine_rain": 40,
+			"deathvine_normal": 40,
+			"deathvine_rain": 40
+		}
+	},
+	"TREES": {
+		// Controls if the fruit stays on the trees or randomly falls off
+		"fruit_stays_on_trees": true,
+		// '1 in x' chance the sapling will grow on the next block update
+		"SAPLING_GROW": {
+			"apple": 7,
+			"cherry": 7,
+			"orange": 7,
+			"pear": 7,
+			"peach": 7,
+			"mango": 7,
+			"lemon": 7,
+			"plum": 7,
+			"coconut": 7,
+			"banana": 7,
+			"mulberry": 7
+		},
+		// '1 in x' chance the fruit flower will grow on the next block update
+		"FLOWER_GROW": {
+			"apple": 25,
+			"cherry": 25,
+			"orange": 25,
+			"pear": 25,
+			"peach": 25,
+			"mango": 25,
+			"lemon": 25,
+			"plum": 25,
+			"banana": 15,
+			"mulberry": 25
+		},
+		// '1 in x' chance the fruit will grow on the next block update
+		"FRUIT_GROW": {
+			"apple": 40,
+			"cherry": 40,
+			"orange": 40,
+			"pear": 50,
+			"peach": 40,
+			"mango": 50,
+			"lemon": 30,
+			"plum": 40,
+			"coconut": 20,
+			"banana": 20,
+			"mulberry": 40
+		},
+		/* '1 in x' chance a fruit will fall on the next block update
+		   If 'fruit_stays_on_trees' is set true, fruit will never drop
+		*/
+		"FRUIT_FALL": {
+			"apple": 50,
+			"cherry": 50,
+			"orange": 50,
+			"pear": 60,
+			"peach": 50,
+			"mango": 60,
+			"lemon": 40,
+			"plum": 50,
+			"coconut": 70,
+			"mulberry": 50
+		}
+	},
+	"STORMFORGE": {
+		/* Controls who has permission to create a StormForge.
+		   NOTE: Does not disable/remove existing StormForges
+		*/
+		"permissions": "EVERYONE",
+		// A smelting recipe's 'cookingtime' will be multiplied by this value when processed in a StormForge
+		"smelt_time_multiplier": 2.0,
+		// The number of ticks needed to repair an item by one point
+		"ticks_per_repair_point": 100,
+		/* The base amount of energy charged per tick
+		   This value is multiplied by the PowerMultiplier that matches the items requirements
+		*/
+		"power_per_tick_base": 32
+	},
+	"WATER_PEARL": {
+		// Prevent breath loss while held, or in the hotbar, or equipped as a bauble
+		"enable_water_breathing": true,
+		// Allows the placement water into the world, and filling fluid inventories
+		"enable_world_interaction": true
+	},
+	// Make adjustments to how different blocks/items function
+	"TWEAKS": {
+		// Glass Blocks will drop shards when broken, if it would otherwise drop nothing
+		"enable_glass_shard_drops_for_blocks": true,
+		// Throwable Potions will drop a shard when broken
+		"enable_glass_shard_drops_for_potions": true,
+		// Adds feather moulting
+		"chickens_moult": true,
+		/* Adds two AITasks
+		   Animals the follow for wheat will also follow for hay
+		   Animals that eat grass will also eat hay
+		*/
+		"add_hay_ai_tasks": true,
+		// Burnium will hiss and produce steam when touching water
+		"burnium_reacts_to_water": true,
+		/* Water filled Planters can act as infinite water sources
+		   eg. middle block in a 1x3 layout, or all blocks in a 2x2 layout
+		*/
+		"planter_infinite_water": true,
+		"VILLAGER": {
+			// Villagers will no longer trample Farmland back to dirt
+			"disable_villager_trample": true,
+			// Gardner Villager will cleanup excess grass and flowers (from this mod only) while wandering around
+			"gardner_weeds": true,
+			/* Weighted list of item blocks the Gardner can plant
+			   Formats: ItemTag: 'tag|<tagId>#<weight>', Mod Item: '<modId>:<itemId>#<weight>', Note: Items are processed in listed order and are not overwritten. For instance; if you wanted Botania flowers be rare (a low weight), you must list their flowers or flower tag before 'tag|minecraft:flowers', otherwise their weight will be locked to the global tags weight
+			*/
+			"gardner_whitelist": [
+				"tag|minecraft:flowers#10",
+				"tag|minecraft:saplings#8",
+				"minecraft:cactus#6",
+				"terraqueous:cactus#6"
+			],
+			/* Gardner will never plant the following
+			   Formats: ItemTag: 'tag|<tagId>', Mod Item: '<modId>:<itemId>', Entire Mod: 'mod|<modId>'
+			*/
+			"gardner_blacklist": [
+				"minecraft:sunflower"
+			]
+		},
+		/* Map of non-colored blocks that have colored variants but do not just add the color name to the start or end (eg. Glass & Stained Glass
+		   Format: <modId>:<base_blockId>:<colored_blockId> Note: the colored_blockId must include * in place of the color (eg. 'orange_stained_glass' = '*_stained_glass'
+		*/
+		"colorizer_class_mappings": [
+			"minecraft:glass:*_stained_glass",
+			"minecraft:glass_pane:*_stained_glass_pane"
+		]
+	},
+	// Controls which loot table injections are applied
+	"LOOT_TABLES": {
+		"CHESTS": {
+			// Spawn Bonus Chests can contain LifeFruit
+			"spawn_bonus_lifefruit": true,
+			// Mineshaft Chests can contain DeathFruit
+			"mineshaft_deathfruit": true,
+			// Village Toolsmith Chests can contain a Molecular Colorizer
+			"toolsmith_colorizer": true,
+			// Dungeon Chests can contain a Molecular Colorizer
+			"dungeon_colorizer": true,
+			// Stronghold Library Chests can contain a Strange Scroll
+			"stronghold_strange_scroll": true,
+			// Nether Bridge Chests can contain a Strange Scroll
+			"nether_bridge_strange_scroll": true,
+			// Dungeon Chests can contain the Toon Trotters
+			"dungeon_toon_trotters": true
+		},
+		"MOBS": {
+			// Must be enabled for any of the mob specific ones to work
+			"enable_extra_drops": true,
+			"blaze_burnium_dust": true,
+			"blaze_burnium_gem": true,
+			"enderman_ender_dust": true,
+			"enderman_endimium_dust": true,
+			"enderman_endimium_gem": true,
+			"endermite_ender_dust": true,
+			"endermite_endimium_dust": true,
+			"magma_cube_burnium_gem": true,
+			"piglin_gold_dust": true,
+			"wither_skeleton_coal_dust": true,
+			"zombie_leather_scraps": true
+		}
+	},
+	// Options used by the world generator
+	"GENERATOR": {
+		/* This is a general on/off toggle
+		   For more control see the sub menu
+		*/
+		"generate_clouds": true,
+		/* This is a general on/off toggle
+		   For more control see the sub menu
+		*/
+		"generate_doodads": true,
+		/* This is a general on/off toggle
+		   For more control see the sub menu
+		*/
+		"generate_flowers": true,
+		/* This is a general on/off toggle
+		   For more control see the sub menu
+		*/
+		"generate_plants": true,
+		/* This is a general on/off toggle
+		   For more control see the sub menu
+		*/
+		"generate_trees": true,
+		/* This is a general on/off toggle
+		   For more control see the sub menu
+		*/
+		"generate_structures": true,
+		/* This replaces Biome Tags,
+		   Couldn't use Tags as they are still empty at server start
+		*/
+		"BIOME_TYPE": {
+			"beach": [
+				"minecraft:beach",
+				"minecraft:snowy_beach"
+			],
+			"end": [
+				"minecraft:the_end",
+				"minecraft:end_highlands",
+				"minecraft:end_midlands",
+				"minecraft:small_end_islands",
+				"minecraft:end_barrens"
+			],
+			"forest": [
+				"minecraft:forest",
+				"minecraft:flower_forest",
+				"minecraft:birch_forest",
+				"minecraft:old_growth_birch_forest",
+				"minecraft:dark_forest",
+				"minecraft:grove"
+			],
+			"hill": [
+				"minecraft:windswept_hills",
+				"minecraft:windswept_forest",
+				"minecraft:windswept_gravelly_hills"
+			],
+			"jungle": [
+				"minecraft:bamboo_jungle",
+				"minecraft:jungle",
+				"minecraft:sparse_jungle"
+			],
+			"magical": [],
+			"mountain": [
+				"minecraft:jagged_peaks",
+				"minecraft:frozen_peaks",
+				"minecraft:stony_peaks",
+				"minecraft:savanna_plateau",
+				"minecraft:wooded_badlands",
+				"minecraft:meadow",
+				"minecraft:grove",
+				"minecraft:snowy_slopes"
+			],
+			"nether": [
+				"minecraft:nether_wastes",
+				"minecraft:soul_sand_valley",
+				"minecraft:crimson_forest",
+				"minecraft:warped_forest",
+				"minecraft:basalt_deltas"
+			],
+			"plains": [
+				"minecraft:plains",
+				"minecraft:snowy_plains",
+				"minecraft:meadow",
+				"minecraft:sunflower_plains"
+			],
+			"river": [
+				"minecraft:river",
+				"minecraft:frozen_river"
+			],
+			"taiga": [
+				"minecraft:taiga",
+				"minecraft:snowy_taiga",
+				"minecraft:old_growth_pine_taiga",
+				"minecraft:old_growth_spruce_taiga"
+			]
+		},
+		/* Generators will not generate in the biomes on this list
+		   The registered name is expected. [eg: minecraft:forest, minecraft:stony_shore] (regex supported)
+		*/
+		"BIOME_BLACKLIST": {
+			// Biomes here are blacklist from all generators
+			"global": [],
+			"clouds": [],
+			"doodads": [],
+			"flowers": [],
+			"plants": [],
+			"trees": []
+		},
+		/* Generators will not generate in the dimensions on this list
+		   The registered name is expected. [eg: minecraft:overworld, minecraft:the_nether, minecraft:the_end] (regex supported)
+		   Finding the registered name:
+		   With an open source mod, running a search for RegistryKey<DimensionType> should get you the name.
+		   With closed sourced mods, asking the author or using a decompiler like JD-GUI are your options.
+		*/
+		"DIM_BLACKLIST": {
+			// Dimensions here are blacklist from all generators
+			"global": [
+				"randomthings:spectre",
+				"compactmachines:compactmachines"
+			],
+			"clouds": [],
+			"doodads": [],
+			"flowers": [],
+			"plants": [],
+			"trees": []
+		},
+		"CLOUDS": {
+			// Enable the generation of light cloud clusters
+			"generate_light": true,
+			// Enable the generation of dense cloud clusters
+			"generate_dense": true,
+			// Enable the generation of storm cloud clusters
+			"generate_storm": true
+		},
+		"DOODADS": {
+			// Enable the generation of stick/branch doodads
+			"generate_stick": true,
+			// Enable the generation of stone, sandstone, and red sandstone doodads
+			"generate_stone": true,
+			// Enable the generation of bone/fossil doodads
+			"generate_bone": true,
+			// Enable the generation of endimium crystals and ore
+			"generate_endimium": true,
+			// Enable the generation of burnium crystals and ore
+			"generate_burnium": true
+		},
+		"FLOWERS": {
+			// While true flowers generated will differ by biome type
+			"per_biome_flowers": true
+		},
+		"PLANTS": {
+			// Can Pineapples Generate
+			"generate_pineapple": true,
+			// Can Prickly Pear Cactus Generate
+			"generate_cactus": true
+		},
+		"TREES": {
+			"generate_apple": true,
+			"generate_cherry": true,
+			"generate_orange": true,
+			"generate_pear": true,
+			"generate_peach": true,
+			"generate_mango": true,
+			"generate_lemon": true,
+			"generate_plum": true,
+			"generate_coconut": true,
+			"generate_banana": true,
+			"generate_mulberry": true
+		},
+		"STRUCTURES": {
+			// Add structures to the Desert Village
+			"desert_village": true,
+			// Add structures to the Plains Village
+			"plains_village": true,
+			// Add structures to the Savanna Village
+			"savanna_village": true,
+			// Add structures to the Snowy Village
+			"snowy_village": true,
+			// Add structures to the Taiga Village
+			"taiga_village": true,
+			// Add structures to the Pillager Outpost
+			"pillager_outpost": true
+		}
+	}
+}

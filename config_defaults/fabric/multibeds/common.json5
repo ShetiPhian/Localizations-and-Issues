@@ -1,0 +1,4 @@
+{
+	// Replaces the default beds during structure generation
+	"replace_structure_beds": false
+}

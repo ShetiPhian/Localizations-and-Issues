@@ -1,0 +1,6 @@
+
+#Choose enabled paintings
+[paintings]
+	mlp_themed = false
+	mlp_oc = false
+

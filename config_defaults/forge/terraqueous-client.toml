@@ -1,0 +1,39 @@
+
+#Select A GUI Style
+[gui_style]
+	#Allowed Values: DEFAULT, VANILLA
+	cloud_furnace = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	cloud_workbench = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	cloud_craftbench = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	cloud_craftfurnace = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	colorizer = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	craftbench = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	craftfurnace = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	endertable = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	stormforge = "DEFAULT"
+
+[flowerpots]
+	#Items Listed will render in flower pots using the Cross render style
+	#Saplings use this by default
+	forceSingleCrossRender = []
+	#Items Listed will render in flower pots using the Cross render style
+	#2D items use this by default
+	forceMultiCrossRender = []
+	#Items Listed will render in flower pots using the Block render style
+	#3D items use this by default
+	forceBlockRender = []
+	#Items Listed will render in flower pots using the Pane render style
+	forcePaneRender = []
+	#Items Listed will render in flower pots using the Tall render style
+	forceTallRender = ["minecraft:cactus"]
+	#Items Listed will render in flower pots using the Bulb render style (mostly buried)
+	forceBulbRender = []
+
