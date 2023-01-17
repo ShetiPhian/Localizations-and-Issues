@@ -3,6 +3,8 @@
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.shetiphiancore": "ShetiPhianCore",
+
     "info.down": "Down",
     "info.up": "Up",
     "info.north": "North",
@@ -34,6 +36,9 @@
     "color.green": "Green",
     "color.red": "Red",
     "color.black": "Black",
+
+    "key.shetiphiancore.tool.next": "Held Tool; Mode Next",
+    "key.shetiphiancore.tool.previous": "Held Tool; Mode Previous",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "info.shetiphian.holdshift": "§2Hold SHIFT for more info",
@@ -113,5 +118,12 @@
     "fluid.tile.water": "Water",
     "item.dyePowder.green": "Green Dye",
     "item.dyePowder.red": "Red Dye",
-    "item.dyePowder.yellow": "Yellow Dye"
+    "item.dyePowder.yellow": "Yellow Dye",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.shetiphiancore.extended_power": "Extended Power:",
+
+    "config.jade.plugin_shetiphiancore.hud": "Enable Plugin",
+    "config.jade.plugin_shetiphiancore.hud.rgb16": "RGB16 Block Values",
+    "config.jade.plugin_shetiphiancore.hud.redstone": "Extended Redstone"
 }

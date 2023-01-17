@@ -47,5 +47,13 @@
     "item.endertanks.bucket.team": "Ender Bucket",
     "block.endertanks.tank.public": "Ender Tank",
     "block.endertanks.tank.private": "Ender Tank",
-    "block.endertanks.tank.team": "Ender Tank"
+    "block.endertanks.tank.team": "Ender Tank",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.endertanks.server_data_missing": " §6⚠ §4Server Side Data Missing §6⚠",
+
+    "config.jade.plugin_endertanks.hud": "Enable Plugin",
+    "config.jade.plugin_endertanks.hud.basic": "Owner and Code",
+    "config.jade.plugin_endertanks.hud.contents": "Contained Contents",
+    "config.jade.plugin_endertanks.hud.status": "Pump & Comparator Status",
 }

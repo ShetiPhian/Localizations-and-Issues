@@ -210,5 +210,8 @@
     "item.multibeds.padding": "Padding",
     "item.multibeds.pillow": "Pillow Case",
     "item.multibeds.sheet": "Sheet",
-    "item.multibeds.woolen_cloth": "Woolen Cloth"
+    "item.multibeds.woolen_cloth": "Woolen Cloth",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "config.jade.plugin_multibeds.hud": "Enable Plugin"
 }

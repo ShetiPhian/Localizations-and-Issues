@@ -44,5 +44,8 @@
     "block.platforms.rail": "Handrail",
     "block.platforms.platformer": "PlatFormer",
 
-    "item.platforms.wrench": "Monkey Wrench"
+    "item.platforms.wrench": "Monkey Wrench",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "config.jade.plugin_platforms.hud": "Enable Plugin"
 }
