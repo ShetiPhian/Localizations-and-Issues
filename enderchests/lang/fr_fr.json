@@ -1,0 +1,45 @@
+{
+    "_comment": "-------------------------------------- EnderChests en_us.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1": "Impossible de lier le sac, vous ne possédez pas ce coffre",
+    "error.enderchests.bag.nolink2": "Impossible de lier le sac, le propriétaire du coffre est inconnu",
+    "error.enderchests.bag.nolink3": "Impossible de lier le sac, vous n'êtes pas dans la même équipe",
+    "error.enderchests.bag.corrupted": "Impossible d'ouvrir le sac; Données NBT manquantes",
+
+    "error.enderchests.chest.public.disabled": "Les coffres publics sont désactivés, les coffres doivent être améliorés pour être utilisés",
+    "error.enderchests.chest.private.disabled": "La création de coffres privés est désactivée",
+    "error.enderchests.chest.team.disabled": "La création de coffres d'équipe est désactivée",
+    "error.enderchests.chest.private.denied": "Seul le propriétaire peut effectuer cette action",
+    "error.enderchests.chest.team.denied": "Seuls les membres de l'équipe peuvent effectuer cette action",
+    "error.enderchests.chest.upgrade_used": "Cet objet d'amélioration ne peut être appliqué qu'une seule fois par coffre",
+    "error.enderchests.bag.public.disabled": "Les sacs publics sont désactivés",
+    "error.enderchests.bag.private.disabled": "La création de sacs privés est désactivée",
+    "error.enderchests.bag.team.disabled": "La création de sacs d'équipe est désactivée",
+
+    "info.enderchests.chest.public": "Utilisation Publique",
+    "info.enderchests.chest.code": "Code:",
+    "info.enderchests.chest.capacity": "Capacité du coffre augmentée à",
+
+    "info.enderchests.craftingmaterial": "Matériel de craft",
+
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "Pochette de l'Ender",
+
+    "item.enderchests.bag.public": "Sac de l'Ender",
+    "item.enderchests.bag.private": "Sac de l'Ender",
+    "item.enderchests.bag.team": "Sac de l'Ender",
+
+    "block.enderchests.chest.public": "Coffre de l'Ender",
+    "block.enderchests.chest.private": "Coffre de l'Ender",
+    "block.enderchests.chest.team": "Coffre de l'Ender",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.enderchests.server_data_missing": " §6⚠ §4Données côté serveur manquantes §6⚠",
+
+    "config.jade.plugin_enderchests.hud": "Activer le Plugin"
+}
