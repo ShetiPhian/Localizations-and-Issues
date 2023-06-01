@@ -35,12 +35,6 @@
     "info.endertanks.tank.pump.upgrade": "Pump upgraded to",
     "info.endertanks.tank.pump": "Pump",
 
-    "info.endertanks.tank.type.fluid": "§3§oFluid:§r",
-    "info.endertanks.tank.type.mekanism.gas": "§3§oMekanism Gas:§r",
-    "info.endertanks.tank.type.mekanism.infusion": "§3§oMekanism Infusion:§r",
-    "info.endertanks.tank.type.mekanism.pigment": "§3§oMekanism Pigment:§r",
-    "info.endertanks.tank.type.mekanism.slurry": "§3§oMekanism Slurry:§r",
-
     "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
     "item.endertanks.bucket.public": "Ender Bucket",
     "item.endertanks.bucket.private": "Ender Bucket",
@@ -56,4 +50,10 @@
     "config.jade.plugin_endertanks.hud.basic": "Owner and Code",
     "config.jade.plugin_endertanks.hud.contents": "Contained Contents",
     "config.jade.plugin_endertanks.hud.status": "Pump & Comparator Status",
+
+    "info.endertanks.tank.type.fluid": "§3§oFluid:§r",
+    "info.endertanks.tank.type.mekanism.gas": "§3§oMekanism Gas:§r",
+    "info.endertanks.tank.type.mekanism.infusion": "§3§oMekanism Infusion:§r",
+    "info.endertanks.tank.type.mekanism.pigment": "§3§oMekanism Pigment:§r",
+    "info.endertanks.tank.type.mekanism.slurry": "§3§oMekanism Slurry:§r"
 }
