@@ -44,8 +44,8 @@
     "info.terraqueous.column.sneak_place": "§oSneak to place end cap",
 
     "info.terraqueous.scythe.modechanged": "§6Harvest Mode: §r",
-    "info.terraqueous.scythe.small": "§oHandle retracted for overhead use",
-    "info.terraqueous.scythe.large": "§oHandle extended for ground use",
+    "info.terraqueous.scythe.small": "§ofor overhead use",
+    "info.terraqueous.scythe.large": "§ofor ground use",
     "info.terraqueous.scythe.shift": "§4Right-Click: \n§7Toggle Scythe/Sickle \n§4Sneak Scroll: \n§7Change Harvest Mode",
     "info.terraqueous.scythe.mode": "§4Current Harvest Mode:",
     "info.terraqueous.scythe.mode.type": "Similar; Same Type (plants/crops or leaves)",
@@ -541,7 +541,9 @@
     "item.terraqueous.ender_dust": "Ender Dust",
     "item.terraqueous.iron_dust": "Iron Dust",
     "item.terraqueous.gold_dust": "Gold Dust",
+    "item.terraqueous.copper_dust": "Copper Dust",
     "item.terraqueous.coal_dust": "Coal Dust",
+    "item.terraqueous.amethyst_dust": "Amethyst Dust",
     "item.terraqueous.diamond_dust": "Diamond Dust",
     "item.terraqueous.emerald_dust": "Emerald Dust",
 
