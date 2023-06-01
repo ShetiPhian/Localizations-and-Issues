@@ -11,6 +11,11 @@
     "info.platforms.wrench.tooltip": "displays placement guide",
     "info.platforms.wrench.tooltip2": "Platform placement guide shown \nwhen holding the wrench in offhand \nand holding a platform in main hand",
 
+    "info.platforms.particle.enabled": "Particles: Enabled",
+    "info.platforms.particle.disabled": "Particles: Disabled",
+    "info.platforms.particle.with_redstone": "Particles: Redstone Enabled",
+    "info.platforms.particle.without_redstone": "Particles: Redstone Disabled",
+
     "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
     "gui.platformer.slot.storage.info": "Storage; used to store materials needed for crafting.",
     "gui.platformer.slot.craft.info": "Craft Output; if materials needed are available click here to craft.",
@@ -24,10 +29,17 @@
     "gui.platformer.decon": "Deconstruction In/Out",
     "gui.platformer.storage": "Storage In/Out",
 
-    "gui.platform_select.back": "§7§lBack:§r Left Arrow / Scroll Up",
-    "gui.platform_select.next": "§7§lNext:§r Right Arrow / Scroll Down",
-    "gui.platform_select.first": "§7§lInitial Option:§r Space",
-    "gui.platform_select.save": "§7§lSelect:§r Enter / Right Click",
+    "gui.platforms.wrench.edit.apply": "Apply All",
+    "gui.platforms.wrench.edit.apply.info": "Apply all changes, and close GUI",
+    "gui.platforms.wrench.edit.remove.info": "On Apply;\n  Remove this platform type from the selected area\n If Place is also toggled;\n  Platforms of this type but with different textures will be replaced instead",
+    "gui.platforms.wrench.edit.place.info": "On Apply;\n  Places this platform from inventory into available spaces\n If Remove is also toggled;\n  Platforms of this type but with different textures will be replaced instead",
+    "gui.platforms.wrench.edit.revert": "Revert Changes",
+    "gui.platforms.wrench.edit.direction": "Change Facing Direction",
+
+    "gui.platforms.wrench.select.back": "§7§lBack:§r Left Arrow / Scroll Up",
+    "gui.platforms.wrench.select.next": "§7§lNext:§r Right Arrow / Scroll Down",
+    "gui.platforms.wrench.select.first": "§7§lInitial Option:§r Space",
+    "gui.platforms.wrench.select.save": "§7§lSelect:§r Enter / Right Click",
 
     "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
     "inv.platformer": "PlatFormer",
@@ -37,9 +49,13 @@
 
     "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
     "block.platforms.flat": "Platform",
-    "block.platforms.ramp": "Ramp",
     "block.platforms.floor": "Floor",
     "block.platforms.frame": "Frame",
+    "block.platforms.ramp": "Ramp",
+    "block.platforms.stairs": "Stairs",
+    "block.platforms.steps": "Steps",
+    "block.platforms.shingles": "Shingled Roof",
+    "block.platforms.tiles": "Tile Roof",
     "block.platforms.rise": "Rise",
     "block.platforms.rail": "Handrail",
     "block.platforms.platformer": "PlatFormer",
