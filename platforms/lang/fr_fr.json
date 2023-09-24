@@ -24,10 +24,10 @@
     "gui.platformer.decon": "Déconstruction Entrée/Sortie",
     "gui.platformer.storage": "Stockage Entrée/Sortie",
 
-    "gui.platform_select.back": "§7§lRetour :§r Flèche gauche / Défilement vers le haut",
-    "gui.platform_select.next": "§7§lSuivant :§r Flèche droite / Défilement vers le bas",
-    "gui.platform_select.first": "§7§lOption initiale :§r Espace",
-    "gui.platform_select.save": "§7§lSélectionner :§r Entrer / Clic droit",
+    "gui.platforms.wrench.select.back": "§7§lRetour :§r Flèche gauche / Défilement vers le haut",
+    "gui.platforms.wrench.select.next": "§7§lSuivant :§r Flèche droite / Défilement vers le bas",
+    "gui.platforms.wrench.select.first": "§7§lOption initiale :§r Espace",
+    "gui.platforms.wrench.select.save": "§7§lSélectionner :§r Entrer / Clic droit",
 
     "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
     "inv.platformer": "PlatFormer",

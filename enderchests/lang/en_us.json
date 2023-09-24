@@ -39,7 +39,7 @@
     "block.enderchests.chest.team": "Ender Chest",
 
     "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
-    "hud.enderchests.server_data_missing": " §6⚠ §4Server Side Data Missing §6⚠",
+    "hud.enderchests.server_data_missing": " §6⚠ §4No HUD Data Received from Server §6⚠",
 
     "config.jade.plugin_enderchests.hud": "Enable Plugin"
 }

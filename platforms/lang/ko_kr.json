@@ -24,10 +24,10 @@
     "gui.platformer.decon": "해체 입/출력",
     "gui.platformer.storage": "저장소 입/출력",
 
-    "gui.platform_select.back": "§7§l이전:§r 왼쪽 화살표 / Scroll Up",
-    "gui.platform_select.next": "§7§l이후:§r 오른쪽 화살표 / Scroll Down",
-    "gui.platform_select.first": "§7§l초기 옵션:§r 스페이스 바",
-    "gui.platform_select.save": "§7§l선택:§r 엔터 / 우클릭",
+    "gui.platforms.wrench.select.back": "§7§l이전:§r 왼쪽 화살표 / Scroll Up",
+    "gui.platforms.wrench.select.next": "§7§l이후:§r 오른쪽 화살표 / Scroll Down",
+    "gui.platforms.wrench.select.first": "§7§l초기 옵션:§r 스페이스 바",
+    "gui.platforms.wrench.select.save": "§7§l선택:§r 엔터 / 우클릭",
 
     "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
     "inv.platformer": "플랫포머",

@@ -3,6 +3,8 @@
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.shetiphiancore": "ShetiPhianCore",
+
     "info.down": "Down",
     "info.up": "Up",
     "info.north": "North",
@@ -35,11 +37,14 @@
     "color.red": "Red",
     "color.black": "Black",
 
+    "key.shetiphiancore.tool.next": "Held Item; Mode/Selection Next",
+    "key.shetiphiancore.tool.previous": "Held Item; Mode/Selection Previous",
+
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "info.shetiphian.holdshift": "§2Hold SHIFT for more info",
     "info.shetiphian.creativeolny": "§eCreative Mode Only Item",
     "info.shetiphian.guide": "Fruzstrated's Guide",
-    "info.shetiphian.unused": "Unused Item",
+    "info.shetiphian.unused": "§5§o  unused/deprecated item",
 
     "error.shetiphian.team.noteam": "Your not on a team",
     "error.shetiphian.team.wrong": "Object owned by another team",
@@ -47,6 +52,9 @@
     "info.shetiphian.texture.missing": "Texture Data Missing",
     "info.shetiphian.texture.invalid": "Texture Block Missing",
     "info.shetiphian.texture.defaulted": "Using Default",
+
+    "info.shetiphian.mode_change": "§3Change Mode:§o",
+    "info.shetiphian.sneak_scroll": "Sneak+Scroll",
 
     "_comment": "--------------------------------------------------- TEAMS -----------------------------------------------------!",
     "shetiphiancore.team.create.success": "Team Created Successfully",

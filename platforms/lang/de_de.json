@@ -24,10 +24,10 @@
     "gui.platformer.decon": "Dekonstruktion Ein-/Ausgang",
     "gui.platformer.storage": "Speicher Ein-/Ausgang",
 
-    "gui.platform_select.back": "§7§lBack:§r Left Arrow / Scroll Up",
-    "gui.platform_select.next": "§7§lNext:§r Right Arrow / Scroll Down",
-    "gui.platform_select.first": "§7§lInitial Option:§r Space",
-    "gui.platform_select.save": "§7§lSelect:§r Enter / Right Click",
+    "gui.platforms.wrench.select.back": "§7§lBack:§r Left Arrow / Scroll Up",
+    "gui.platforms.wrench.select.next": "§7§lNext:§r Right Arrow / Scroll Down",
+    "gui.platforms.wrench.select.first": "§7§lInitial Option:§r Space",
+    "gui.platforms.wrench.select.save": "§7§lSelect:§r Enter / Right Click",
 
     "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
     "inv.platformer": "PlattFormer",

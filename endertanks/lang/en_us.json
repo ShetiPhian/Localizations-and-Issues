@@ -20,7 +20,6 @@
     "error.endertanks.bucket.private.disabled": "Creation of private buckets is disabled",
     "error.endertanks.bucket.team.disabled": "Creation of team buckets is disabled",
 
-    "info.endertanks.bucket.mode.info": " §oSneak Scroll to Change Mode",
     "info.endertanks.bucket.mode.normal": "§7Mode:§o Normal (Pickup, Sneak to Place)",
     "info.endertanks.bucket.mode.invert": "§7Mode:§o Invert (Place, Sneak to Pickup)",
     "info.endertanks.bucket.mode.pickup": "§7Mode:§o Pickup Only",
@@ -44,7 +43,7 @@
     "block.endertanks.tank.team": "Ender Tank",
 
     "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
-    "hud.endertanks.server_data_missing": " §6⚠ §4Server Side Data Missing §6⚠",
+    "hud.endertanks.server_data_missing": " §6⚠ §4No HUD Data Received from Server §6⚠",
 
     "config.jade.plugin_endertanks.hud": "Enable Plugin",
     "config.jade.plugin_endertanks.hud.basic": "Owner and Code",

@@ -20,7 +20,6 @@
     "error.endertanks.bucket.private.disabled": "Создание личных вёдер отключено",
     "error.endertanks.bucket.team.disabled": "Создание командных вёдер отключено",
 
-    "info.endertanks.bucket.mode.info": " §oПриседание+прокрутка, чтобы изменить режим.",
     "info.endertanks.bucket.mode.normal": "§7Режим:§o Обычный (Сбор, Присядь, чтобы разместить)",
     "info.endertanks.bucket.mode.invert": "§7Режим:§o Обратный (Размещение, Присядь, чтобы подобрать)",
     "info.endertanks.bucket.mode.pickup": "§7Режим:§o Только сбор",

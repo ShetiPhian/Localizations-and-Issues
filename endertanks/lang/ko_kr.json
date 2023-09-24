@@ -20,7 +20,6 @@
     "error.endertanks.bucket.private.disabled": "개인 양동이의 생성은 비활성화 되어있습니다.",
     "error.endertanks.bucket.team.disabled": "팀 양동이의 생성은 비활성화 되어있습니다.",
 
-    "info.endertanks.bucket.mode.info": " §o웅크려서 스크롤하여 모드 변경",
     "info.endertanks.bucket.mode.normal": "§7모드:§o 일반 (담기, 웅크려서 놓기)",
     "info.endertanks.bucket.mode.invert": "§7모드:§o 반대 (놓기, 웅크려서 담기)",
     "info.endertanks.bucket.mode.pickup": "§7모드:§o 담기 전용",

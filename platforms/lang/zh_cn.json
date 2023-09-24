@@ -24,10 +24,10 @@
     "gui.platformer.decon": "销毁输入/输出",
     "gui.platformer.storage": "输入/输出",
 
-    "gui.platform_select.back": "§7§l返回：§r 左箭头 / 向上滚动",
-    "gui.platform_select.next": "§7§l下一步：§r 右箭头 / 向下滚动",
-    "gui.platform_select.first": "§7§l最初的选择：§r 空格键",
-    "gui.platform_select.save": "§7§l选定：§r 回车键 / 鼠标右击",
+    "gui.platforms.wrench.select.back": "§7§l返回：§r 左箭头 / 向上滚动",
+    "gui.platforms.wrench.select.next": "§7§l下一步：§r 右箭头 / 向下滚动",
+    "gui.platforms.wrench.select.first": "§7§l最初的选择：§r 空格键",
+    "gui.platforms.wrench.select.save": "§7§l选定：§r 回车键 / 鼠标右击",
 
     "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
     "inv.platformer": "站台合成器",
