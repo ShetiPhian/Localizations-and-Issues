@@ -64,7 +64,7 @@
     "shetiphiancore.team.rename.success": "'%1$s' has been renamed to '%2$s'",
     "shetiphiancore.team.rename.fail.same": "Rename aborted; new and old names match",
 
-    "shetiphiancore.team.invite.send.success": "The invite have been sent",
+    "shetiphiancore.team.invite.send.success": "The invite has been sent",
     "shetiphiancore.team.invite.send.fail.member": "Player is already a member",
     "shetiphiancore.team.invite.send.fail.pending": "Player already has a pending team invite to '%1$s'",
     "shetiphiancore.team.invite.receive.notice": "You have been invited to join '%1$s' (use %2$s within the next %3$s minutes to accept)",
