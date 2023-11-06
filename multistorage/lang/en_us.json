@@ -1,19 +1,18 @@
 ﻿{
     "_comment": "-------------------------------------- MultiStorage en_us.json Localization --------------------------------------!",
     "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-    "_comment": "msg entries can span multiple lines, use <br> to indicate a line break.",
 
     "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.multistorage": "MultiStorage",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "error.multistorage.upgrade.pass.txt": "Block is already upgraded to or past this level",
-    "error.multistorage.upgrade.hold.txt": "Block must be upgraded to the previous tier first",
-    "error.multistorage.upgrade.fail.txt": "Upgrade is of a higher level then what this block supports",
+    "error.multistorage.upgrade.pass": "Upgrade Already Applied",
+    "error.multistorage.upgrade.hold": "Must Apply Previous Tier First",
+    "error.multistorage.upgrade.fail": "Upgrade Tier Unsupported",
 
-    "info.multistorage.upgrade.1": "Use On: Chameleon, Junkbox, Queue, Stacking",
-    "info.multistorage.upgrade.2": "Use On: Chameleon, Junkbox, Stacking",
-    "info.multistorage.upgrade.3": "Use On: Junkbox, Stacking",
+    "info.multistorage.upgrade.usable": "§7§oUsable On:",
+    "info.multistorage.upgrade.apply": "§7§oSneak to Apply",
+    "info.multistorage.upgrade.color": "§fApplied, §aCan Apply, §6Needs Previous, §cUnusable",
 
     "info.multistorage.applied_upgrades": "Applied Upgrades:",
 
@@ -21,23 +20,25 @@
     "info.multistorage.invalid_texture": "Texture Block Missing",
     "info.multistorage.default_texture": "Using Default",
 
-    "_comment": "-------------------------------------------------- GUI TEXT --------------------------------------------------!",
-    "gui.assembler.slot.storage.info": "Storage; used to store materials needed for crafting.",
-    "gui.assembler.slot.craft.info": "Craft Output; if materials needed are available click here to craft.",
-    "gui.assembler.slot.decon.info": "Deconstruction; removes applied upgrade (returning container and upgrade), breaks down containers and upgrades to crafting materials. Stack size must be equal or greater to the amount received when crafting.",
-    "gui.assembler.slot.buffer.info": "Output Buffer; used as temporary storage for automation. This must be empty before more can be crafted.",
-    "gui.assembler.slot.material.info": "Material Choice; defines look and material used.",
-    "gui.assembler.button.select.info": "Container/Upgrade Selector; cycles between the available craftables.",
-    "gui.assembler.preview.info": "Container/Upgrade Preview; rendering of the final product.",
-    "gui.assembler.basic.txt": "Storage In, Buffer & Craft Out",
-    "gui.assembler.output.txt": "Buffer & Craft Out",
-    "gui.assembler.decon.txt": "Deconstruction In/Out",
-    "gui.assembler.storage.txt": "Storage In/Out",
+    "info.multistorage.wrench.tooltip": "§7In offhand displays applied upgrades\n §fNone, §eTier1, §3Tier2, §8Tier3",
 
-    "gui.multistorage.junkbox.usedspace.txt": "Used Space",
-    "gui.multistorage.junkbox.usedspace.msg": "Maximum is based on an<br>items maximum stack size,<br>empty slots count as 64",
-    "gui.multistorage.junkbox.usedslots.txt": "Used Slots",
-    "gui.multistorage.junkbox.usedslots.msg": "Maximum can be increased<br>by stacking a second chest<br>and/or using an upgrade",
+    "_comment": "-------------------------------------------------- GUI TEXT --------------------------------------------------!",
+    "gui.multistorage.assembler.slot.storage.info": "Storage; used to store materials needed for crafting.",
+    "gui.multistorage.assembler.slot.craft.info": "Craft Output; if materials needed are available click here to craft.",
+    "gui.multistorage.assembler.slot.decon.info": "Deconstruction; removes applied upgrade (returning container and upgrade), breaks down containers and upgrades to crafting materials. Stack size must be equal or greater to the amount received when crafting.",
+    "gui.multistorage.assembler.slot.buffer.info": "Output Buffer; used as temporary storage for automation. This must be empty before more can be crafted.",
+    "gui.multistorage.assembler.slot.material.info": "Material Choice; defines look and material used.",
+    "gui.multistorage.assembler.button.select.info": "Container/Upgrade Selector; cycles between the available craftables.",
+    "gui.multistorage.assembler.preview.info": "Container/Upgrade Preview; rendering of the final product.",
+    "gui.multistorage.assembler.basic": "Storage In, Buffer & Craft Out",
+    "gui.multistorage.assembler.output": "Buffer & Craft Out",
+    "gui.multistorage.assembler.decon": "Deconstruction In/Out",
+    "gui.multistorage.assembler.storage": "Storage In/Out",
+
+    "gui.multistorage.junkbox.status.space": "Fill Level",
+    "gui.multistorage.junkbox.status.slots": "Slot Status",
+    "gui.multistorage.junkbox.upper.info": "Upper Junkbox Drawer",
+    "gui.multistorage.junkbox.lower.info": "Lower Junkbox Drawer",
 
     "gui.multistorage.queue.slot.head.out.info": "Queue Start; this is the item at the start of the queue",
     "gui.multistorage.queue.slot.head.in.info": "Insert Start; items placed here will be inserted into the start of the queue",
@@ -45,39 +46,34 @@
     "gui.multistorage.queue.slot.tail.in.info": "Insert End; items placed here will be inserted into the end of the queue",
     "gui.multistorage.queue.button.toggle.info": "Toggle; changes the slot shift-clicking inserts into",
     "gui.multistorage.queue.list.inventory.info": "Queue; items in this queue, sorted from start to end",
-    "gui.multistorage.queue.head.io.txt": "Start In/Out",
-    "gui.multistorage.queue.head.in.txt": "Start In",
-    "gui.multistorage.queue.head.out.txt": "Start Out",
-    "gui.multistorage.queue.head.out.single.txt": "Start Out, Dropper Mode: Single",
-    "gui.multistorage.queue.head.out.stack.txt": "Start Out, Dropper Mode: Stack",
-    "gui.multistorage.queue.tail.io.txt": "End In/Out",
-    "gui.multistorage.queue.tail.in.txt": "End In",
-    "gui.multistorage.queue.tail.out.txt": "End Out",
-    "gui.multistorage.queue.tail.out.single.txt": "End Out, Dropper Mode: Single",
-    "gui.multistorage.queue.tail.out.stack.txt": "End Out, Dropper Mode: Stack",
-
-    "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
-    "inv.stacking.chest": "Stacking Chest",
-
-    "inv.chameleon.chest": "Chameleon Chest",
-
-    "inv.junkbox.single.normal": "Junkbox",
-    "inv.junkbox.double.normal": "Double Junkbox",
-
-    "inv.queue": "Queue",
+    "gui.multistorage.queue.head.io": "Start In/Out",
+    "gui.multistorage.queue.head.in": "Start In",
+    "gui.multistorage.queue.head.out": "Start Out",
+    "gui.multistorage.queue.head.out.single": "Start Out, Dropper Mode: Single",
+    "gui.multistorage.queue.head.out.stack": "Start Out, Dropper Mode: Stack",
+    "gui.multistorage.queue.tail.io": "End In/Out",
+    "gui.multistorage.queue.tail.in": "End In",
+    "gui.multistorage.queue.tail.out": "End Out",
+    "gui.multistorage.queue.tail.out.single": "End Out, Dropper Mode: Single",
+    "gui.multistorage.queue.tail.out.stack": "End Out, Dropper Mode: Stack",
 
     "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
-    "block.multistorage.cloud_hopper": "Cloud Hopper",
-
     "block.multistorage.assembler": "Assembler",
 
-    "block.multistorage.stacking": "Stone Storage",
+    "block.multistorage.stacking": "Stacking Storage",
     "block.multistorage.chameleon": "Chameleon Storage",
     "block.multistorage.junkbox": "Junkbox",
-    "block.multistorage.queue": "Stone Queue",
+    "block.multistorage.queue": "Queue",
+
+    "block.multistorage.visualizer": "Storage Visualizer",
 
     "item.multistorage.upgrade1": "Tier 1 Upgrade",
     "item.multistorage.upgrade2": "Tier 2 Upgrade",
     "item.multistorage.upgrade3": "Tier 3 Upgrade",
-    "item.multistorage.wrench": "Wrench"
+    "item.multistorage.wrench": "Wrench",
+
+    "entity.multistorage.bundle": "Multi-Stack Bundle",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "config.jade.plugin_multistorage.hud": "Enable Plugin"
 }
