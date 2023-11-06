@@ -24,7 +24,7 @@
     "fluid.tile.coconutmilk": "Coconut Milk",
 
     "_comment": "------------------------------------------------ COMMAND MESSAGE -------------------------------------------------!",
-    "command.terraqueous.stormforge.help": "Provided location must be a StormForge block / provided Player needs to be standing on a StormForge block. If the alter is missing and the other blocks data is damaged; use the setblock command to place an alter then the repair_stormforge command, on the alter, to repair the rest.",
+    "command.terraqueous.stormforge.help": "Provided location must be a StormForge block / provided Player needs to be standing on a StormForge block. If the alter is missing and the other blocks data is damaged; use the setblock command to place an alter, then the repair_stormforge command on the alter, to repair the rest.",
     "command.terraqueous.stormforge.fixed": "StormForge Found, Repairs Made",
     "command.terraqueous.stormforge.nofix": "ERROR: Could not gather needed information from block, repairs could not be made",
 
@@ -62,8 +62,8 @@
     "info.terraqueous.infuse": "Infuse With Ender Energy",
     "info.terraqueous.fusion": "Fusion via Ender Energy",
 
-    "info.colorizer.preset.save": "Right-Click: Save",
-    "info.colorizer.preset.load": "Left-Click: Load",
+    "info.terraqueous.colorizer.preset.save": "Right-Click: Save",
+    "info.terraqueous.colorizer.preset.load": "Left-Click: Load",
 
     "info.terraqueous.toon_trotters": "They're signed! \n§o \"Never look down \n§o - Your friend; Wile E. Coyote\"",
 
@@ -82,41 +82,27 @@
     "info.terraqueous.visible": "Visible with %1$s EnchantPower",
 
     "_comment": "------------------------------------------------------ GUI -------------------------------------------------------!",
-    "gui.craftbench.slot.storage.info": "Storage; used to store materials needed for crafting.",
-    "gui.craftbench.slot.craft.info": "Craft Output; if materials needed are available click here to craft.",
-    "gui.craftbench.slot.buffer.info": "Output Buffer; used as temporary storage for automation. This must be empty before more can be crafted.",
-    "gui.craftbench.slot.grid.info": "Craft Grid; a standard recipe setup.",
+    "gui.terraqueous.craftbench.slot.storage.info": "Storage; used to store materials needed for crafting.",
+    "gui.terraqueous.craftbench.slot.craft.info": "Craft Output; if materials needed are available click here to craft.",
+    "gui.terraqueous.craftbench.slot.buffer.info": "Output Buffer; used as temporary storage for automation. This must be empty before more can be crafted.",
+    "gui.terraqueous.craftbench.slot.grid.info": "Craft Grid; a standard recipe setup.",
 
-    "gui.craftbench.basic": "Storage In, Buffer & Craft Out",
-    "gui.craftbench.output": "Buffer & Craft Out",
-    "gui.craftbench.storage": "Storage In/Out",
+    "gui.terraqueous.craftbench.basic": "Storage In, Buffer & Craft Out",
+    "gui.terraqueous.craftbench.output": "Buffer & Craft Out",
+    "gui.terraqueous.craftbench.storage": "Storage In/Out",
 
-    "gui.craftfurnace.slot.fuel.info": "Fuel; storage for fuel and empty containers. Burn time remaining is indicated by a rectangle around the slots.",
-    "gui.craftfurnace.slot.items.info": "Queue; for items waiting to be processed.",
-    "gui.craftfurnace.slot.output.info": "Output; storage for completed items.",
-    "gui.craftfurnace.slot.process.info": "Process; items that are being processed. Progress is indicated by a rectangle around the slots.",
+    "gui.terraqueous.craftfurnace.slot.fuel.info": "Fuel; storage for fuel and empty containers. Burn time remaining is indicated by a rectangle around the slots.",
+    "gui.terraqueous.craftfurnace.slot.items.info": "Queue; for items waiting to be processed.",
+    "gui.terraqueous.craftfurnace.slot.output.info": "Output; storage for completed items.",
+    "gui.terraqueous.craftfurnace.slot.process.info": "Process; items that are being processed. Progress is indicated by a rectangle around the slots.",
 
-    "gui.craftfurnace.basic": "Items & Fuel In, Empty Containers & Output Out",
-    "gui.craftfurnace.items": "Queue In",
-    "gui.craftfurnace.fuel": "Fuel In",
-    "gui.craftfurnace.inputs": "Queue & Fuel In",
-    "gui.craftfurnace.output": "Empty Containers & Output Out",
-    "gui.craftfurnace.cloud.basic": "Queue & Fuel In, Output Out",
-    "gui.craftfurnace.cloud.output": "Output Out",
-
-    "_comment": "---------------------------------------------------- INVENTORY ---------------------------------------------------!",
-    "inv.craftbench": "CraftBench",
-    "inv.craftbench.output": "CraftBench Output",
-    "inv.craftbench.storage": "CraftBench Storage",
-    "inv.cloudfurnace": "Cloud Furnace",
-    "inv.cloudfurnace.input": "Cloud Furnace Input",
-    "inv.cloudfurnace.output": "Cloud Furnace Output",
-    "inv.craftfurnace": "CraftFurnace",
-    "inv.craftfurnace.input.all": "CraftFurnace Inputs",
-    "inv.craftfurnace.input.fuel": "CraftFurnace Fuel",
-    "inv.craftfurnace.input.items": "CraftFurnace Queue",
-    "inv.craftfurnace.output": "CraftFurnace Output",
-    "inv.stormforge": "StormForge",
+    "gui.terraqueous.craftfurnace.basic": "Items & Fuel In, Empty Containers & Output Out",
+    "gui.terraqueous.craftfurnace.items": "Queue In",
+    "gui.terraqueous.craftfurnace.fuel": "Fuel In",
+    "gui.terraqueous.craftfurnace.inputs": "Queue & Fuel In",
+    "gui.terraqueous.craftfurnace.output": "Empty Containers & Output Out",
+    "gui.terraqueous.craftfurnace.cloud.basic": "Queue In, Output Out",
+    "gui.terraqueous.craftfurnace.cloud.output": "Output Out",
 
     "_comment": "----------------------------------------------------- BLOCKS -----------------------------------------------------!",
     "block.terraqueous.light_cloud": "Light Cloud",
@@ -663,7 +649,6 @@
     "_comment": "--------------------------------------------------- ENTITIES -----------------------------------------------------!",
     "entity.terraqueous.boat": "Boat",
     "entity.terraqueous.chest_boat": "Boat with Chest",
-
     "entity.terraqueous.coconut": "Coconut",
     "entity.coconut": "Coconut",
     "entity.minecraft.villager.terraqueous.gardner": "Gardner"
