@@ -1,10 +1,10 @@
 :Notes About Translations:
 
-I've created a Crowdin project: https://crowdin.com/project/shetiphian-minecraft-mods
+The perfered way to recieve translations is via a GitHub pull request, but for those who do perfer Crowdin you can do so here: https://crowdin.com/project/shetiphian-minecraft-mods
 
-The account word limit though restricts me to 12-13 languages (while still leaving room for expanding current translations)
+Keep in mind it gets checked less, and adding new keys is a bit anoying so it may be outof date.
 
-So I picked the seven I already had some translations for:
+Also the account word limit stops me from having all Minecraft supported languages, so I picked the seven I already had some translations for:
 - de_de: German
 - fr_fr: French
 - it_it: Italian
@@ -20,5 +20,3 @@ Except for Polish and Korean these are also in the top used languages, so the fo
 - pt_pt: Portuguese
 - id_id: Indonesian
 - ja_jp: Japanese
-
-Regional Dialects will not be on Crowdin but as with other missing languages, file submissions via pull request will be accepted.
