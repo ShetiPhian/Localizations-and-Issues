@@ -107,6 +107,7 @@
     "misc.multibeds.pattern.buffalo_plaid": "Buffalo Plaid",
     "misc.multibeds.pattern.checkerboard": "Checkerboard",
     "misc.multibeds.pattern.circles": "Circles",
+    "misc.multibeds.pattern.crew": "Crew",
     "misc.multibeds.pattern.grid": "Grid",
     "misc.multibeds.pattern.horizontal_lines": "Horizontal Lines",
     "misc.multibeds.pattern.mesh": "Mesh",
@@ -199,6 +200,9 @@
     "block.multibeds.vintage": "Vintage Bed",
     "block.multibeds.modern": "Modern Bed",
     "block.multibeds.rustic": "Rustic Bed",
+    "block.multibeds.future": "Futuristic Bed",
+    "block.multibeds.crew": "Crew Bed",
+    "block.multibeds.bed_extras": "Extra Bed Components",
     "block.multibeds.hanger": "Hammock Hanger",
     "block.multibeds.ladder": "Bunk Ladder",
 
