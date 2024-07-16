@@ -1,0 +1,58 @@
+{
+    "_comment": "--------------------------------------- EnderTanks tr_tr.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.endertanks": "EnderTanks",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.endertanks.bucket.nolink1": "Kova bağlanamıyor, bu tankın sahibi değilsiniz",
+    "error.endertanks.bucket.nolink2": "Kova bağlanamıyor, Tankın sahibi bilinmiyor",
+    "error.endertanks.bucket.nolink3": "Kova bağlanamıyor, aynı takımda değilsiniz",
+
+    "error.endertanks.tank.public.disabled": "Herkese açık tanklar devre dışı bırakıldı, tankların kullanılabilmesi için yükseltilmesi gerekiyor",
+    "error.endertanks.tank.private.disabled": "Özel tankların oluşturulması devre dışı bırakıldı",
+    "error.endertanks.tank.team.disabled": "Takım tanklarının oluşturulması devre dışı bırakıldı",
+    "error.endertanks.tank.private.denied": "Bu eylemi yalnızca sahibi gerçekleştirebilir",
+    "error.endertanks.tank.team.denied": "Bu eylemi yalnızca takım üyeleri gerçekleştirebilir",
+    "error.endertanks.tank.upgrade_used": "Bu yükseltme eşyası, tank başına yalnızca bir kez uygulanabilir",
+    "error.endertanks.bucket.public.disabled": "Herkese açık kovalar devre dışı bırakıldı",
+    "error.endertanks.bucket.private.disabled": "Özel kovaların oluşturulması devre dışı bırakıldı",
+    "error.endertanks.bucket.team.disabled": "Takım kovalarının oluşturulması devre dışı bırakıldı",
+
+    "info.endertanks.bucket.mode.normal": "§7Mod:§o Normal (Al, Koymak için Eğil)",
+    "info.endertanks.bucket.mode.invert": "§7Mod:§o Ters (Koy, Almak için Eğil)",
+    "info.endertanks.bucket.mode.pickup": "§7Mod:§o Sadece Al",
+    "info.endertanks.bucket.mode.place": "§7Mod:§o Sadece Koy",
+
+    "info.endertanks.bucket.header": "Kova",
+    "info.endertanks.tank.header": "Tank",
+    "info.endertanks.tank.empty": "Boş",
+    "info.endertanks.tank.public": "Herkese Açık",
+    "info.endertanks.tank.code": "Kod:",
+    "info.endertanks.tank.capacity": "Tank kapasitesi şuna yükseltildi",
+    "info.endertanks.tank.pump.upgrade": "Pompa şuna yükseltildi",
+    "info.endertanks.tank.pump": "Pompa",
+
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "item.endertanks.bucket.public": "Ender Kovası",
+    "item.endertanks.bucket.private": "Ender Kovası",
+    "item.endertanks.bucket.team": "Ender Kovası",
+    "block.endertanks.tank.public": "Ender Tankı",
+    "block.endertanks.tank.private": "Ender Tankı",
+    "block.endertanks.tank.team": "Ender Tankı",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.endertanks.server_data_missing": " §6⚠ §4Sunucudan HUD Verisi Alınamadı §6⚠",
+
+    "config.jade.plugin_endertanks.hud": "Plugin'i Etkinleştir",
+    "config.jade.plugin_endertanks.hud.basic": "Sahibi ve Kod",
+    "config.jade.plugin_endertanks.hud.contents": "İçerdiği İçerikler",
+    "config.jade.plugin_endertanks.hud.status": "Pompa ve Karşılaştırıcı Durumu",
+
+    "info.endertanks.tank.type.fluid": "§3§oSıvı:§r",
+    "info.endertanks.tank.type.mekanism.gas": "§3§oMekanism Gaz:§r",
+    "info.endertanks.tank.type.mekanism.infusion": "§3§oMekanism İnfüzyon:§r",
+    "info.endertanks.tank.type.mekanism.pigment": "§3§oMekanism Pigment:§r",
+    "info.endertanks.tank.type.mekanism.slurry": "§3§oMekanism Bulamaç:§r"
+}
