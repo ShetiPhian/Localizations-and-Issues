@@ -6,19 +6,24 @@
     "itemGroup.endertanks": "EnderTanks",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "error.endertanks.bucket.nolink1": "Kann Eimer nicht verknüpfen, das ist nicht dein Tank",
+    "error.endertanks.bucket.nolink1": "Kann Eimer nicht verknüpfen, das ist nicht Dein Tank",
     "error.endertanks.bucket.nolink2": "Kann Eimer nicht verknüpfen, Tank Besitzer ist unbekannt",
-    "error.endertanks.bucket.nolink3": "Can not link bucket, you're not on the same team",
+    "error.endertanks.bucket.nolink3": "Kann Eimer nicht verknüpfen, Du bist nicht Teil des selben Teams",
 
-    "error.endertanks.tank.public.disabled": "Public tanks are disabled, tanks must be upgraded to use",
-    "error.endertanks.tank.private.disabled": "Creation of private tanks is disabled",
-    "error.endertanks.tank.team.disabled": "Creation of team tanks is disabled",
-    "error.endertanks.tank.private.denied": "Only the owner can preform that action",
-    "error.endertanks.tank.team.denied": "Only team members can preform that action",
-    "error.endertanks.tank.upgrade_used": "That upgrade item can only be applied once per tank",
-    "error.endertanks.bucket.public.disabled": "Public buckets are disabled",
-    "error.endertanks.bucket.private.disabled": "Creation of private buckets is disabled",
-    "error.endertanks.bucket.team.disabled": "Creation of team buckets is disabled",
+    "error.endertanks.tank.public.disabled": "Öffentliche Tanks sind deaktiviert, der Tank muss verbessert werden",
+    "error.endertanks.tank.private.disabled": "Erstellung von Privaten Tanks ist deaktiviert",
+    "error.endertanks.tank.team.disabled": "Erstellung von Team Tanks ist deaktiviert",
+    "error.endertanks.tank.private.denied": "Nur der Besitzer kann diese Aktion ausführen",
+    "error.endertanks.tank.team.denied": "Nur Teammitglieder können diese Aktion ausführen",
+    "error.endertanks.tank.upgrade_used": "Diese Verbesserung kann nur einmal auf diesen Tank angewendet werden",
+    "error.endertanks.bucket.public.disabled": "Öffentliche Eimer sind deaktiviert",
+    "error.endertanks.bucket.private.disabled": "Die Erstellung von Privaten Eimern ist deaktiviert",
+    "error.endertanks.bucket.team.disabled": "Die Erstellung von Team Eimern ist deaktiviert",
+
+    "info.endertanks.bucket.mode.normal": "§7Mode:§o Normal (Aufnehmen, Schleichen zum Platzieren)",
+    "info.endertanks.bucket.mode.invert": "§7Mode:§o Invertiert (Platzieren, Schleichen zum Aufnehmen)",
+    "info.endertanks.bucket.mode.pickup": "§7Mode:§o Nur Aufheben",
+    "info.endertanks.bucket.mode.place": "§7Mode:§o Nur Platzieren",
 
     "info.endertanks.bucket.header": "Eimer",
     "info.endertanks.tank.header": "Tank",
@@ -36,4 +41,18 @@
     "block.endertanks.tank.public": "Ender Tank",
     "block.endertanks.tank.private": "Ender Tank",
     "block.endertanks.tank.team": "Ender Tank"
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.endertanks.server_data_missing": " §6⚠ §4Keine HUD Daten Empfangen vom Server §6⚠",
+
+    "config.jade.plugin_endertanks.hud": "Plugin aktivieren",
+    "config.jade.plugin_endertanks.hud.basic": "Besitzer und Code",
+    "config.jade.plugin_endertanks.hud.contents": "Behälter Inhalt",
+    "config.jade.plugin_endertanks.hud.status": "Pumpen & Komparator Status",
+
+    "info.endertanks.tank.type.fluid": "Flüssigkeit:§r",
+    "info.endertanks.tank.type.mekanism.gas": "§3§oMekanism Gas:§r",
+    "info.endertanks.tank.type.mekanism.infusion": "§3§oMekanism Infusion:§r",
+    "info.endertanks.tank.type.mekanism.pigment": "§3§oMekanism Pigment:§r",
+    "info.endertanks.tank.type.mekanism.slurry": "§3§oMekanism Lösung:§r"
 }
