@@ -1,0 +1,19 @@
+{
+    "_comment": "--------------------------------------- TerraHeads ja_jp.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.terraheads": "TerraHeads",
+
+    "biome.minecraft.snow": "雪原",
+
+    "_comment": "----------------------------------------------------- BLOCKS -----------------------------------------------------!",
+
+    "block.terraheads.villager_head": "村人の頭",
+    "block.terraheads.zombie_villager_head": "村人ゾンビの頭",
+    "block.terraheads.illager_head": "邪悪な村人の頭",
+    "block.terraheads.wandering_trader_head": "行商人の頭",
+    "block.terraheads.witch_head": "ウィッチの頭",
+
+    "_comment": "------------------------------------------------------------------------------------------------------------------!"
+}
