@@ -1,16 +1,9 @@
 {
-    "_comment": "-------------------------------------- EnderChests zh_cn.json Localization --------------------------------------!",
-    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-
-    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
-    "itemGroup.enderchests": "EnderChests",
-
-    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "itemGroup.enderchests": "末影链接箱",
     "error.enderchests.bag.nolink1": "不能链接末影袋，这个末影链接箱不属于你",
     "error.enderchests.bag.nolink2": "不能链接末影袋，链接箱所有者未知",
     "error.enderchests.bag.nolink3": "不能链接末影袋，你不在同一个team团队",
     "error.enderchests.bag.corrupted": "不能打开袋子；堆栈NBT数据丢失",
-
     "error.enderchests.chest.public.disabled": "公共箱子被禁用，箱子必须升级才能使用",
     "error.enderchests.chest.private.disabled": "创建私人箱子被禁止",
     "error.enderchests.chest.team.disabled": "创建team团队箱子被禁止",
@@ -20,21 +13,17 @@
     "error.enderchests.bag.public.disabled": "公共袋子被禁用",
     "error.enderchests.bag.private.disabled": "创建私人袋子被禁用",
     "error.enderchests.bag.team.disabled": "创建team团队袋子被禁用",
-
     "info.enderchests.chest.public": "公共",
     "info.enderchests.chest.code": "编码:",
     "info.enderchests.chest.capacity": "箱子容量增加到",
-
     "info.enderchests.craftingmaterial": "制作材料",
-
-    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
     "item.enderchests.ender_pouch": "末影袋",
-
     "item.enderchests.bag.public": "末影链接袋",
     "item.enderchests.bag.private": "末影链接袋",
     "item.enderchests.bag.team": "末影链接袋",
-
     "block.enderchests.chest.public": "末影链接箱",
     "block.enderchests.chest.private": "末影链接箱",
-    "block.enderchests.chest.team": "末影链接箱"
+    "block.enderchests.chest.team": "末影链接箱",
+    "hud.enderchests.server_data_missing": " §6: 警告: §4没有从服务器收到HUD数据§6: 警告:",
+    "config.jade.plugin_enderchests.hud": "启用插件"
 }
