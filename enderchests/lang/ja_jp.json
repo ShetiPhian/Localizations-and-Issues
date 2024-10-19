@@ -1,0 +1,45 @@
+{
+    "_comment": "-------------------------------------- EnderChests ja_jp.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1": "このチェストを所有していないため、バッグとリンクできません",
+    "error.enderchests.bag.nolink2": "このチェストの所有者が不明なため、バッグとリンクできません",
+    "error.enderchests.bag.nolink3": "チームが異なるため、バッグとリンクできません",
+    "error.enderchests.bag.corrupted": "スタックNBTデータが存在しないため、バッグを開くことができませんでした",
+
+    "error.enderchests.chest.public.disabled": "パブリックチェストは無効化されています。使用するにはチェストをアップグレードする必要があります",
+    "error.enderchests.chest.private.disabled": "プライベートチェストの作成は無効化されています",
+    "error.enderchests.chest.team.disabled": "チームチェストの作成は無効化されています",
+    "error.enderchests.chest.private.denied": "所有者のみがそのアクションを行うことができます",
+    "error.enderchests.chest.team.denied": "チームメンバーのみがそのアクションを行うことができます",
+    "error.enderchests.chest.upgrade_used": "このアップグレードは一度しか適用できません",
+    "error.enderchests.bag.public.disabled": "パブリックバッグは無効化されています",
+    "error.enderchests.bag.private.disabled": "プライベートバッグの作成は無効化されています",
+    "error.enderchests.bag.team.disabled": "チームバッグの作成は無効化されています",
+
+    "info.enderchests.chest.public": "パブリック",
+    "info.enderchests.chest.code": "コード：",
+    "info.enderchests.chest.capacity": "チェストの容量が増加しました：",
+
+    "info.enderchests.craftingmaterial": "クラフト素材",
+
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "エンダーポーチ",
+
+    "item.enderchests.bag.public": "エンダーバッグ",
+    "item.enderchests.bag.private": "エンダーバッグ",
+    "item.enderchests.bag.team": "エンダーバッグ",
+
+    "block.enderchests.chest.public": "エンダーチェスト",
+    "block.enderchests.chest.private": "エンダーチェスト",
+    "block.enderchests.chest.team": "エンダーチェスト",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.enderchests.server_data_missing": " §6⚠ §4サーバーからHUDデータを受信できませんでした §6⚠",
+
+    "config.jade.plugin_enderchests.hud": "プラグインの有効化"
+}
