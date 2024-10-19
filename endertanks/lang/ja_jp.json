@@ -1,0 +1,58 @@
+{
+    "_comment": "--------------------------------------- EnderTanks ja_jp.json Localization ---------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.endertanks": "EnderTanks",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.endertanks.bucket.nolink1": "このタンクを所有していないため、バケツとリンクできません",
+    "error.endertanks.bucket.nolink2": "このタンクの所有者が不明なため、バケツとリンクできません",
+    "error.endertanks.bucket.nolink3": "チームが異なるため、バケツとリンクできません",
+
+    "error.endertanks.tank.public.disabled": "パブリックタンクは無効化されています。使用するにはタンクをアップグレードする必要があります",
+    "error.endertanks.tank.private.disabled": "プライベートタンクの作成は無効化されています",
+    "error.endertanks.tank.team.disabled": "チームタンクの作成は無効化されています",
+    "error.endertanks.tank.private.denied": "所有者のみがそのアクションを行うことができます",
+    "error.endertanks.tank.team.denied": "チームメンバーのみがそのアクションを行うことができます",
+    "error.endertanks.tank.upgrade_used": "このアップグレードは一度しか適用できません",
+    "error.endertanks.bucket.public.disabled": "パブリックバケツは無効化されています",
+    "error.endertanks.bucket.private.disabled": "プライベートバケツの作成は無効化されています",
+    "error.endertanks.bucket.team.disabled": "チームバケツの作成は無効化されています",
+
+    "info.endertanks.bucket.mode.normal": "§7モード：§o通常（汲み上げ／スニークで設置）",
+    "info.endertanks.bucket.mode.invert": "§7モード：§o反転（設置／スニークで汲み上げ）",
+    "info.endertanks.bucket.mode.pickup": "§7モード：§o汲み上げのみ",
+    "info.endertanks.bucket.mode.place": "§7モード：§o設置のみ",
+
+    "info.endertanks.bucket.header": "バケツ",
+    "info.endertanks.tank.header": "タンク",
+    "info.endertanks.tank.empty": "空",
+    "info.endertanks.tank.public": "パブリック",
+    "info.endertanks.tank.code": "コード：",
+    "info.endertanks.tank.capacity": "タンクの容量が増加しました：",
+    "info.endertanks.tank.pump.upgrade": "輸送速度が増加しました：",
+    "info.endertanks.tank.pump": "輸送速度",
+
+    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
+    "item.endertanks.bucket.public": "エンダーバケツ",
+    "item.endertanks.bucket.private": "エンダーバケツ",
+    "item.endertanks.bucket.team": "エンダーバケツ",
+    "block.endertanks.tank.public": "エンダータンク",
+    "block.endertanks.tank.private": "エンダータンク",
+    "block.endertanks.tank.team": "エンダータンク",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.endertanks.server_data_missing": " §6⚠ §4サーバーからHUDデータを受信できませんでした §6⚠",
+
+    "config.jade.plugin_endertanks.hud": "プラグインの有効化",
+    "config.jade.plugin_endertanks.hud.basic": "所有者とコード",
+    "config.jade.plugin_endertanks.hud.contents": "流体の内容",
+    "config.jade.plugin_endertanks.hud.status": "輸送速度／コンパレーター出力",
+
+    "info.endertanks.tank.type.fluid": "§3§o流体：§r",
+    "info.endertanks.tank.type.mekanism.gas": "§3§oMekanism ガス：§r",
+    "info.endertanks.tank.type.mekanism.infusion": "§3§oMekanism 吹き込み剤：§r",
+    "info.endertanks.tank.type.mekanism.pigment": "§3§oMekanism 顔料：§r",
+    "info.endertanks.tank.type.mekanism.slurry": "§3§oMekanism 懸濁液：§r"
+}
