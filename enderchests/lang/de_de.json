@@ -6,9 +6,9 @@
     "itemGroup.enderchests": "EnderChests",
 
     "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
-    "error.enderchests.bag.nolink1": "Beutel kann nicht verknüpft werden, da dir diese Truhe nicht gehört",
+    "error.enderchests.bag.nolink1": "Beutel kann nicht verknüpft werden, da Dir diese Truhe nicht gehört",
     "error.enderchests.bag.nolink2": "Beutel kann nicht verknüpft werden, da der Besitzer dieser Truhe unbekannt ist",
-    "error.enderchests.bag.nolink3": "Beutel kann nicht verknüpft werden, da du nicht im selben Team bist",
+    "error.enderchests.bag.nolink3": "Beutel kann nicht verknüpft werden, da Du nicht im selben Team bist",
     "error.enderchests.bag.corrupted": "Beutel kann nicht verknüpft werden, da die Stack NBT daten fehlen",
 
     "error.enderchests.chest.public.disabled": "Öffentliche Truhen sind deaktiviert, diese Truhe muss verbessert werden um sie nutzen zu können",
@@ -37,4 +37,9 @@
     "block.enderchests.chest.public": "Endertruhe",
     "block.enderchests.chest.private": "Endertruhe",
     "block.enderchests.chest.team": "Endertruhe"
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.enderchests.server_data_missing": " §6⚠ §4Kein HUD Daten empfangen vom Server §6⚠",
+
+    "config.jade.plugin_enderchests.hud": "Plugin Aktivieren"
 }
