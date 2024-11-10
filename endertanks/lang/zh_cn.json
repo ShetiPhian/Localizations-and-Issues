@@ -1,15 +1,8 @@
 {
-    "_comment": "--------------------------------------- EnderTanks zh_cn.json Localization ---------------------------------------!",
-    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
-
-    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
     "itemGroup.endertanks": "末影储罐",
-
-    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
     "error.endertanks.bucket.nolink1": "无法连接到桶，你不是储罐拥有者",
     "error.endertanks.bucket.nolink2": "无法连接到桶，储罐拥有者未知",
     "error.endertanks.bucket.nolink3": "无法连接到桶，你和储罐拥有者不在同一个组别",
-
     "error.endertanks.tank.public.disabled": "公共储罐被禁止使用，储罐必须升级才能使用",
     "error.endertanks.tank.private.disabled": "私人储罐被禁止创建",
     "error.endertanks.tank.team.disabled": "组内公用的储罐已被禁止创建",
@@ -19,7 +12,10 @@
     "error.endertanks.bucket.public.disabled": "公共的桶已被禁止使用",
     "error.endertanks.bucket.private.disabled": "私人的桶已被禁止创建",
     "error.endertanks.bucket.team.disabled": "组内公用的桶已被禁止创建",
-
+    "info.endertanks.bucket.mode.normal": "§7模式:§o 普通（拾取, 潜行以放置）",
+    "info.endertanks.bucket.mode.invert": "§7模式:§o 反转（放置, 潜行以拾取）",
+    "info.endertanks.bucket.mode.pickup": "§7模式:§o 只拾取物品",
+    "info.endertanks.bucket.mode.place": "§7模式:§o 只放置物品",
     "info.endertanks.bucket.header": "桶数据",
     "info.endertanks.tank.header": "储罐数据",
     "info.endertanks.tank.empty": "空",
@@ -28,12 +24,20 @@
     "info.endertanks.tank.capacity": "储罐容量升级到",
     "info.endertanks.tank.pump.upgrade": "泵速升级到",
     "info.endertanks.tank.pump": "泵速",
-
-    "_comment": "-------------------------------------------------- ITEMS/BLOCKS --------------------------------------------------!",
     "item.endertanks.bucket.public": "末影之桶",
     "item.endertanks.bucket.private": "末影之桶",
     "item.endertanks.bucket.team": "末影之桶",
     "block.endertanks.tank.public": "末影储罐",
     "block.endertanks.tank.private": "末影储罐",
-    "block.endertanks.tank.team": "末影储罐"
+    "block.endertanks.tank.team": "末影储罐",
+    "hud.endertanks.server_data_missing": " §6⚠ §4没有从服务器收到HUD数据 §6⚠",
+    "config.jade.plugin_endertanks.hud": "启用插件",
+    "config.jade.plugin_endertanks.hud.basic": "所有者和储罐编码",
+    "config.jade.plugin_endertanks.hud.contents": "包含的内容",
+    "config.jade.plugin_endertanks.hud.status": "泵速和比较器状态",
+    "info.endertanks.tank.type.fluid": "§3§o流体：§r",
+    "info.endertanks.tank.type.mekanism.gas": "§3§o通用机械 气体：§r",
+    "info.endertanks.tank.type.mekanism.infusion": "§3§o通用机械 灌注：§r",
+    "info.endertanks.tank.type.mekanism.pigment": "§3§o通用机械 颜料：§r",
+    "info.endertanks.tank.type.mekanism.slurry": "§3§o通用机械 浆液：§r"
 }
