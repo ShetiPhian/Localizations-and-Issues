@@ -1,0 +1,45 @@
+{
+    "_comment": "-------------------------------------- EnderChests tr_tr.json Localization --------------------------------------!",
+    "_comment": "Keep file encoded with UTF-8 to support chat formatting http://minecraft.gamepedia.com/Formatting_codes",
+
+    "_comment": "------------------------------------------------------ MISC ------------------------------------------------------!",
+    "itemGroup.enderchests": "EnderChests",
+
+    "_comment": "----------------------------------------------- ERROR/INFO/NOTICE ------------------------------------------------!",
+    "error.enderchests.bag.nolink1": "Torba bağlanamıyor, bu sandığın sahibi siz değilsiniz",
+    "error.enderchests.bag.nolink2": "Torba bağlanamıyor, Sandığın sahibi bilinmiyor",
+    "error.enderchests.bag.nolink3": "Torba bağlanamıyor, aynı takımda değilsiniz",
+    "error.enderchests.bag.corrupted": "Torba açılamıyor; Yığın NBT verileri eksik",
+
+    "error.enderchests.chest.public.disabled": "Herkese açık sandıklar devre dışı bırakıldı, sandıkların kullanılabilmesi için yükseltilmesi gerekiyor",
+    "error.enderchests.chest.private.disabled": "Özel sandıkların oluşturulması devre dışı bırakıldı",
+    "error.enderchests.chest.team.disabled": "Takım sandıklarının oluşturulması devre dışı bırakıldı",
+    "error.enderchests.chest.private.denied": "Bu eylemi yalnızca sahibi gerçekleştirebilir",
+    "error.enderchests.chest.team.denied": "Bu eylemi yalnızca takım üyeleri gerçekleştirebilir",
+    "error.enderchests.chest.upgrade_used": "Bu yükseltme eşyası, sandık başına yalnızca bir kez uygulanabilir",
+    "error.enderchests.bag.public.disabled": "Herkese açık çantalar devre dışı bırakıldı",
+    "error.enderchests.bag.private.disabled": "Özel çantaların oluşturulması devre dışı bırakıldı",
+    "error.enderchests.bag.team.disabled": "Takım çantalarının oluşturulması devre dışı bırakıldı",
+
+    "info.enderchests.chest.public": "Herkesin Kullanımına Açık",
+    "info.enderchests.chest.code": "Kod:",
+    "info.enderchests.chest.capacity": "Sandık kapasitesi şuna yükseltildi",
+
+    "info.enderchests.craftingmaterial": "Üretim Malzemesi",
+
+    "_comment": "----------------------------------------------- ITEMS/BLOCKS/FLUIDS ----------------------------------------------!",
+    "item.enderchests.ender_pouch": "Ender Kesesi",
+
+    "item.enderchests.bag.public": "Ender Torbası",
+    "item.enderchests.bag.private": "Ender Torbası",
+    "item.enderchests.bag.team": "Ender Torbası",
+
+    "block.enderchests.chest.public": "Ender Sandığı",
+    "block.enderchests.chest.private": "Ender Sandığı",
+    "block.enderchests.chest.team": "Ender Sandığı",
+
+    "_comment": "------------------------------------------------ MOD INTEGRATION -------------------------------------------------!",
+    "hud.enderchests.server_data_missing": " §6⚠ §4Sunucudan HUD Verisi Alınamadı §6⚠",
+
+    "config.jade.plugin_enderchests.hud": "Plugin'i Etkinleştir"
+}
